@@ -26,9 +26,17 @@ def get_llm(force_groq=False, force_ollama=False, force_google=False):
         force_ollama: If True, only use Ollama (skip all cloud)
         force_google: If True, only use Google (skip Groq/Ollama)
     """
-    # Get API keys from environment variables
+    # Get API keys from environment variables OR Streamlit secrets
+    import streamlit as st
+    
+    # Try getting keys from environment first, then secrets
     GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+    if not GROQ_API_KEY and hasattr(st, "secrets") and "GROQ_API_KEY" in st.secrets:
+        GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+        
     GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+    if not GOOGLE_API_KEY and hasattr(st, "secrets") and "GOOGLE_API_KEY" in st.secrets:
+        GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
     
     # Force Ollama mode
     if force_ollama:
@@ -42,7 +50,13 @@ def get_llm(force_groq=False, force_ollama=False, force_google=False):
             return _init_google(GOOGLE_API_KEY)
         else:
             print("❌ No valid Google API key found!")
+            if _is_streamlit_cloud():
+                 raise Exception("Google API Key missing on Streamlit Cloud! Please add GOOGLE_API_KEY to secrets.")
             return _init_ollama()
+            
+    # Helper to check if we are on cloud
+    def _is_streamlit_cloud():
+        return os.getenv("STREAMLIT_RUNTIME_ENV") == "cloud" or (hasattr(st, "secrets") and "GROQ_API_KEY" in st.secrets)
     
     # ============================================================================
     # TIER 1: Try Groq llama-3.3-70b-versatile (Primary)
@@ -120,6 +134,9 @@ def get_llm(force_groq=False, force_ollama=False, force_google=False):
     # TIER 5: Ollama (Local Fallback - Always Available)
     # ============================================================================
     if not force_groq and not force_google:
+        if _is_streamlit_cloud():
+            raise Exception("❌ NO API KEYS FOUND! Please add GROQ_API_KEY or GOOGLE_API_KEY to Streamlit Secrets to run on Cloud.")
+            
         print("🚀 [TIER 5] Using local Ollama LLM...")
         return _init_ollama()
     
