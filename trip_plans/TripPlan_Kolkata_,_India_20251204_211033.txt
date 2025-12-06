@@ -1,0 +1,94 @@
+================================================================================
+AI TRIP PLANNER - EXECUTION LOG
+================================================================================
+
+Generated: 2025-12-04 21:10:33
+
+================================================================================
+
+TRIP DETAILS:
+  From: Mumbai , India 
+  Destination: Kolkata , India
+  Departure Date: 2025-12-04
+  Return Date: 2025-12-07
+  Interests: sightseeing and good food, adventure 
+
+================================================================================
+
+AGENT EXECUTION STEPS:
+--------------------------------------------------------------------------------
+
+STEP 1: Travel Trip Expert
+--------------------------------------------------------------------------------
+Task: 
+        In French: Provide travel-related information including accommodations, cost of living,
+        visa requirements, transportation, weather, and local events.
+
+        Traveling from: Mumbai , India 
+        Destination: Kolkata , India
+        Arrival Date: 2025-12-04
+        Departure Date: 2025-12-07
+
+        Respond in FRENCH if the destination is in a French-speaking country.
+        
+
+Summary: 
+        In French:...
+
+Output:
+Action: {'query': 'transportation options from Mumbai to Kolkata'} 
+
+
+STEP 2: City Local Guide Expert
+--------------------------------------------------------------------------------
+Task: 
+        Provide a travel guide with attractions, food recommendations, and events.
+        Tailor recommendations based on user interests: sightseeing and good food, adventure .
+        
+        Destination: Kolkata , India
+        Arrival Date: 2025-12-04
+        Departure Date: 2025-12-07
+        
+
+Summary: 
+        Provide a...
+
+Output:
+Observation:
+Action Input: {"query": "Transportation options from Mumbai to Kolkata"}
+search_web_tool
+{"query": "Transportation options from Mumbai to Kolkata"}
+
+
+
+STEP 3: Travel Planning Expert
+--------------------------------------------------------------------------------
+Task: 
+        Combine information into a well-structured itinerary. Include:
+        - City introduction (4 paragraphs)
+        - Daily travel plan with time allocations
+        - Expenses and tips
+
+        Destination: Kolkata , India
+        Interests: sightseeing and good food, adventure 
+        Arrival: 2025-12-04
+        Departure: 2025-12-07
+        
+
+Summary: 
+        Combine information...
+
+Output:
+Action: {'query': 'transportation options from Mumbai to Kolkata'}
+
+
+================================================================================
+
+FINAL TRAVEL PLAN:
+================================================================================
+Action: {'query': 'transportation options from Mumbai to Kolkata'}
+
+================================================================================
+
+End of Report - 2025-12-04 21:10:33
+================================================================================

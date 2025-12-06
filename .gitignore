@@ -1,0 +1,140 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ================================
+# Virtual Environment
+# ================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ================================
+# IDE & Editors
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ================================
+# Jupyter Notebook
+# ================================
+.ipynb_checkpoints
+*.ipynb
+
+# ================================
+# Streamlit
+# ================================
+.streamlit/secrets.toml
+
+# ================================
+# Environment Variables
+# ================================
+.env
+.env.local
+.env.*.local
+
+# ================================
+# Logs & Debug
+# ================================
+*.log
+trip_planner.log
+debug.log
+error.log
+
+# ================================
+# Generated Reports (Keep for demo)
+# ================================
+# Uncomment below if you don't want to track generated files
+# city_report.md
+# guide_report.md
+# travel_plan.md
+# final_itinerary.md
+# flights_report.md
+# hotels_report.md
+# trains_report.md
+# buses_report.md
+
+# ================================
+# Search History (Keep for demo)
+# ================================
+# Uncomment if you don't want to track search history
+# trip_plans/
+# Flight_Search_History/
+# Hotel_Search_History/
+# Train_Search_History/
+# Bus_Search_History/
+
+# ================================
+# OS Files
+# ================================
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ================================
+# Temporary Files
+# ================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+
+# ================================
+# Testing
+# ================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# ================================
+# Documentation (Keep)
+# ================================
+# Keep all .md files for documentation
+
+# ================================
+# Images & Media (Keep for deployment)
+# ================================
+# Keep images/ folder for destination images
+# Git LFS will handle large files
+
+# ================================
+# Security
+# ================================
+*.pem
+*.key
+*.cert
+secrets/

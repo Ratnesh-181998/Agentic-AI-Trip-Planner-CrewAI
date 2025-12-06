@@ -1,0 +1,301 @@
+================================================================================
+AI TRIP PLANNER - EXECUTION LOG
+================================================================================
+
+Generated: 2025-12-06 01:46:21
+
+================================================================================
+
+TRIP DETAILS:
+  From: Singapore
+  Destination: Seoul
+  Departure Date: 2025-12-20
+  Return Date: 2025-12-14
+  Travelers: 3 adults + 1 children
+  Interests: Sightseeing & Landmarks, Food & Dining, Nightlife & Parties, Romantic Experiences
+
+================================================================================
+
+DETAILED EXECUTION LOG:
+================================================================================
+[36m╭─[0m[36m───────────────────[0m[36m Crew Execution Started [0m[36m────────────────────[0m[36m─╮[0m
+[36m│[0m                                                                 [36m│[0m
+[36m│[0m  [1;36mCrew Execution Started[0m                                         [36m│[0m
+[36m│[0m  [37mName: [0m[36mcrew[0m                                                     [36m│[0m
+[36m│[0m  [37mID: [0m[36m09d6bba7-6795-4e01-b5b0-8520c08f7d60[0m                       [36m│[0m
+[36m│[0m  [37mTool Args: [0m                                                    [36m│[0m
+[36m│[0m                                                                 [36m│[0m
+[36m│[0m                                                                 [36m│[0m
+[36m╰─────────────────────────────────────────────────────────────────╯[0m
+
+[1;36m🚀 Crew: [0m[1;36mcrew[0m
+└── [1;33m📋 Task: 497168be-a1d2-44c6-ab73-e98ce83d6e21[0m
+    [37mStatus: [0m[2;33mExecuting Task...[0m[35m╭─[0m[35m──────────────────────[0m[35m 🤖 Agent Started [0m[35m───────────────────────[0m[35m─╮[0m
+[35m│[0m                                                                 [35m│[0m
+[35m│[0m  [37mAgent: [0m[1;92mTravel Logistics & Information Specialist[0m               [35m│[0m
+[35m│[0m                                                                 [35m│[0m
+[35m│[0m  [37mTask: [0m                                                         [35m│[0m
+[35m│[0m  [92m        **CRITICAL: After 3 web searches, STOP searching and [0m  [35m│[0m
+[35m│[0m  [92mwrite your complete answer!**[0m                                  [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m  [92m        Research travel logistics for a trip from Singapore [0m   [35m│[0m
+[35m│[0m  [92mto Seoul (2025-12-20 to 2025-12-14).[0m                           [35m│[0m
+[35m│[0m  [92m        Travelers: 3 adults + 1 children = 4 total persons.[0m    [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m  [92m        **YOUR TASK (Complete in 3 steps):**[0m                   [35m│[0m
+[35m│[0m  [92m        1. Search for flights (1 search)[0m                       [35m│[0m
+[35m│[0m  [92m        2. Search for hotels (1 search)[0m                        [35m│[0m
+[35m│[0m  [92m        3. Search for costs/weather (1 search)[0m                 [35m│[0m
+[35m│[0m  [92m        4. **STOP SEARCHING** and write your complete report [0m  [35m│[0m
+[35m│[0m  [92mbelow[0m                                                          [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m  [92m        **Write a complete report with these 5 sections:**[0m     [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m  [92m        ## 1. Transportation[0m                                   [35m│[0m
+[35m│[0m  [92m        List 3 flight options with:[0m                            [35m│[0m
+[35m│[0m  [92m        - Airline name[0m                                         [35m│[0m
+[35m│[0m  [92m        - Price per person in ₹[0m                                [35m│[0m
+[35m│[0m  [92m        - Duration[0m                                             [35m│[0m
+[35m│[0m  [92m        - Recommend the best option[0m                            [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m  [92m        ## 2. Accommodation  [0m                                  [35m│[0m
+[35m│[0m  [92m        List 6 hotels total:[0m                                   [35m│[0m
+[35m│[0m  [92m        - 2 budget hotels (₹1000-2000/night) with names and [0m   [35m│[0m
+[35m│[0m  [92mprices[0m                                                         [35m│[0m
+[35m│[0m  [92m        - 2 mid-range hotels (₹2000-4000/night) with names [0m    [35m│[0m
+[35m│[0m  [92mand prices[0m                                                     [35m│[0m
+[35m│[0m  [92m        - 2 luxury hotels (₹4000+/night) with names and [0m       [35m│[0m
+[35m│[0m  [92mprices[0m                                                         [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m  [92m        ## 3. Daily Costs[0m                                      [35m│[0m
+[35m│[0m  [92m        - Breakfast cost: ₹X[0m                                   [35m│[0m
+[35m│[0m  [92m        - Lunch cost: ₹X[0m                                       [35m│[0m
+[35m│[0m  [92m        - Dinner cost: ₹X[0m                                      [35m│[0m
+[35m│[0m  [92m        - Local transport per day: ₹X[0m                          [35m│[0m
+[35m│[0m  [92m        - Daily budget estimate: ₹X per person[0m                 [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m  [92m        ## 4. Weather[0m                                          [35m│[0m
+[35m│[0m  [92m        - Temperature range: X-X°C[0m                             [35m│[0m
+[35m│[0m  [92m        - Rain probability: X%[0m                                 [35m│[0m
+[35m│[0m  [92m        - What to pack: (list 3-4 items)[0m                       [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m  [92m        ## 5. Visa/Documents[0m                                   [35m│[0m
+[35m│[0m  [92m        - Visa required: Yes/No[0m                                [35m│[0m
+[35m│[0m  [92m        - Visa cost: ₹X (if applicable)[0m                        [35m│[0m
+[35m│[0m  [92m        - Required documents: (list 2-3)[0m                       [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m  [92m        **IMPORTANT:** Write ALL 5 sections with actual [0m       [35m│[0m
+[35m│[0m  [92mnumbers and names. Do NOT just search![0m                         [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m                                                                 [35m│[0m
+[35m╰─────────────────────────────────────────────────────────────────╯[0m
+[32;1m[1;3msnippet: From Wikipedia, the free encyclopedia. Singaporean low-cost airline. For other uses, see Scoot (disambiguation).The route was the first low-cost flight between Singapore and Seoul ., title: Scoot - Wikipedia, link: https://en.wikipedia.org/wiki/Scoot, snippet: Discover the top airlines offering direct flights from Seoul to Singapore in the next month. ... flight between Seoul and Singapore takes around 6. 4 ..., title: Cheap flights from Seoul to Singapore starting at £66 |, link: https://www.kiwi.com/en/cheap-flights/seoul-south-korea/singapore-singapore/, snippet: Discover the top airlines offering direct flights from Seoul to Hong Kong in the next month. ... for route combinations, such as Seoul and London, ..., title: Cheap flights from Seoul to Hong Kong starting at £31 |, link: https://www.kiwi.com/en/cheap-flights/seoul-south-korea/hong-kong-hong-kong-1/, snippet: Discover the top airlines offering direct flights from Hong Kong to Seoul in the next month. ... for route combinations, such as Seoul and Tokyo, ..., title: Cheap flights from Hong Kong to Seoul starting at £63 |, link: https://www.kiwi.com/en/cheap-flights/hong-kong-hong-kong-1/seoul-south-korea/, snippet: Discover the top airlines offering direct flights from Tokyo to Seoul in the next month. ... for route combinations, such as Seoul and London, Osaka, ..., title: Cheap flights from Tokyo to Seoul starting at £64 | Kiwi.com, link: https://www.kiwi.com/en/cheap-flights/tokyo-japan/seoul-south-korea/, snippet: Discover the top airlines offering direct flights from Chiang Mai to Seoul in the next month. ... for route combinations, such as Seoul and Tokyo, ..., title: Cheap flights from Chiang Mai to Seoul starting at £113 |, link: https://www.kiwi.com/en/cheap-flights/chiang-mai-thailand/seoul-south-korea/, snippet: Frequent direct flights between the two mean doing the Singapore to Seoul (or indeed Seoul to Singapore ) double on your Asian vacation couldn’t be ..., title: Singapore to Seoul | Go City®, link: https://gocity.com/en/singapore/things-to-do/singapore-to-seoul, snippet: So we took a look at the prices for Dec 2023 from Singapore Airlines and got some interesting results. ... Seoul starting from $783, it is almost ..., title: Airfares to Top 10 Singapore Travellers Holiday Destinations -, link: https://www.thewackyduo.com/2023/02/airfares-to-top-10-singapore-travellers.html, snippet: As you can imagine, Seoul is immensely popular amongst Singaporeans, so finding the right price for a flight from Singapore can feel like a heavy ..., title: Singapore Airlines fare promos (Time to Fly Travel Fair 2023,, link: https://nowboarding.changiairport.com/travel-the-world/7-destinations-to-jet-off-to-with-citi-mastercard.html, snippet: ... today Seoul is the cultural, economic, and political center of South Korea , it had been the capital of Korea from 1394 until the formal division of ..., title: Seoul Travel Guide 2021, link: https://www.trip.com/blog/seoul-travel/[0m[1;36m🚀 Crew: [0m[1;36mcrew[0m
+└── [1;33m📋 Task: 497168be-a1d2-44c6-ab73-e98ce83d6e21[0m
+    [37mStatus: [0m[2;33mExecuting Task...[0m
+    └── [1;32m🔧 [0m[32mUsed search_web_tool (63)[0m[35m╭─[0m[35m───────────────────[0m[35m 🔧 Agent Tool Execution [0m[35m───────────────────[0m[35m─╮[0m
+[35m│[0m                                                                 [35m│[0m
+[35m│[0m  [37mAgent: [0m[1;92mTravel Logistics & Information Specialist[0m               [35m│[0m
+[35m│[0m                                                                 [35m│[0m
+[35m│[0m  [37mThought: [0m[92mThought: To start planning the trip from Singapore [0m   [35m│[0m
+[35m│[0m  [92mto Seoul, I first need to research flights for the 4 [0m          [35m│[0m
+[35m│[0m  [92mtravelers, then I will search for hotels, and finally, I will[0m  [35m│[0m
+[35m│[0m  [92mlook for costs and weather information.[0m                        [35m│[0m
+[35m│[0m                                                                 [35m│[0m
+[35m│[0m  [37mUsing Tool: [0m[1;92msearch_web_tool[0m                                    [35m│[0m
+[35m│[0m                                                                 [35m│[0m
+[35m╰─────────────────────────────────────────────────────────────────╯[0m
+[34m╭─[0m[34m─────────────────────────[0m[34m Tool Input [0m[34m──────────────────────────[0m[34m─╮[0m
+[34m│[0m                                                                 [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m{[0m                                                              [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m  [0m[38;2;249;38;114;49m"query"[0m[38;2;248;248;242;49m:[0m[38;2;248;248;242;49m [0m[38;2;230;219;116;49m"flights from Singapore to Seoul for 4 people [0m      [34m│[0m
+[34m│[0m  [38;2;230;219;116;49mDecember 2025"[0m                                                 [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m}[0m                                                              [34m│[0m
+[34m│[0m                                                                 [34m│[0m
+[34m╰─────────────────────────────────────────────────────────────────╯[0m
+[32m╭─[0m[32m─────────────────────────[0m[32m Tool Output [0m[32m─────────────────────────[0m[32m─╮[0m
+[32m│[0m                                                                 [32m│[0m
+[32m│[0m  [92msnippet: From Wikipedia, the free encyclopedia. Singaporean [0m   [32m│[0m
+[32m│[0m  [92mlow-cost airline. For other uses, see Scoot [0m                   [32m│[0m
+[32m│[0m  [92m(disambiguation).The route was the first low-cost flight [0m      [32m│[0m
+[32m│[0m  [92mbetween Singapore and Seoul ., title: Scoot - Wikipedia, [0m      [32m│[0m
+[32m│[0m  [92mlink: https://en.wikipedia.org/wiki/Scoot, snippet: Discover [0m  [32m│[0m
+[32m│[0m  [92mthe top airlines offering direct flights from Seoul to [0m        [32m│[0m
+[32m│[0m  [92mSingapore in the next month. ... flight between Seoul and [0m     [32m│[0m
+[32m│[0m  [92mSingapore takes around 6. 4 ..., title: Cheap flights from [0m    [32m│[0m
+[32m│[0m  [92mSeoul to Singapore starting at £66 |, link: [0m                   [32m│[0m
+[32m│[0m  [92mhttps://www.kiwi.com/en/cheap-flights/seoul-south-korea/singa[0m  [32m│[0m
+[32m│[0m  [92mpore-singapore/, snippet: Discover the top airlines offering [0m  [32m│[0m
+[32m│[0m  [92mdirect flights from Seoul to Hong Kong in the next month. ...[0m  [32m│[0m
+[32m│[0m  [92mfor route combinations, such as Seoul and London, ..., title:[0m  [32m│[0m
+[32m│[0m  [92mCheap flights from Seoul to Hong Kong starting at £31 |, [0m      [32m│[0m
+[32m│[0m  [92mlink: [0m                                                         [32m│[0m
+[32m│[0m  [92mhttps://www.kiwi.com/en/cheap-flights/seoul-south-korea/hong-[0m  [32m│[0m
+[32m│[0m  [92mkong-hong-kong-1/, snippet: Discover the top airlines [0m         [32m│[0m
+[32m│[0m  [92moffering direct flights from Hong Kong to Seoul in the next [0m   [32m│[0m
+[32m│[0m  [92mmonth. ... for route combinations, such as Seoul and Tokyo, [0m   [32m│[0m
+[32m│[0m  [92m..., title: Cheap flights from Hong Kong to Seoul starting at[0m  [32m│[0m
+[32m│[0m  [92m£63 |, link: [0m                                                  [32m│[0m
+[32m│[0m  [92mhttps://www.kiwi.com/en/cheap-flights/hong-kong-hong-kong-1/s[0m  [32m│[0m
+[32m│[0m  [92meoul-south-korea/, snippet: Discover the top airlines [0m         [32m│[0m
+[32m│[0m  [92moffering direct flights from Tokyo to Seoul in the next [0m       [32m│[0m
+[32m│[0m  [92mmonth. ... for route combinations, such as Seoul and London, [0m  [32m│[0m
+[32m│[0m  [92mOsaka, ..., title: Cheap flights from Tokyo to Seoul starting[0m  [32m│[0m
+[32m│[0m  [92mat £64 | Kiwi.com, link: [0m                                      [32m│[0m
+[32m│[0m  [92mhttps://www.kiwi.com/en/cheap-flights/tokyo-japan/seoul-south[0m  [32m│[0m
+[32m│[0m  [92m-korea/, snippet: Discover the top airlines offering direct [0m   [32m│[0m
+[32m│[0m  [92mflights from Chiang Mai to Seoul in the next month. ... for [0m   [32m│[0m
+[32m│[0m  [92mroute combinations, such as Seoul and Tokyo, ..., title: [0m      [32m│[0m
+[32m│[0m  [92mCheap flights from Chiang Mai to Seoul starting at £113 |, [0m    [32m│[0m
+[32m│[0m  [92mlink: [0m                                                         [32m│[0m
+[32m│[0m  [92mhttps://www.kiwi.com/en/cheap-flights/chiang-mai-thailand/seo[0m  [32m│[0m
+[32m│[0m  [92mul-south-korea/, snippet: Frequent direct flights between the[0m  [32m│[0m
+[32m│[0m  [92mtwo mean doing the Singapore to Seoul (or indeed Seoul to [0m     [32m│[0m
+[32m│[0m  [92mSingapore ) double on your Asian vacation couldn’t be ..., [0m    [32m│[0m
+[32m│[0m  [92mtitle: Singapore to S...[0m                                       [32m│[0m
+[32m│[0m                                                                 [32m│[0m
+[32m╰─────────────────────────────────────────────────────────────────╯[0m
+[1;31m❌ Crew: [0m[31mcrew[0m
+└── [1;31m📋 Task: 497168be-a1d2-44c6-ab73-e98ce83d6e21[0m
+    [37mAssigned to: [0m[31mTravel Logistics & Information Specialist[0m
+    [37mStatus: [0m[1;31m❌ Failed[0m
+    ├── [1;32m🔧 [0m[32mUsed search_web_tool (63)[0m
+    └── [1;31m❌ LLM Failed[0m[31m╭─[0m[31m──────────────────────────[0m[31m LLM Error [0m[31m──────────────────────────[0m[31m─╮[0m
+[31m│[0m                                                                 [31m│[0m
+[31m│[0m  [1;31m❌ LLM Call Failed[0m                                             [31m│[0m
+[31m│[0m  [37mError: [0m[31mlitellm.RateLimitError: RateLimitError: GroqException [0m  [31m│[0m
+[31m│[0m  [31m- {"error":{"message":"Rate limit reached for model [0m           [31m│[0m
+[31m│[0m  [31m`llama-3.3-70b-versatile` in organization [0m                     [31m│[0m
+[31m│[0m  [31m`org_01kbmzmy5kekq93a6jtjsh3s4x` service tier `on_demand` on [0m  [31m│[0m
+[31m│[0m  [31mtokens per day (TPD): Limit 100000, Used 99998, Requested [0m     [31m│[0m
+[31m│[0m  [31m1648. Please try again in 23m42.144s. Need more tokens? [0m       [31m│[0m
+[31m│[0m  [31mUpgrade to Dev Tier today at [0m                                  [31m│[0m
+[31m│[0m  [31mhttps://console.groq.com/settings/billing","type":"tokens","c[0m  [31m│[0m
+[31m│[0m  [31mode":"rate_limit_exceeded"}}[0m                                   [31m│[0m
+[31m│[0m                                                                 [31m│[0m
+[31m│[0m                                                                 [31m│[0m
+[31m╰─────────────────────────────────────────────────────────────────╯[0m
+
+[31m╭─[0m[31m────────────────────────[0m[31m Crew Failure [0m[31m─────────────────────────[0m[31m─╮[0m
+[31m│[0m                                                                 [31m│[0m
+[31m│[0m  [1;31mCrew Execution Failed[0m                                          [31m│[0m
+[31m│[0m  [37mName: [0m[31mcrew[0m                                                     [31m│[0m
+[31m│[0m  [37mID: [0m[31m09d6bba7-6795-4e01-b5b0-8520c08f7d60[0m                       [31m│[0m
+[31m│[0m  [37mTool Args: [0m                                                    [31m│[0m
+[31m│[0m  [37mFinal Output: [0m                                                 [31m│[0m
+[31m│[0m                                                                 [31m│[0m
+[31m│[0m                                                                 [31m│[0m
+[31m╰─────────────────────────────────────────────────────────────────╯[0m
+
+[31m╭─[0m[31m────────────────────────[0m[31m Task Failure [0m[31m─────────────────────────[0m[31m─╮[0m
+[31m│[0m                                                                 [31m│[0m
+[31m│[0m  [1;31mTask Failed[0m                                                    [31m│[0m
+[31m│[0m  [37mName: [0m[31m497168be-a1d2-44c6-ab73-e98ce83d6e21[0m                     [31m│[0m
+[31m│[0m  [37mAgent: [0m[31mTravel Logistics & Information Specialist[0m               [31m│[0m
+[31m│[0m  [37mTool Args: [0m                                                    [31m│[0m
+[31m│[0m                                                                 [31m│[0m
+[31m│[0m                                                                 [31m│[0m
+[31m╰─────────────────────────────────────────────────────────────────╯[0m
+
+[34m╭─[0m[34m───────────────────────[0m[34m Tracing Status [0m[34m────────────────────────[0m[34m─╮[0m
+[34m│[0m                                                                 [34m│[0m
+[34m│[0m  Info: Tracing is disabled.                                     [34m│[0m
+[34m│[0m                                                                 [34m│[0m
+[34m│[0m  To enable tracing, do any one of these:                        [34m│[0m
+[34m│[0m  • Set tracing=True in your Crew/Flow code                      [34m│[0m
+[34m│[0m  • Set CREWAI_TRACING_ENABLED=true in your project's .env file  [34m│[0m
+[34m│[0m  • Run: crewai traces enable                                    [34m│[0m
+[34m│[0m                                                                 [34m│[0m
+[34m╰─────────────────────────────────────────────────────────────────╯[0m
+[36m╭─[0m[36m───────────────────[0m[36m Crew Execution Started [0m[36m────────────────────[0m[36m─╮[0m
+[36m│[0m                                                                 [36m│[0m
+[36m│[0m  [1;36mCrew Execution Started[0m                                         [36m│[0m
+[36m│[0m  [37mName: [0m[36mcrew[0m                                                     [36m│[0m
+[36m│[0m  [37mID: [0m[36m7e314cb0-bee2-42e5-8b11-7cee04733b9f[0m                       [36m│[0m
+[36m│[0m  [37mTool Args: [0m                                                    [36m│[0m
+[36m│[0m                                                                 [36m│[0m
+[36m│[0m                                                                 [36m│[0m
+[36m╰─────────────────────────────────────────────────────────────────╯[0m
+
+[1;36m🚀 Crew: [0m[1;36mcrew[0m
+└── [1;33m📋 Task: b9ccafef-6aaf-4a8b-a131-0cfa6aa537b2[0m
+    [37mStatus: [0m[2;33mExecuting Task...[0m
+    └── [1;34m🧠 [0m[34mThinking...[0m[35m╭─[0m[35m──────────────────────[0m[35m 🤖 Agent Started [0m[35m───────────────────────[0m[35m─╮[0m
+[35m│[0m                                                                 [35m│[0m
+[35m│[0m  [37mAgent: [0m[1;92mTravel Logistics & Information Specialist[0m               [35m│[0m
+[35m│[0m                                                                 [35m│[0m
+[35m│[0m  [37mTask: [0m                                                         [35m│[0m
+[35m│[0m  [92m        **CRITICAL: After 3 web searches, STOP searching and [0m  [35m│[0m
+[35m│[0m  [92mwrite your complete answer!**[0m                                  [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m  [92m        Research travel logistics for a trip from Singapore [0m   [35m│[0m
+[35m│[0m  [92mto Seoul (2025-12-20 to 2025-12-14).[0m                           [35m│[0m
+[35m│[0m  [92m        Travelers: 3 adults + 1 children = 4 total persons.[0m    [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m  [92m        **YOUR TASK (Complete in 3 steps):**[0m                   [35m│[0m
+[35m│[0m  [92m        1. Search for flights (1 search)[0m                       [35m│[0m
+[35m│[0m  [92m        2. Search for hotels (1 search)[0m                        [35m│[0m
+[35m│[0m  [92m        3. Search for costs/weather (1 search)[0m                 [35m│[0m
+[35m│[0m  [92m        4. **STOP SEARCHING** and write your complete report [0m  [35m│[0m
+[35m│[0m  [92mbelow[0m                                                          [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m  [92m        **Write a complete report with these 5 sections:**[0m     [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m  [92m        ## 1. Transportation[0m                                   [35m│[0m
+[35m│[0m  [92m        List 3 flight options with:[0m                            [35m│[0m
+[35m│[0m  [92m        - Airline name[0m                                         [35m│[0m
+[35m│[0m  [92m        - Price per person in ₹[0m                                [35m│[0m
+[35m│[0m  [92m        - Duration[0m                                             [35m│[0m
+[35m│[0m  [92m        - Recommend the best option[0m                            [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m  [92m        ## 2. Accommodation  [0m                                  [35m│[0m
+[35m│[0m  [92m        List 6 hotels total:[0m                                   [35m│[0m
+[35m│[0m  [92m        - 2 budget hotels (₹1000-2000/night) with names and [0m   [35m│[0m
+[35m│[0m  [92mprices[0m                                                         [35m│[0m
+[35m│[0m  [92m        - 2 mid-range hotels (₹2000-4000/night) with names [0m    [35m│[0m
+[35m│[0m  [92mand prices[0m                                                     [35m│[0m
+[35m│[0m  [92m        - 2 luxury hotels (₹4000+/night) with names and [0m       [35m│[0m
+[35m│[0m  [92mprices[0m                                                         [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m  [92m        ## 3. Daily Costs[0m                                      [35m│[0m
+[35m│[0m  [92m        - Breakfast cost: ₹X[0m                                   [35m│[0m
+[35m│[0m  [92m        - Lunch cost: ₹X[0m                                       [35m│[0m
+[35m│[0m  [92m        - Dinner cost: ₹X[0m                                      [35m│[0m
+[35m│[0m  [92m        - Local transport per day: ₹X[0m                          [35m│[0m
+[35m│[0m  [92m        - Daily budget estimate: ₹X per person[0m                 [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m  [92m        ## 4. Weather[0m                                          [35m│[0m
+[35m│[0m  [92m        - Temperature range: X-X°C[0m                             [35m│[0m
+[35m│[0m  [92m        - Rain probability: X%[0m                                 [35m│[0m
+[35m│[0m  [92m        - What to pack: (list 3-4 items)[0m                       [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m  [92m        ## 5. Visa/Documents[0m                                   [35m│[0m
+[35m│[0m  [92m        - Visa required: Yes/No[0m                                [35m│[0m
+[35m│[0m  [92m        - Visa cost: ₹X (if applicable)[0m                        [35m│[0m
+[35m│[0m  [92m        - Required documents: (list 2-3)[0m                       [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m  [92m        **IMPORTANT:** Write ALL 5 sections with actual [0m       [35m│[0m
+[35m│[0m  [92mnumbers and names. Do NOT just search![0m                         [35m│[0m
+[35m│[0m  [92m        [0m                                                       [35m│[0m
+[35m│[0m                                                                 [35m│[0m
+[35m╰─────────────────────────────────────────────────────────────────╯[0m
+
+
+
+
+================================================================================
+
+
+================================================================================
+
+FINAL TRAVEL PLAN:
+================================================================================
+Observation: The search_web_tool found flights from Singapore to Seoul for 4 persons in December 2025.
+
+Action:
+{'query': 'Accommodation in Seoul for 3 adults and 1 child in December 2025'}
+
+
+================================================================================
+
+End of Report - 2025-12-06 01:46:21
+================================================================================

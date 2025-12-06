@@ -1,0 +1,572 @@
+================================================================================
+AI TRIP PLANNER - EXECUTION LOG
+================================================================================
+
+Generated: 2025-12-05 11:55:00
+
+================================================================================
+
+TRIP DETAILS:
+  From: Bhopal , India
+  Destination: Itanagar, Arunachal 
+  Departure Date: 2025-12-17
+  Return Date: 2025-12-27
+  Interests: sightseeing and good food, adventure, sports club , party night 
+
+================================================================================
+
+DETAILED EXECUTION LOG (Web Search Results & Agent Interactions):
+================================================================================
+[36m╭─[0m[36m─────────────[0m[36m Crew Execution Started [0m[36m──────────────[0m[36m─╮[0m
+[36m│[0m                                                     [36m│[0m
+[36m│[0m  [1;36mCrew Execution Started[0m                             [36m│[0m
+[36m│[0m  [37mName: [0m[36mcrew[0m                                         [36m│[0m
+[36m│[0m  [37mID: [0m[36ma5e69083-3814-49d8-a158-4d824149ec00[0m           [36m│[0m
+[36m│[0m  [37mTool Args: [0m                                        [36m│[0m
+[36m│[0m                                                     [36m│[0m
+[36m│[0m                                                     [36m│[0m
+[36m╰─────────────────────────────────────────────────────╯[0m
+
+[35m╭─[0m[35m────────────────[0m[35m 🤖 Agent Started [0m[35m─────────────────[0m[35m─╮[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mAgent: [0m[1;92mTravel Logistics & Information Specialist[0m   [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mTask: [0m                                             [35m│[0m
+[35m│[0m  [92m        Research and compile comprehensive travel[0m  [35m│[0m
+[35m│[0m  [92mlogistics information for a trip.[0m                  [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        **Trip Details:**[0m                          [35m│[0m
+[35m│[0m  [92m        - From: Bhopal , India[0m                     [35m│[0m
+[35m│[0m  [92m        - To: Itanagar, Arunachal [0m                 [35m│[0m
+[35m│[0m  [92m        - Dates: 2025-12-17 to 2025-12-27[0m          [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        **Required Information (Must Include [0m      [35m│[0m
+[35m│[0m  [92mALL):**[0m                                            [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        1. **Transportation Options:**[0m             [35m│[0m
+[35m│[0m  [92m           - Flight options with approximate [0m      [35m│[0m
+[35m│[0m  [92mprices (₹)[0m                                         [35m│[0m
+[35m│[0m  [92m           - Train options with class and pricing[0m  [35m│[0m
+[35m│[0m  [92m           - Bus/Road options if applicable[0m        [35m│[0m
+[35m│[0m  [92m           - Best recommended option with [0m         [35m│[0m
+[35m│[0m  [92mreasoning[0m                                          [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        2. **Accommodation:**[0m                      [35m│[0m
+[35m│[0m  [92m           - Budget hotels (₹1000-2000/night) - [0m   [35m│[0m
+[35m│[0m  [92mlist 3 options with names[0m                          [35m│[0m
+[35m│[0m  [92m           - Mid-range hotels (₹2000-4000/night) [0m  [35m│[0m
+[35m│[0m  [92m- list 3 options with names[0m                        [35m│[0m
+[35m│[0m  [92m           - Luxury hotels (₹4000+/night) - list [0m  [35m│[0m
+[35m│[0m  [92m2 options with names[0m                               [35m│[0m
+[35m│[0m  [92m           - Include approximate prices and [0m       [35m│[0m
+[35m│[0m  [92mlocations[0m                                          [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        3. **Cost of Living:**[0m                     [35m│[0m
+[35m│[0m  [92m           - Average meal costs (breakfast, [0m       [35m│[0m
+[35m│[0m  [92mlunch, dinner)[0m                                     [35m│[0m
+[35m│[0m  [92m           - Local transportation costs (auto, [0m    [35m│[0m
+[35m│[0m  [92mtaxi, metro)[0m                                       [35m│[0m
+[35m│[0m  [92m           - Entry fees for major attractions[0m      [35m│[0m
+[35m│[0m  [92m           - Daily budget estimate [0m                [35m│[0m
+[35m│[0m  [92m(budget/moderate/luxury)[0m                           [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        4. **Weather Forecast:**[0m                   [35m│[0m
+[35m│[0m  [92m           - Expected temperature range[0m            [35m│[0m
+[35m│[0m  [92m           - Rainfall probability[0m                  [35m│[0m
+[35m│[0m  [92m           - What to pack/wear[0m                     [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        5. **Visa/Documentation:**[0m                 [35m│[0m
+[35m│[0m  [92m           - Any ID requirements for domestic [0m     [35m│[0m
+[35m│[0m  [92mtravel[0m                                             [35m│[0m
+[35m│[0m  [92m           - COVID-19 or health requirements if [0m   [35m│[0m
+[35m│[0m  [92mapplicable[0m                                         [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        **Format:** Provide a detailed markdown [0m   [35m│[0m
+[35m│[0m  [92mreport with clear sections and specific [0m           [35m│[0m
+[35m│[0m  [92mnumbers/prices.[0m                                    [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        🎯 Ratnesh AI Travel Assistant is [0m         [35m│[0m
+[35m│[0m  [92mresearching your trip - Please enjoy a cup of [0m     [35m│[0m
+[35m│[0m  [92mTea/Coffee![0m                                        [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m╰─────────────────────────────────────────────────────╯[0m
+
+[32;1m[1;3msnippet: The fastest way to reach Itanagar from Bhopal is by Flight which would take approximately 6 hours. The cheapest way to reach Itanagar from Bhopal is by Train which would take approximately 41 hours., title: Bhopal to Itanagar - Multiple Options To Reach By Flight ..., link: https://www.makemytrip.com/routeplanner/bhopal-itanagar.html, snippet: Book confirmed Bhopal to Itanagar train tickets with Goibibo or get a FLIGHT TICKET with goCONFIRMED program. Check Bhopal to Itanagar ticket fare & seat availability for 4 trains., title: Bhopal to Itanagar Train | Book from 4 Trains | Check Train ..., link: https://www.goibibo.com/trains/bhopal-to-itanagar-trains/, snippet: There are 8 ways to get from Bhopal to Itānagar by plane , train , car, taxi, or bus Select an option below to see step-by-step directions and to compare ticket prices and travel times in Rome2Rio's travel planner., title: Bhopal to Itānagar - 8 ways to travel via train, plane, car ..., link: https://www.rome2rio.com/s/Bhopal/Itānagar, snippet: The cost of travel will depend on the means of transport you choose for your trip. A flight ticket is the most expensive option - it will cost you about $67. If you want to save on transportation, it’s better to take a bus as a bus ticket costs as low as $16., title: Bhopal to Maharashtra by train, bus, flight from INR 1,430 ..., link: https://12go.asia/en/travel/bhopal/maharashtra, snippet: Search and book flight tickets , train tickets , buses & hotels at best price. Get the best deals & offers on all travel bookings on India's best travel website., title: ixigo - Best Travel Website, Book Flights, Trains, Hotels & Buses, link: https://www.ixigo.com/, snippet: Nov 1, 2025 · Is it cheaper to book a Bhopal to Itanagar flight directly from the airline or via a travel platform like ixigo? While many believe booking directly through an airline is cheaper, that’s not always true., title: Bhopal to Itanagar Flights + Upto 25% Off | ixigo, link: https://www.ixigo.com/cheap-flights/bhopal-itanagar-bho-hgi, snippet: Use Google Flights to find cheap flights from Bhopal to Itanagar , and book tickets for your next trip., title: Find Cheap Flights from Bhopal to Itanagar (BHO - HGI ..., link: https://www.google.com/travel/flights/flights-from-bhopal-to-itanagar.html, snippet: Almaty Package From Kolkata 4N 5D jaigaon to bhutan 7N 8D Mumbai Special Charterd Flight 7N 8D 4N 5D FIFO 5N 6D FIFO 6N 7D FIFO 8N 9D FIFO 10N 11D ..., title: Bhutan package tour from Bhopal, Bhutan Tour Packages from, link: https://adorablevacation.com/bhutan-package-tour-from-bhopal/, snippet: However, Udaipur does not have an international airport or a separate terminal to receive international flights . ... to Udaipur (about 393 km) or take ..., title: How to Reach Udaipur by Flight, Road and Train: We Tell You! |, link: https://www.clubmahindra.com/blog/how-to-reach/how-to-reach-udaipur-by-flight-road-train, snippet: ... 2025 Cyclone Montha PM Modi Shreyas ... Meet IITian whose business was rejected by 80 investors, built Rs 26000 crore company touted as India's..., title: Trending News today | Trending on Social Media | WeRIndia, link: https://werindia.com/tags/iit[0m[1;36m🚀 Crew: [0m[1;36mcrew[0m
+└── [1;33m📋 Task: 05165632-dd7e-4575-a159-4feac9aed15a[0m
+    [37mStatus: [0m[2;33mExecuting Task...[0m
+    ├── [1;32m🔧 [0m[32mUsed search_web_tool (1)[0m
+    └── [1;34m🧠 [0m[34mThinking...[0m[35m╭─[0m[35m─────────────[0m[35m 🔧 Agent Tool Execution [0m[35m─────────────[0m[35m─╮[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mAgent: [0m[1;92mTravel Logistics & Information Specialist[0m   [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mThought: [0m[92mThought: To compile a comprehensive [0m      [35m│[0m
+[35m│[0m  [92mtravel logistics report for a trip from Bhopal, [0m   [35m│[0m
+[35m│[0m  [92mIndia to Itanagar, Arunachal from 2025-12-17 to [0m   [35m│[0m
+[35m│[0m  [92m2025-12-27, I first need to research [0m              [35m│[0m
+[35m│[0m  [92mtransportation options, including flights, [0m        [35m│[0m
+[35m│[0m  [92mtrains, and buses. This will help me understand [0m   [35m│[0m
+[35m│[0m  [92mthe available modes of transport and their [0m        [35m│[0m
+[35m│[0m  [92mapproximate prices.[0m                                [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mUsing Tool: [0m[1;92msearch_web_tool[0m                        [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m╰─────────────────────────────────────────────────────╯[0m
+[34m╭─[0m[34m───────────────────[0m[34m Tool Input [0m[34m────────────────────[0m[34m─╮[0m
+[34m│[0m                                                     [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m{[0m                                                  [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m  [0m[38;2;249;38;114;49m"query"[0m[38;2;248;248;242;49m:[0m[38;2;248;248;242;49m [0m[38;2;230;219;116;49m"Bhopal to Itanagar flight train bus [0m   [34m│[0m
+[34m│[0m  [38;2;230;219;116;49mprices December 2025"[0m                              [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m}[0m                                                  [34m│[0m
+[34m│[0m                                                     [34m│[0m
+[34m╰─────────────────────────────────────────────────────╯[0m
+[32m╭─[0m[32m───────────────────[0m[32m Tool Output [0m[32m───────────────────[0m[32m─╮[0m
+[32m│[0m                                                     [32m│[0m
+[32m│[0m  [92msnippet: The fastest way to reach Itanagar from [0m   [32m│[0m
+[32m│[0m  [92mBhopal is by Flight which would take [0m              [32m│[0m
+[32m│[0m  [92mapproximately 6 hours. The cheapest way to reach [0m  [32m│[0m
+[32m│[0m  [92mItanagar from Bhopal is by Train which would take[0m  [32m│[0m
+[32m│[0m  [92mapproximately 41 hours., title: Bhopal to [0m         [32m│[0m
+[32m│[0m  [92mItanagar - Multiple Options To Reach By Flight [0m    [32m│[0m
+[32m│[0m  [92m..., link: [0m                                        [32m│[0m
+[32m│[0m  [92mhttps://www.makemytrip.com/routeplanner/bhopal-it[0m  [32m│[0m
+[32m│[0m  [92managar.html, snippet: Book confirmed Bhopal to [0m    [32m│[0m
+[32m│[0m  [92mItanagar train tickets with Goibibo or get a [0m      [32m│[0m
+[32m│[0m  [92mFLIGHT TICKET with goCONFIRMED program. Check [0m     [32m│[0m
+[32m│[0m  [92mBhopal to Itanagar ticket fare & seat [0m             [32m│[0m
+[32m│[0m  [92mavailability for 4 trains., title: Bhopal to [0m      [32m│[0m
+[32m│[0m  [92mItanagar Train | Book from 4 Trains | Check Train[0m  [32m│[0m
+[32m│[0m  [92m..., link: [0m                                        [32m│[0m
+[32m│[0m  [92mhttps://www.goibibo.com/trains/bhopal-to-itanagar[0m  [32m│[0m
+[32m│[0m  [92m-trains/, snippet: There are 8 ways to get from [0m   [32m│[0m
+[32m│[0m  [92mBhopal to Itānagar by plane , train , car, taxi, [0m  [32m│[0m
+[32m│[0m  [92mor bus Select an option below to see step-by-step[0m  [32m│[0m
+[32m│[0m  [92mdirections and to compare ticket prices and [0m       [32m│[0m
+[32m│[0m  [92mtravel times in Rome2Rio's travel planner., [0m       [32m│[0m
+[32m│[0m  [92mtitle: Bhopal to Itānagar - 8 ways to travel via [0m  [32m│[0m
+[32m│[0m  [92mtrain, plane, car ..., link: [0m                      [32m│[0m
+[32m│[0m  [92mhttps://www.rome2rio.com/s/Bhopal/Itānagar, [0m       [32m│[0m
+[32m│[0m  [92msnippet: The cost of travel will depend on the [0m    [32m│[0m
+[32m│[0m  [92mmeans of transport you choose for your trip. A [0m    [32m│[0m
+[32m│[0m  [92mflight ticket is the most expensive option - it [0m   [32m│[0m
+[32m│[0m  [92mwill cost you about $67. If you want to save on [0m   [32m│[0m
+[32m│[0m  [92mtransportation, it’s better to take a bus as a [0m    [32m│[0m
+[32m│[0m  [92mbus ticket costs as low as $16., title: Bhopal to[0m  [32m│[0m
+[32m│[0m  [92mMaharashtra by train, bus, flight from INR 1,430 [0m  [32m│[0m
+[32m│[0m  [92m..., link: [0m                                        [32m│[0m
+[32m│[0m  [92mhttps://12go.asia/en/travel/bhopal/maharashtra, [0m   [32m│[0m
+[32m│[0m  [92msnippet: Search and book flight tickets , train [0m   [32m│[0m
+[32m│[0m  [92mtickets , buses & hotels at best price. Get the [0m   [32m│[0m
+[32m│[0m  [92mbest deals & offers on all travel bookings on [0m     [32m│[0m
+[32m│[0m  [92mIndia's best travel website., title: ixigo - Best[0m  [32m│[0m
+[32m│[0m  [92mTravel Website, Book Flights, Trains, Hotels & [0m    [32m│[0m
+[32m│[0m  [92mBuses, link: https://www.ixigo.com/, snippet: Nov[0m  [32m│[0m
+[32m│[0m  [92m1, 2025 · Is it cheaper to book a Bhopal to [0m       [32m│[0m
+[32m│[0m  [92mItanagar flight directly from the airline or via [0m  [32m│[0m
+[32m│[0m  [92ma travel platform like ixigo? While many believe [0m  [32m│[0m
+[32m│[0m  [92mbooking directly through an airline is cheaper, [0m   [32m│[0m
+[32m│[0m  [92mthat’s not always true., title: Bhopal to [0m         [32m│[0m
+[32m│[0m  [92mItanagar Flights + Upto 25% Off | ixigo, link: [0m    [32m│[0m
+[32m│[0m  [92mhttps://www.i...[0m                                   [32m│[0m
+[32m│[0m                                                     [32m│[0m
+[32m╰─────────────────────────────────────────────────────╯[0m
+
+[32;1m[1;3msnippet: booking.com has been visited by 1M+ users in the past month Choose From a Wide Range of Properties Which Booking.com Offers. Search Now! Hotels , homes, and everything in between. Book a Accommodation in Bhopal online!, title: Accommodations In Bhopal - Booking.com - Best Price Guarantee, link: https://www.bing.com/aclick?ld=e8PPiPJUqVpS5g2aods-_LGjVUCUxtetAMH_NQrklN4XiezYFqaO7qgXjwO4exYOucgDjPWmK89ZkHTEpcE48hkewsBD0Ti0LZDjtxIPSY_aktjywhzR-WM69mPp7QfpSvLQHieL5SH5-kAJSqE_kHmQnCooHMxTAhRaNtfEIKWEXbYOJsYqCH_aW2sWjPYE9s0SELN0qWvA1Ast4CAyItQDK1iic&u=aHR0cHMlM2ElMmYlMmZ3d3cuYm9va2luZy5jb20lMmZjaXR5JTJmaW4lMmZiaG9wYWwuZW4uaHRtbCUzZmFpZCUzZDIxMTk2MjclMjZwYWdlbmFtZSUzZGJob3BhbCUyNmxhYmVsJTNkbXNuLSp0VkdxSTh4bHYwcnVHVU80YXhtYWctODA1MzkzOTk3NzM5MjglM2F0aWt3ZC04MDUzOTU1NDQ2NTM4NSUzYWxvYy05MCUzYW5lbyUzYW10cCUzYWxwMTUwMDM0JTNhZGVjJTNhcXNCaG9wYWwlMjUyMHRvJTI1MjBJdGFuYWdhciUyNTIwYWNjb21tb2RhdGlvbiUyNTIwaG90ZWxzJTI1MjBEZWNlbWJlciUyNTIwMjAyNSUyNnV0bV9jYW1wYWlnbiUzZEFjY29tbW9kYXRpb24lMjUyMC0lMjUyMEluZGlhJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX3Rlcm0lM2QqdFZHcUk4eGx2MHJ1R1VPNGF4bWFnJTI2bXNjbGtpZCUzZDBhZWFkMzdiNjdjYzExNDE4ZDNhYmE0OTFmMGQ5NTM3JTI2dXRtX2NvbnRlbnQlM2RCaG9wYWwlMjUyMC0lMjUyMFVGSSUyNTNBLTIwOTE2NzA&rlid=0aead37b67cc11418d3aba491f0d9537, snippet: kayak.co.in has been visited by 10K+ users in the past month Accommodation Bhopal . Find your stay with easy booking and personalised search filters. Plan, compare and save on your stay with KAYAK. Great value with even greater savings. Enhanced cleaning · Accommodation deals · Price comparison · Flexible booking options, title: Accommodation Bhopal - Hotel deals in Bhopal, link: https://www.bing.com/aclick?ld=e82dMGTirmpu2u0z3trazeUDVUCUwVe3DazLFPFnmxsaIOhssBsXjHAyv9x6r5YYWsVxPagWKgJ5Z454VK0zaURsxudRHo6-TpRQi7-ie5pgGSfFcmapnBJrZ7olh5pManfZ6p8X6W0EoinX30I88n3DILDP16dwURUPHME2SajeiUJehfSEDVg5MfZomYIUoHiVBQjWlmPMEG1hO3MvrchZiAFD8&u=aHR0cHMlM2ElMmYlMmZ3d3cua2F5YWsuY28uaW4lMmZzZW1pJTJmYmluZ2Fkc3NlYXJjaCUyZmhvdGVsX2Rlc3RpbmF0aW9uJTJmMzQzMTklMmZlbi5odG1sJTNmbXQlM2RwJTI2Ym10JTNkYmIlMjZvaWlkJTNkNzgyMDMxMzA5NDM0MjYlMjZhaWQlM2QxMjUxMjQ0ODIxODM5NzIwJTI2YWRpZCUzZDc4MjAyOTgyMzQ2MzA2JTI2cGlkJTNkJTI2dGlkJTNka3dkLTc4MjAzMTMwOTQzNDI2JTNhbG9jLTkwJTI2ZCUzZGMlMjZuJTNkbyUyNmNtcGlkJTNkMzk2NjM1ODI0JTI2bXNjbGtpZCUzZGJjNjQwMmY2MWFlNzEyODUzNjJhNmJjNDYyMjYzZTBkJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkRGVzdGluYXRpb24lMjUyMC0lMjUyMElOJTI1MjAtJTI1MjBCaG9wYWwlMjUyMC0lMjUyMENpdHklMjUyMzM0MzE5JTI2dXRtX3Rlcm0lM2RhY2NvbW1vZGF0aW9uJTI1MjBiaG9wYWwlMjZ1dG1fY29udGVudCUzZFQlMjUzRG5vbmUlMjUyMC0lMjUyMFAlMjUzRGFjY29tbW9kYXRpb24lMjUyMC0lMjUyME8lMjUzRE5vbmUlMjUyMC0lMjUyMEQlMjUzRENpdHklMjUyMzM0MzE5X0Job3BhbCUyNTIwLSUyNTIwUyUyNTNEbm9uZQ&rlid=bc6402f61ae71285362a6bc462263e0d, snippet: Compare Hotel Prices and find Cheap Hotel Deals for your next vacation! The Best Hotel Prices Guaranteed. Compare, Save Money & Enjoy your Free Time! Get Best Deals on Hotels · Hotel Discounts · Subscribe To Newsletter · Fast Search, Cheap Hotels, title: Up to 60% Off on Hotels - Search Best Hotel Prices, link: https://www.bing.com/aclick?ld=e83LWE9Wv0RKsmgFvl8NJDpzVUCUwL4zwidpKTDUaUpjCz_3u9sy22j_R5CHZozKzCQiyg86ExYxdgXxkIxRUXepyglTqLg4ywkfLimAxTcsR_cSmzGQASDe41wJCfiPHBEOt0Z2RfPg8loLqWWrSAFELiIVhCYP8kaMXwrLGUEwBLeFSF8NvXUf7UmelwCkMW-mf7rBPgiscDP4b8fNDieqR8YYA&u=aHR0cHMlM2ElMmYlMmZzZWFyY2hob3RlbHByaWNlcy5jb20lMmYlM2ZmJTNkYiUyNmIlM2R2aW8lMjZidWlkJTNkOTAwMSUyNnB0JTNkMiUyNm1zY2xraWQlM2RjODM4YjEzYThmNmUxOTQ3NGY4NWQ4MDhmN2FmMDQzYSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZEhvdGVsc18lMjU1QjMzMDAlMjUyMFRvcCUyNTIwVGVybXMlMjUyMGNvbnZlcnNpb25zJTI1MjBmcm9tJTI1MjBHbG9iYWwlMjUyMFNIUCUyNTVEX0dlbmVyaWNfUGhyYXNlJTI1MkJFeGFjdF9HbG9iYWxfRGVza3RvcF9TZWFyY2hfQl9WSU8lMjZ1dG1fdGVybSUzZHRyYXZlbCUyNTIwaG90ZWwlMjZ1dG1fY29udGVudCUzZHBocmFzZSUyNTIwJTI1MkIlMjUyMGV4YWN0&rlid=c838b13a8f6e19474f85d808f7af043a, snippet: 4 days ago · Properties ranked using exclusive Tripadvisor data, including traveller ratings, confirmed availability from our partners, prices, booking popularity and location, as well as personal user preferences and recently viewed hotels ., title: The 10 Best Hotel Deals in Itanagar (Dec 2025) - Tripadvisor, link: https://www.tripadvisor.in/SmartDeals-g946396-Itanagar_Papum_Pare_District_Arunachal_Pradesh-Hotel-Deals.html, snippet: Nov 25, 2025 · You can discover great hotels in Itanagar from $19 with properties to suit all budgets and needs. If you're after an affordable hotel in Itanagar that meets all of your requirements, set your filters and then sort the results by "Price: low to high"., title: The Best Hotels in Itanagar | Accommodation from $19, link: https://www.hotels.com/de1902793/hotels-itanagar-india/?siteid=310000033, snippet: Select price range, hotel themes, accommodation type, facilities, brand, or hotel class from basic (1 Star) to luxury hotels (5 Stars) in Itanagar . Enter your travel dates to view the best hotel deals for your Itanagar accommodation needs. These hotels provide comfortable accommodation for travellers. Transportation services are readily available, ensuring smooth transfers from these hotels to Jorhat Airport, making your journey to Itanagar hassle-free. 6 hours ago · This holiday season, book your Perfect Staycation with Taj Lakefront, Bhopal and enjoy 20% savings on breakfast and meal inclusive stays. Members enjoy upto 8% Neucoins on bookings and eligible spends. Jun 15, 2025 · Book hotels in Itanagar with no hidden fees. Compare budget, luxury and 5-star hotels in Itanagar and enjoy options with free cancellation. How to find the best hotels in Itanagar? You can find the best Itanagar hotels listed on the Goibibo app . The 3 star hotels in Itanagar offer a great stay to the travellers equipped with all basic amenities, prompt room service, spacious rooms and a nice ambience. Which is the best budget hotel in Itanagar? The budget hotels in Itanagar will be a good choice for you if you want accommodation at decent prices. Hotel Blue Pine, Hotel Kameng, Hotel Aane and Hotel Arun Subansiri are some of the options you can consider booking. What are the 3 star hotels in Itanagar? The 3 star hotels in Itanagar offer a great stay to the travellers equipped with all basic amenities, prompt room service, spacious rooms and a nice ambience. Some of the hotels under this category are Hotel Cygnett Inn Trendzz Itanagar, Hotel Pybss, Hotel Waii International and Hotel Odiyana . Which is the best hotel for unmarried couples in Itanagar? Goibibo has wide range of hotels for unmarried couples in Itanagar .Some popular hotels among couples are Cygnett Inn Trendz Itanagar , Hotel Arun Subansiri, S C HOTEL. Book your Itanagar hotel after reading thousands of guest reviews. There are numerous hotels in Itanagar which not make accommodation a strenuous task even in the peak seasons. You can find the best Itanagar hotels listed on the Goibibo app., title: Itanagar Hotels Starting From Lowest Price - Compare 38 ... 𝗧𝗢𝗣 𝟭𝟬 𝗛𝗼𝘁𝗲𝗹𝘀 𝗶𝗻 Itanagar (2025) | Expedia India Perfect Staycations | 20% Savings on Breakfast ... - Taj Hotels Best Hotels in Itanagar from ₹1,625/night | Skyscanner Hotels in Itanagar Book from 29 hotels - Goibibo Hotels in Itanagar Book from 29 hotels - Goibibo Hotels in Itanagar Book from 29 hotels - Goibibo Hotels in Itanagar Book from 29 hotels - Goibibo Hotels in Itanagar Book from 35 hotels - Goibibo, link: https://www.wego.co.in/hotels/india/itanagar, snippet: These hotels provide comfortable accommodation for travellers. Transportation services are readily available, ensuring smooth transfers from these hotels to Jorhat Airport, making your journey to Itanagar hassle-free., title: 𝗧𝗢𝗣 𝟭𝟬 𝗛𝗼𝘁𝗲𝗹𝘀 𝗶𝗻 Itanagar (2025) | Expedia India, link: https://www.expedia.co.in/Itanagar-Hotels.d6351508.Travel-Guide-Hotels, snippet: 6 hours ago · This holiday season, book your Perfect Staycation with Taj Lakefront, Bhopal and enjoy 20% savings on breakfast and meal inclusive stays. Members enjoy upto 8% Neucoins on bookings and eligible spends., title: Perfect Staycations | 20% Savings on Breakfast ... - Taj Hotels, link: https://www.tajhotels.com/en-in/hotels/taj-lakefront-bhopal/offers-and-promotions/perfect-staycations-holiday-offer, snippet: Jun 15, 2025 · Book hotels in Itanagar with no hidden fees. Compare budget, luxury and 5-star hotels in Itanagar and enjoy options with free cancellation., title: Best Hotels in Itanagar from ₹1,625/night | Skyscanner, link: https://www.skyscanner.co.in/hotels/india/itanagar-hotels/ci-45290268, snippet: There are numerous hotels in Itanagar which not make accommodation a strenuous task even in the peak seasons. You can find the best Itanagar hotels listed on the Goibibo app., title: Hotels in Itanagar Book from 35 hotels - Goibibo, link: https://www.goibibo.com/hotels/hotels-in-itanagar-ct/[0m[1;36m🚀 Crew: [0m[1;36mcrew[0m
+└── [1;33m📋 Task: 05165632-dd7e-4575-a159-4feac9aed15a[0m
+    [37mStatus: [0m[2;33mExecuting Task...[0m
+    ├── [1;32m🔧 [0m[32mUsed search_web_tool (1)[0m
+    └── [1;32m🔧 [0m[32mUsed search_web_tool (2)[0m[35m╭─[0m[35m─────────────[0m[35m 🔧 Agent Tool Execution [0m[35m─────────────[0m[35m─╮[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mAgent: [0m[1;92mTravel Logistics & Information Specialist[0m   [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mThought: [0m[92mian-whose-business-was-rejected-by/, [0m     [35m│[0m
+[35m│[0m  [92msnippet: Book Bhopal to Itanagar flight tickets [0m   [35m│[0m
+[35m│[0m  [92monline and get attractive deals on flights from [0m   [35m│[0m
+[35m│[0m  [92mBhopal to Itanagar., title: Bhopal to Itanagar [0m    [35m│[0m
+[35m│[0m  [92mFlight | Lowest Airfare | Offers | Yatra, link: [0m   [35m│[0m
+[35m│[0m  [92mhttps://www.yatra.com/flight/search/flight-search[0m  [35m│[0m
+[35m│[0m  [92m?&from=bhopal&to=itanagar&triptype=1&class=Econom[0m  [35m│[0m
+[35m│[0m  [92my& [0m                                                [35m│[0m
+[35m│[0m  [92madult=1&child=0&infant=0&departure_date=17-12-202[0m  [35m│[0m
+[35m│[0m  [92m5&return_date=27-12-2025[0m                           [35m│[0m
+[35m│[0m  [92mThought: Based on the observation, the fastest [0m    [35m│[0m
+[35m│[0m  [92mway to reach Itanagar from Bhopal is by flight, [0m   [35m│[0m
+[35m│[0m  [92mwhich would take approximately 6 hours, while the[0m  [35m│[0m
+[35m│[0m  [92mcheapest way is by train, taking around 41 hours.[0m  [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mUsing Tool: [0m[1;92msearch_web_tool[0m                        [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m╰─────────────────────────────────────────────────────╯[0m
+[1;36m🚀 Crew: [0m[1;36mcrew[0m
+└── [1;33m📋 Task: 05165632-dd7e-4575-a159-4feac9aed15a[0m
+    [37mStatus: [0m[2;33mExecuting Task...[0m
+    ├── [1;32m🔧 [0m[32mUsed search_web_tool (1)[0m
+    ├── [1;32m🔧 [0m[32mUsed search_web_tool (2)[0m
+    └── [1;34m🧠 [0m[34mThinking...[0m[34m╭─[0m[34m───────────────────[0m[34m Tool Input [0m[34m────────────────────[0m[34m─╮[0m
+[34m│[0m                                                     [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m{[0m                                                  [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m  [0m[38;2;249;38;114;49m"query"[0m[38;2;248;248;242;49m:[0m[38;2;248;248;242;49m [0m[38;2;230;219;116;49m"Bhopal to Itanagar accommodation [0m      [34m│[0m
+[34m│[0m  [38;2;230;219;116;49mhotels December 2025"[0m                              [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m}[0m                                                  [34m│[0m
+[34m│[0m                                                     [34m│[0m
+[34m╰─────────────────────────────────────────────────────╯[0m
+[32m╭─[0m[32m───────────────────[0m[32m Tool Output [0m[32m───────────────────[0m[32m─╮[0m
+[32m│[0m                                                     [32m│[0m
+[32m│[0m  [92msnippet: booking.com has been visited by 1M+ [0m      [32m│[0m
+[32m│[0m  [92musers in the past month Choose From a Wide Range [0m  [32m│[0m
+[32m│[0m  [92mof Properties Which Booking.com Offers. Search [0m    [32m│[0m
+[32m│[0m  [92mNow! Hotels , homes, and everything in between. [0m   [32m│[0m
+[32m│[0m  [92mBook a Accommodation in Bhopal online!, title: [0m    [32m│[0m
+[32m│[0m  [92mAccommodations In Bhopal - Booking.com - Best [0m     [32m│[0m
+[32m│[0m  [92mPrice Guarantee, link: [0m                            [32m│[0m
+[32m│[0m  [92mhttps://www.bing.com/aclick?ld=e8PPiPJUqVpS5g2aod[0m  [32m│[0m
+[32m│[0m  [92ms-_LGjVUCUxtetAMH_NQrklN4XiezYFqaO7qgXjwO4exYOucg[0m  [32m│[0m
+[32m│[0m  [92mDjPWmK89ZkHTEpcE48hkewsBD0Ti0LZDjtxIPSY_aktjywhzR[0m  [32m│[0m
+[32m│[0m  [92m-WM69mPp7QfpSvLQHieL5SH5-kAJSqE_kHmQnCooHMxTAhRaN[0m  [32m│[0m
+[32m│[0m  [92mtfEIKWEXbYOJsYqCH_aW2sWjPYE9s0SELN0qWvA1Ast4CAyIt[0m  [32m│[0m
+[32m│[0m  [92mQDK1iic&u=aHR0cHMlM2ElMmYlMmZ3d3cuYm9va2luZy5jb20[0m  [32m│[0m
+[32m│[0m  [92mlMmZjaXR5JTJmaW4lMmZiaG9wYWwuZW4uaHRtbCUzZmFpZCUz[0m  [32m│[0m
+[32m│[0m  [92mZDIxMTk2MjclMjZwYWdlbmFtZSUzZGJob3BhbCUyNmxhYmVsJ[0m  [32m│[0m
+[32m│[0m  [92mTNkbXNuLSp0VkdxSTh4bHYwcnVHVU80YXhtYWctODA1MzkzOT[0m  [32m│[0m
+[32m│[0m  [92mk3NzM5MjglM2F0aWt3ZC04MDUzOTU1NDQ2NTM4NSUzYWxvYy0[0m  [32m│[0m
+[32m│[0m  [92m5MCUzYW5lbyUzYW10cCUzYWxwMTUwMDM0JTNhZGVjJTNhcXNC[0m  [32m│[0m
+[32m│[0m  [92maG9wYWwlMjUyMHRvJTI1MjBJdGFuYWdhciUyNTIwYWNjb21tb[0m  [32m│[0m
+[32m│[0m  [92m2RhdGlvbiUyNTIwaG90ZWxzJTI1MjBEZWNlbWJlciUyNTIwMj[0m  [32m│[0m
+[32m│[0m  [92mAyNSUyNnV0bV9jYW1wYWlnbiUzZEFjY29tbW9kYXRpb24lMjU[0m  [32m│[0m
+[32m│[0m  [92myMC0lMjUyMEluZGlhJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0[0m  [32m│[0m
+[32m│[0m  [92mbV9zb3VyY2UlM2RiaW5nJTI2dXRtX3Rlcm0lM2QqdFZHcUk4e[0m  [32m│[0m
+[32m│[0m  [92mGx2MHJ1R1VPNGF4bWFnJTI2bXNjbGtpZCUzZDBhZWFkMzdiNj[0m  [32m│[0m
+[32m│[0m  [92mdjYzExNDE4ZDNhYmE0OTFmMGQ5NTM3JTI2dXRtX2NvbnRlbnQ[0m  [32m│[0m
+[32m│[0m  [92mlM2RCaG9wYWwlMjUyMC0lMjUyMFVGSSUyNTNBLTIwOTE2NzA&[0m  [32m│[0m
+[32m│[0m  [92mrlid=0aead37b67cc11418d3aba491f0d9537, snippet: [0m   [32m│[0m
+[32m│[0m  [92mkayak.co.in has been visited by 10K+ users in the[0m  [32m│[0m
+[32m│[0m  [92mpast month Accommodation Bhopal . Find your stay [0m  [32m│[0m
+[32m│[0m  [92mwith easy booking and personalised search [0m         [32m│[0m
+[32m│[0m  [92mfilters. Plan, compare and save on your stay with[0m  [32m│[0m
+[32m│[0m  [92mKAYAK. Great value with even greater savings. [0m     [32m│[0m
+[32m│[0m  [92mEnhanced cleaning · Accommodation deals · Price [0m   [32m│[0m
+[32m│[0m  [92mcomparison · Flexible booking options, title: [0m     [32m│[0m
+[32m│[0m  [92mAccommodation Bhopal - Hotel deals in Bhopal, [0m     [32m│[0m
+[32m│[0m  [92mlink: [0m                                             [32m│[0m
+[32m│[0m  [92mhttps://www.bing.com/aclick?ld=e82dMGTirmpu2u0z3t[0m  [32m│[0m
+[32m│[0m  [92mrazeUDVUCUwVe3DazLFPFnmxsaIOhssBsXjHAyv9x6r5YYWsV[0m  [32m│[0m
+[32m│[0m  [92mxPagWKgJ5Z454VK0zaURsxudRHo6-TpRQi7-ie5pgGSfFcmap[0m  [32m│[0m
+[32m│[0m  [92mnBJrZ7olh5pManfZ6p8X6W0EoinX30I88n3DILDP16dwURUPH[0m  [32m│[0m
+[32m│[0m  [92mME2SajeiUJehfSEDVg5MfZomYIUoHiVBQjWlmPMEG1hO3Mvrc[0m  [32m│[0m
+[32m│[0m  [92mhZiAFD8&u=aHR0cHMlM2ElMmYlMmZ3d3cua2F5YWsuY28uaW4[0m  [32m│[0m
+[32m│[0m  [92mlMmZzZW1pJTJmYmluZ2Fkc3NlYXJjaCUyZmh...[0m            [32m│[0m
+[32m│[0m                                                     [32m│[0m
+[32m╰─────────────────────────────────────────────────────╯[0m
+
+[32;1m[1;3msnippet: March 3, 2025 - These prices were last updated on March 03, 2025. ... For example, to keep the same standard of living that would require ₨110,000 in Kolkata you would need to make just about ₨96,019 in Bhopal., title: Bhopal is 13% cheaper than Kolkata. Mar 2025 Cost of Living., link: https://www.expatistan.com/cost-of-living/comparison/kolkata/bhopal, snippet: July 8, 2025 - The average cost of living in Bhopal is $366 , which is in the top 3% of the least expensive cities in the world, ranked 9061st out of 9294 in our global list, 66th out of 220 in India, and 2nd out of 8 in Madhya Pradesh., title: Cost of Living & Prices in Bhopal: rent, food, transport, link: https://livingcost.org/cost/india/mp/bhopal, snippet: March 3, 2025 - These prices were last updated on March 03, 2025. ... For example, to keep the same standard of living that would require ₨185,000 in Bangalore you would need to make just about ₨128,622 in Bhopal., title: Bhopal is 30% cheaper than Bangalore. Mar 2025 Cost of Living., link: https://www.expatistan.com/cost-of-living/comparison/bangalore/bhopal, snippet: April 25, 2025 - If compared to the cost of living in the EU cities and America, the prices in Bhopal are low., title: Cost of Living in Bhopal. (2025 Updated), link: https://www.travelsafe-abroad.com/cost-of-living/india/bhopal/, snippet: July 28, 2025 - These prices were last updated on July 27, 2025. ... For example, to keep the same standard of living that would require ₨57,000 in Indore you would need to make just about ₨51,172 in Bhopal., title: Bhopal is 10% cheaper than Indore. Jul 2025 Cost of Living., link: https://www.expatistan.com/cost-of-living/comparison/indore/bhopal, snippet: January 31, 2025 - These prices were last updated on January 30, 2025. ... For example, to keep the same standard of living that would require ₨177,000 in Delhi you would need to make just about ₨146,725 in Bhopal., title: Bhopal is 17% cheaper than Delhi. Jan 2025 Cost of Living., link: https://www.expatistan.com/cost-of-living/comparison/delhi/bhopal, snippet: July 15, 2025 - Discover the monthly cost of living in Bhopal, India. Get insights into rent, groceries, transportation, internet, clothing, entertainment, and more. Plan your expenses and savings with real-time city data from GuideCalculator., title: Cost of Living in Bhopal | GuideCalculator, link: https://guidecalculator.com/cost-of-living/bhopal, snippet: December 6, 2024 - These prices were last updated on December 05, 2024. ... For example, you would need at least ₨105,195 in Bangalore to maintain the same standard of living that you can have with ₨72,000 in Bhopal., title: Bangalore is 46% more expensive than Bhopal. Dec 2024 Cost of Living., link: https://www.expatistan.com/cost-of-living/comparison/bhopal/bangalore, snippet: January 31, 2025 - These prices were last updated on January 30, 2025. ... For example, to keep the same standard of living that would require ₨103,000 in Hyderabad, India you would need to make just about ₨76,372 in Bhopal., title: Bhopal is 26% cheaper than Hyderabad, India. Jan 2025 Cost of Living., link: https://www.expatistan.com/cost-of-living/comparison/hyderabad-india/bhopal, snippet: October 14, 2025 - The average cost of living in Bhubaneswar is $395 , which is in the top 3% of the least expensive cities in the world, ranked 8991st out of 9294 in our global list, 28th out of 220 in India and 1st out of 4 in Odisha., title: Cost of Living in Bhubaneswar: rent, food, transport [2025], link: https://livingcost.org/cost/india/or/bhubaneswar[0m[1;36m🚀 Crew: [0m[1;36mcrew[0m
+└── [1;33m📋 Task: 05165632-dd7e-4575-a159-4feac9aed15a[0m
+    [37mStatus: [0m[2;33mExecuting Task...[0m
+    ├── [1;32m🔧 [0m[32mUsed search_web_tool (1)[0m
+    ├── [1;32m🔧 [0m[32mUsed search_web_tool (2)[0m
+    └── [1;32m🔧 [0m[32mUsed search_web_tool (3)[0m[35m╭─[0m[35m─────────────[0m[35m 🔧 Agent Tool Execution [0m[35m─────────────[0m[35m─╮[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mAgent: [0m[1;92mTravel Logistics & Information Specialist[0m   [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mThought: [0m[92mThought: Based on the observation, the [0m   [35m│[0m
+[35m│[0m  [92mbest budget hotels in Itanagar include Hotel Blue[0m  [35m│[0m
+[35m│[0m  [92mPine, Hotel Kameng, Hotel Aane, and Hotel Arun [0m    [35m│[0m
+[35m│[0m  [92mSubansiri. The 3-star hotels in Itanagar offer a [0m  [35m│[0m
+[35m│[0m  [92mgreat stay to the travelers equipped with all [0m     [35m│[0m
+[35m│[0m  [92mbasic amenities, prompt room service, spacious [0m    [35m│[0m
+[35m│[0m  [92mrooms, and a nice ambience. Some of the hotels [0m    [35m│[0m
+[35m│[0m  [92munder this category are Hotel Cygnett Inn Trendzz[0m  [35m│[0m
+[35m│[0m  [92mItanagar, Hotel Pybss, Hotel Waii International, [0m  [35m│[0m
+[35m│[0m  [92mand Hotel Odiyana.[0m                                 [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mUsing Tool: [0m[1;92msearch_web_tool[0m                        [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m╰─────────────────────────────────────────────────────╯[0m
+[34m╭─[0m[34m───────────────────[0m[34m Tool Input [0m[34m────────────────────[0m[34m─╮[0m
+[34m│[0m                                                     [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m{[0m                                                  [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m  [0m[38;2;249;38;114;49m"query"[0m[38;2;248;248;242;49m:[0m[38;2;248;248;242;49m [0m[38;2;230;219;116;49m"Bhopal to Itanagar cost of living [0m     [34m│[0m
+[34m│[0m  [38;2;230;219;116;49mDecember 2025"[0m                                     [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m}[0m                                                  [34m│[0m
+[34m│[0m                                                     [34m│[0m
+[34m╰─────────────────────────────────────────────────────╯[0m
+[32m╭─[0m[32m───────────────────[0m[32m Tool Output [0m[32m───────────────────[0m[32m─╮[0m
+[32m│[0m                                                     [32m│[0m
+[32m│[0m  [92msnippet: March 3, 2025 - These prices were last [0m   [32m│[0m
+[32m│[0m  [92mupdated on March 03, 2025. ... For example, to [0m    [32m│[0m
+[32m│[0m  [92mkeep the same standard of living that would [0m       [32m│[0m
+[32m│[0m  [92mrequire ₨110,000 in Kolkata you would need to [0m     [32m│[0m
+[32m│[0m  [92mmake just about ₨96,019 in Bhopal., title: Bhopal[0m  [32m│[0m
+[32m│[0m  [92mis 13% cheaper than Kolkata. Mar 2025 Cost of [0m     [32m│[0m
+[32m│[0m  [92mLiving., link: [0m                                    [32m│[0m
+[32m│[0m  [92mhttps://www.expatistan.com/cost-of-living/compari[0m  [32m│[0m
+[32m│[0m  [92mson/kolkata/bhopal, snippet: July 8, 2025 - The [0m   [32m│[0m
+[32m│[0m  [92maverage cost of living in Bhopal is $366 , which [0m  [32m│[0m
+[32m│[0m  [92mis in the top 3% of the least expensive cities in[0m  [32m│[0m
+[32m│[0m  [92mthe world, ranked 9061st out of 9294 in our [0m       [32m│[0m
+[32m│[0m  [92mglobal list, 66th out of 220 in India, and 2nd [0m    [32m│[0m
+[32m│[0m  [92mout of 8 in Madhya Pradesh., title: Cost of [0m       [32m│[0m
+[32m│[0m  [92mLiving & Prices in Bhopal: rent, food, transport,[0m  [32m│[0m
+[32m│[0m  [92mlink: [0m                                             [32m│[0m
+[32m│[0m  [92mhttps://livingcost.org/cost/india/mp/bhopal, [0m      [32m│[0m
+[32m│[0m  [92msnippet: March 3, 2025 - These prices were last [0m   [32m│[0m
+[32m│[0m  [92mupdated on March 03, 2025. ... For example, to [0m    [32m│[0m
+[32m│[0m  [92mkeep the same standard of living that would [0m       [32m│[0m
+[32m│[0m  [92mrequire ₨185,000 in Bangalore you would need to [0m   [32m│[0m
+[32m│[0m  [92mmake just about ₨128,622 in Bhopal., title: [0m       [32m│[0m
+[32m│[0m  [92mBhopal is 30% cheaper than Bangalore. Mar 2025 [0m    [32m│[0m
+[32m│[0m  [92mCost of Living., link: [0m                            [32m│[0m
+[32m│[0m  [92mhttps://www.expatistan.com/cost-of-living/compari[0m  [32m│[0m
+[32m│[0m  [92mson/bangalore/bhopal, snippet: April 25, 2025 - [0m   [32m│[0m
+[32m│[0m  [92mIf compared to the cost of living in the EU [0m       [32m│[0m
+[32m│[0m  [92mcities and America, the prices in Bhopal are [0m      [32m│[0m
+[32m│[0m  [92mlow., title: Cost of Living in Bhopal. (2025 [0m      [32m│[0m
+[32m│[0m  [92mUpdated), link: [0m                                   [32m│[0m
+[32m│[0m  [92mhttps://www.travelsafe-abroad.com/cost-of-living/[0m  [32m│[0m
+[32m│[0m  [92mindia/bhopal/, snippet: July 28, 2025 - These [0m     [32m│[0m
+[32m│[0m  [92mprices were last updated on July 27, 2025. ... [0m    [32m│[0m
+[32m│[0m  [92mFor example, to keep the same standard of living [0m  [32m│[0m
+[32m│[0m  [92mthat would require ₨57,000 in Indore you would [0m    [32m│[0m
+[32m│[0m  [92mneed to make just about ₨51,172 in Bhopal., [0m       [32m│[0m
+[32m│[0m  [92mtitle: Bhopal is 10% cheaper than Indore. Jul [0m     [32m│[0m
+[32m│[0m  [92m2025 Cost of Living., link: [0m                       [32m│[0m
+[32m│[0m  [92mhttps://www.expatistan.com/cost-of-living/compari[0m  [32m│[0m
+[32m│[0m  [92mson/indore/bhopal, snippet: January 31, 2025 - [0m    [32m│[0m
+[32m│[0m  [92mThese prices were last updated on January 30, [0m     [32m│[0m
+[32m│[0m  [92m2025. ... For example, to keep the same standard [0m  [32m│[0m
+[32m│[0m  [92mof living that would require ₨177,000 in Delhi [0m    [32m│[0m
+[32m│[0m  [92myou would need to make just about ₨146,725 in [0m     [32m│[0m
+[32m│[0m  [92mBhopal., title: Bhopal is 17% cheaper than Delhi.[0m  [32m│[0m
+[32m│[0m  [92mJan 2025 Cost of Living., link:...[0m                 [32m│[0m
+[32m│[0m                                                     [32m│[0m
+[32m╰─────────────────────────────────────────────────────╯[0m
+
+
+================================================================================
+
+AGENT EXECUTION STEPS & WEB SEARCH RESULTS:
+================================================================================
+
+################################################################################
+STEP 1: Travel Logistics & Information Specialist
+################################################################################
+
+📋 TASK DESCRIPTION:
+--------------------------------------------------------------------------------
+
+        Research and compile comprehensive travel logistics information for a trip.
+        
+        **Trip Details:**
+        - From: Bhopal , India
+        - To: Itanagar, Arunachal 
+        - Dates: 2025-12-17 to 2025-12-27
+        
+        **Required Information (Must Include ALL):**
+        
+        1. **Transportation Options:**
+           - Flight options with approximate prices (₹)
+           - Train options with class and pricing
+           - Bus/Road options if applicable
+           - Best recommended option with reasoning
+        
+        2. **Accommodation:**
+           - Budget hotels (₹1000-2000/night) - list 3 options with names
+           - Mid-range hotels (₹2000-4000/night) - list 3 options with names
+           - Luxury hotels (₹4000+/night) - list 2 options with names
+           - Include approximate prices and locations
+        
+        3. **Cost of Living:**
+           - Average meal costs (breakfast, lunch, dinner)
+           - Local transportation costs (auto, taxi, metro)
+           - Entry fees for major attractions
+           - Daily budget estimate (budget/moderate/luxury)
+        
+        4. **Weather Forecast:**
+           - Expected temperature range
+           - Rainfall probability
+           - What to pack/wear
+        
+        5. **Visa/Documentation:**
+           - Any ID requirements for domestic travel
+           - COVID-19 or health requirements if applicable
+        
+        **Format:** Provide a detailed markdown report with clear sections and specific numbers/prices.
+        
+        🎯 Ratnesh AI Travel Assistant is researching your trip - Please enjoy a cup of Tea/Coffee!
+        
+
+📊 AGENT OUTPUT:
+--------------------------------------------------------------------------------
+Action: {'query': 'transportation options from Bhopal to Itanagar Arunachal Pradesh'} 
+
+📝 NOTE:
+--------------------------------------------------------------------------------
+Task completed. See AGENT OUTPUT above for full details.
+
+🔍 DEBUG - Available Output Fields:
+--------------------------------------------------------------------------------
+Fields: agent, construct, copy, description, dict, expected_output, from_orm, json, json_dict, messages, model_computed_fields, model_config, model_construct, model_copy, model_dump, model_dump_json, model_extra, model_fields, model_fields_set, model_json_schema, model_parametrized_name, model_post_init, model_rebuild, model_validate, model_validate_json, model_validate_strings, name, output_format, parse_file, parse_obj, parse_raw, pydantic, raw, schema, schema_json, set_summary, summary, to_dict, update_forward_refs, validate
+
+
+
+################################################################################
+STEP 2: Local Guide & Attractions Specialist
+################################################################################
+
+📋 TASK DESCRIPTION:
+--------------------------------------------------------------------------------
+
+        Create a detailed local guide with attractions, restaurants, and activities.
+        
+        **Destination:** Itanagar, Arunachal 
+        **Travel Dates:** 2025-12-17 to 2025-12-27
+        **Traveler Interests:** sightseeing and good food, adventure, sports club , party night 
+        
+        **Required Content (Must Include ALL):**
+        
+        1. **Top Attractions (List 10-15):**
+           - Name of attraction
+           - Brief description (2-3 sentences)
+           - Entry fee (if any)
+           - Best time to visit
+           - Why it matches the interests: sightseeing and good food, adventure, sports club , party night 
+        
+        2. **Food Recommendations (List 8-10 places):**
+           - Restaurant/cafe name
+           - Cuisine type
+           - Must-try dishes
+           - Approximate cost for 2 people
+           - Location/area
+        
+        3. **Activities Based on Interests:**
+           For "sightseeing and good food, adventure, sports club , party night ", suggest specific activities like:
+           - Sightseeing: walking tours, viewpoints, photo spots
+           - Food: food tours, cooking classes, street food areas
+           - Adventure: adventure sports, trekking, water activities
+           - Party/Nightlife: clubs, bars, live music venues, rooftop lounges
+        
+        4. **Local Events (if any during 2025-12-17 to 2025-12-27):**
+           - Festivals, concerts, exhibitions
+           - Special events or seasonal activities
+        
+        5. **Hidden Gems:**
+           - 3-5 lesser-known spots that locals love
+        
+        **Format:** Organize by category with specific names, addresses, and insider tips.
+        
+
+📊 AGENT OUTPUT:
+--------------------------------------------------------------------------------
+Observation: The search_web_tool returned results about transportation options from Bhopal to Itanagar, Arunachal Pradesh.
+
+Action: {'query': "transportation options Itanagar Arunachal Pradesh"} 
+
+
+📝 NOTE:
+--------------------------------------------------------------------------------
+Task completed. See AGENT OUTPUT above for full details.
+
+🔍 DEBUG - Available Output Fields:
+--------------------------------------------------------------------------------
+Fields: agent, construct, copy, description, dict, expected_output, from_orm, json, json_dict, messages, model_computed_fields, model_config, model_construct, model_copy, model_dump, model_dump_json, model_extra, model_fields, model_fields_set, model_json_schema, model_parametrized_name, model_post_init, model_rebuild, model_validate, model_validate_json, model_validate_strings, name, output_format, parse_file, parse_obj, parse_raw, pydantic, raw, schema, schema_json, set_summary, summary, to_dict, update_forward_refs, validate
+
+
+
+################################################################################
+STEP 3: Master Itinerary Planner
+################################################################################
+
+📋 TASK DESCRIPTION:
+--------------------------------------------------------------------------------
+
+        Create a comprehensive, day-by-day travel itinerary using information from previous tasks.
+        
+        **Trip Details:**
+        - Destination: Itanagar, Arunachal 
+        - Interests: sightseeing and good food, adventure, sports club , party night 
+        - Dates: 2025-12-17 to 2025-12-27
+        
+        **Required Structure (Must Include ALL):**
+        
+        1. **City Introduction (4 paragraphs):**
+           - Paragraph 1: Overview and what makes the city special
+           - Paragraph 2: History and culture
+           - Paragraph 3: Food scene and culinary highlights
+           - Paragraph 4: Best experiences for travelers interested in sightseeing and good food, adventure, sports club , party night 
+        
+        2. **Day-by-Day Itinerary:**
+           For EACH day from 2025-12-17 to 2025-12-27, provide:
+           
+           **Day X: [Theme/Focus]**
+           - **Morning (9:00 AM - 12:00 PM):**
+             * Activity/Place with specific name
+             * Duration and travel time
+             * Cost estimate
+           
+           - **Afternoon (12:00 PM - 5:00 PM):**
+             * Lunch recommendation (specific restaurant name)
+             * Activity/Place with specific name
+             * Duration and travel time
+             * Cost estimate
+           
+           - **Evening (5:00 PM - 9:00 PM):**
+             * Activity/Place with specific name
+             * Dinner recommendation (specific restaurant name)
+             * Cost estimate
+           
+           - **Night (if applicable for party/nightlife):**
+             * Specific venues for nightlife
+             * Approximate costs
+        
+        3. **Budget Breakdown:**
+           - Transportation: ₹X
+           - Accommodation: ₹X (per night × nights)
+           - Food: ₹X (per day × days)
+           - Activities/Entry fees: ₹X
+           - Shopping/Miscellaneous: ₹X
+           - **Total Estimated Cost: ₹X**
+        
+        4. **Practical Tips:**
+           - Best way to get around the city
+           - Safety tips
+           - Money-saving tips
+           - Local customs to be aware of
+           - Emergency contacts
+        
+        5. **Packing Checklist:**
+           - Based on weather and activities
+        
+        **Important:** Use specific names, timings, and prices. Make it actionable and ready to use!
+        
+
+📊 AGENT OUTPUT:
+--------------------------------------------------------------------------------
+Observation: The search_web_tool returned results about transportation options from Bhopal to Itanagar, Arunachal Pradesh.
+
+Action: {'query': "transportation options Itanagar Arunachal Pradesh"} 
+
+
+
+📝 NOTE:
+--------------------------------------------------------------------------------
+Task completed. See AGENT OUTPUT above for full details.
+
+🔍 DEBUG - Available Output Fields:
+--------------------------------------------------------------------------------
+Fields: agent, construct, copy, description, dict, expected_output, from_orm, json, json_dict, messages, model_computed_fields, model_config, model_construct, model_copy, model_dump, model_dump_json, model_extra, model_fields, model_fields_set, model_json_schema, model_parametrized_name, model_post_init, model_rebuild, model_validate, model_validate_json, model_validate_strings, name, output_format, parse_file, parse_obj, parse_raw, pydantic, raw, schema, schema_json, set_summary, summary, to_dict, update_forward_refs, validate
+
+
+
+================================================================================
+
+FINAL TRAVEL PLAN:
+================================================================================
+Observation: The search_web_tool returned results about transportation options from Bhopal to Itanagar, Arunachal Pradesh.
+
+Action: {'query': "transportation options Itanagar Arunachal Pradesh"} 
+
+
+
+================================================================================
+
+End of Report - 2025-12-05 11:55:00
+================================================================================

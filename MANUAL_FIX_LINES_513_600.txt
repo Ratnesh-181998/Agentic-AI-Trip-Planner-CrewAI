@@ -1,0 +1,110 @@
+# ============================================================================
+# MANUAL FIX: Replace lines 513-600 in ratnesh_app_ULTIMATE.py with this code
+# ============================================================================
+
+with tab1:
+    st.markdown("""
+    &#128161; **Plan your next trip with AI!**  
+    Enter your travel details below, and our AGENTIC AI travel assistant will create a personalized itinerary including:
+     Best places to visit &#127905;   Accommodation & budget planning &#128176;
+     Local food recommendations &#127829;   Transportation & visa details &#128646;
+    """)
+    
+    # Default setting for Ollama fallback
+    allow_ollama = False
+    
+    # Sidebar - LLM Configuration
+    with st.sidebar:
+        st.header("\u2699\ufe0f Settings")
+        
+        st.subheader("\U0001f916 AI Model Configuration")
+        llm_choice = st.radio(
+            "Choose LLM Provider:",
+            ["Auto (5-Tier Fallback)", "Groq Only", "Google Only", "Ollama Only"],
+            help="Auto mode tries multiple providers for maximum reliability"
+        )
+        
+        if llm_choice == "Auto (5-Tier Fallback)":
+            st.success("\u2705 Smart mode: Maximum reliability with 5 fallback options!")
+        elif llm_choice == "Groq Only":
+            st.warning("\u26a1 Fast but requires API key and internet")
+        elif llm_choice == "Google Only":
+            st.info("\U0001f31f Uses Google Gemini models (2.0 Flash \u2192 1.5 Pro)")
+        else:
+            st.warning("\U0001f40c Slower but works offline (requires Ollama running)")
+        
+        st.markdown("---")
+        st.markdown("### &#128259; **5-Tier Fallback System**")
+        st.markdown(
+            "**Tier 1:** Groq llama-3.3-70b (Highest Quality)\\n\\n"
+            "**Tier 2:** Groq llama-3.1-8b (Fast Lightweight)\\n\\n"
+            "**Tier 3:** Groq mixtral-8x7b (High Quality Alternative)\\n\\n"
+            "**Tier 4:** Groq gemma2-9b (Google's Open Model)\\n\\n"
+            "**Tier 5:** Ollama llama3.2 (Local Offline Backup)"
+        )
+        
+        # Add checkbox for Ollama fallback
+        st.markdown("---")
+        allow_ollama = st.checkbox(
+            "\U0001f40c Allow Local Ollama Fallback",
+            value=False,
+            help="Enable Tier 5 (Ollama) as final fallback. Slower but works offline."
+        )
+    
+    # List of popular countries
+    countries = [
+        "India", "United States", "United Kingdom", "Canada", "Australia",
+        "Japan", "China", "Singapore", "Thailand", "Malaysia",
+        "Indonesia", "Vietnam", "South Korea", "UAE", "Saudi Arabia",
+        "France", "Germany", "Italy", "Spain", "Switzerland",
+        "Netherlands", "Belgium", "Austria", "Greece", "Turkey",
+        "Egypt", "South Africa", "Kenya", "Morocco", "Brazil",
+        "Argentina", "Mexico", "Peru", "Chile", "Russia",
+        "New Zealand", "Fiji", "Maldives", "Sri Lanka", "Nepal",
+        "Bhutan", "Myanmar", "Cambodia", "Laos", "Philippines",
+        "Hong Kong", "Macau", "Taiwan", "Portugal", "Ireland"
+    ]
+    
+    # Popular cities by country
+    cities_by_country = {
+        "India": ["Delhi", "Mumbai", "Bangalore", "Chennai", "Kolkata", "Hyderabad", "Pune", "Ahmedabad", "Jaipur", "Goa"],
+        "United States": ["New York", "Los Angeles", "San Francisco", "Las Vegas", "Miami", "Chicago", "Boston", "Seattle", "Orlando", "Washington DC"],
+        "United Kingdom": ["London", "Manchester", "Edinburgh", "Birmingham", "Liverpool", "Oxford", "Cambridge", "Bath", "York", "Brighton"],
+        "Canada": ["Toronto", "Vancouver", "Montreal", "Calgary", "Ottawa", "Quebec City", "Niagara Falls", "Banff", "Victoria", "Whistler"],
+        "Australia": ["Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide", "Gold Coast", "Cairns", "Hobart", "Darwin", "Canberra"],
+        "Japan": ["Tokyo", "Kyoto", "Osaka", "Hiroshima", "Nara", "Yokohama", "Sapporo", "Fukuoka", "Nagoya", "Kobe"],
+        "China": ["Beijing", "Shanghai", "Hong Kong", "Guangzhou", "Shenzhen", "Chengdu", "Xi'an", "Hangzhou", "Suzhou", "Macau"],
+        "Singapore": ["Singapore"],
+        "Thailand": ["Bangkok", "Phuket", "Chiang Mai", "Pattaya", "Krabi", "Koh Samui", "Ayutthaya", "Hua Hin", "Koh Phi Phi", "Chiang Rai"],
+        "Malaysia": ["Kuala Lumpur", "Penang", "Langkawi", "Malacca", "Johor Bahru", "Kota Kinabalu", "Cameron Highlands", "Ipoh", "Genting Highlands", "Kuching"],
+        "France": ["Paris", "Nice", "Lyon", "Marseille", "Bordeaux", "Strasbourg", "Toulouse", "Cannes", "Monaco", "Versailles"],
+        "Italy": ["Rome", "Venice", "Florence", "Milan", "Naples", "Pisa", "Verona", "Bologna", "Turin", "Genoa"],
+        "Spain": ["Barcelona", "Madrid", "Seville", "Valencia", "Granada", "Bilbao", "Malaga", "Ibiza", "Mallorca", "Toledo"],
+        "UAE": ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", "Al Ain"],
+        "Germany": ["Berlin", "Munich", "Frankfurt", "Hamburg", "Cologne", "Stuttgart", "Dresden", "Heidelberg", "Nuremberg", "Leipzig"],
+        "Switzerland": ["Zurich", "Geneva", "Lucerne", "Interlaken", "Bern", "Zermatt", "Lausanne", "Basel", "Montreux", "St. Moritz"],
+        "Netherlands": ["Amsterdam", "Rotterdam", "The Hague", "Utrecht", "Eindhoven", "Groningen", "Maastricht", "Delft", "Haarlem", "Leiden"],
+        "Turkey": ["Istanbul", "Ankara", "Antalya", "Izmir", "Cappadocia", "Bodrum", "Pamukkale", "Ephesus", "Fethiye", "Marmaris"],
+        "Egypt": ["Cairo", "Alexandria", "Luxor", "Aswan", "Hurghada", "Sharm El Sheikh", "Giza", "Dahab", "Marsa Alam", "Port Said"],
+        "Maldives": ["Male", "Hulhumale", "Maafushi", "Addu City"],
+        "Sri Lanka": ["Colombo", "Kandy", "Galle", "Nuwara Eliya", "Sigiriya", "Ella", "Anuradhapura", "Trincomalee", "Jaffna", "Bentota"],
+        "Nepal": ["Kathmandu", "Pokhara", "Lumbini", "Chitwan", "Nagarkot", "Bhaktapur", "Patan", "Bandipur"],
+        "Indonesia": ["Bali", "Jakarta", "Yogyakarta", "Lombok", "Bandung", "Surabaya", "Ubud", "Gili Islands", "Borobudur", "Komodo"],
+        "Vietnam": ["Hanoi", "Ho Chi Minh City", "Da Nang", "Hoi An", "Nha Trang", "Halong Bay", "Hue", "Sapa", "Dalat", "Phu Quoc"],
+        "South Korea": ["Seoul", "Busan", "Jeju Island", "Incheon", "Gyeongju", "Daegu", "Suwon", "Jeonju", "Sokcho", "Andong"],
+        "New Zealand": ["Auckland", "Queenstown", "Wellington", "Christchurch", "Rotorua", "Dunedin", "Taupo", "Nelson", "Wanaka", "Hamilton"],
+        "Brazil": ["Rio de Janeiro", "Sao Paulo", "Brasilia", "Salvador", "Fortaleza", "Manaus", "Recife", "Florianopolis", "Foz do Iguacu", "Belo Horizonte"],
+        "Mexico": ["Mexico City", "Cancun", "Playa del Carmen", "Tulum", "Guadalajara", "Monterrey", "Puerto Vallarta", "Cabo San Lucas", "Oaxaca", "Merida"],
+        "South Africa": ["Cape Town", "Johannesburg", "Durban", "Pretoria", "Port Elizabeth", "Kruger National Park", "Stellenbosch", "Knysna", "Hermanus", "Sun City"],
+        "Greece": ["Athens", "Santorini", "Mykonos", "Crete", "Rhodes", "Corfu", "Thessaloniki", "Zakynthos", "Naxos", "Paros"],
+        "Portugal": ["Lisbon", "Porto", "Algarve", "Madeira", "Sintra", "Coimbra", "Evora", "Braga", "Cascais", "Azores"],
+        "Ireland": ["Dublin", "Cork", "Galway", "Killarney", "Belfast", "Limerick", "Waterford", "Kilkenny", "Dingle", "Cliffs of Moher"],
+    }
+    
+    # From Country and City
+    col1, col2 = st.columns(2)
+    with col1:
+        from_country = st.selectbox("\U0001f3e1 From Country", countries, index=0)
+    with col2:
+        from_cities = cities_by_country.get(from_country, [from_country])
+        from_city = st.selectbox("\U0001f3d9\ufe0f From City", from_cities, index=0)

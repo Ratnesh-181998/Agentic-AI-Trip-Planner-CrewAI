@@ -1,0 +1,6 @@
+DETAILS
+From: Kolkata, India
+To: Jaipur, India
+Date: 2025-12-24
+---
+Error: Invalid response from LLM call - None or empty.

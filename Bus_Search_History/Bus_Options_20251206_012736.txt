@@ -1,0 +1,7 @@
+DETAILS
+From: Mumbai
+To: Goa
+Date: 2025-12-20
+---
+lp/bus-tickets-mobile-v1/
+```

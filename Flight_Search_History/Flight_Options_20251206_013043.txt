@@ -1,0 +1,6 @@
+DETAILS
+From: Bangalore, India
+To: Delhi, India
+Date: 2025-12-25
+---
+Error: Invalid response from LLM call - None or empty.

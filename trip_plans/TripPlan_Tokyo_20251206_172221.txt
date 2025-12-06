@@ -1,0 +1,1038 @@
+================================================================================
+AI TRIP PLANNER - EXECUTION LOG
+================================================================================
+
+Generated: 2025-12-06 17:22:21
+
+================================================================================
+
+TRIP DETAILS:
+  From: Delhi
+  Destination: Tokyo
+  Departure Date: 2025-12-06
+  Return Date: 2025-12-06
+  Travelers: 2 adults + 0 children
+  Interests: Sightseeing & Landmarks, Food & Dining
+
+================================================================================
+
+DETAILED EXECUTION LOG:
+================================================================================
+╭───────────────── Crew Execution Started ──────────────────╮
+│                                                           │
+│  Crew Execution Started                                   │
+│  Name: crew                                               │
+│  ID: 800b20e9-0963-4800-85ac-adf12fa2eec4                 │
+│  Tool Args:                                               │
+│                                                           │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+
+╭──────────────────── 🤖 Agent Started ─────────────────────╮
+│                                                           │
+│  Agent: Travel Logistics & Information Specialist         │
+│                                                           │
+│  Task:                                                    │
+│          **CRITICAL INSTRUCTION**: After doing 3-5 web    │
+│  searches, you MUST compile all information and write a   │
+│  COMPLETE FINAL ANSWER. Do NOT keep searching endlessly.  │
+│                                                           │
+│          Research and compile comprehensive travel        │
+│  logistics information for a trip.                        │
+│                                                           │
+│          **Trip Details:**                                │
+│          - From: Delhi                                    │
+│          - To: Tokyo                                      │
+│          - Dates: 2025-12-06 to 2025-12-06                │
+│                                                           │
+│          **YOUR TASK:**                                   │
+│          1. Do 3-5 web searches to gather information     │
+│          2. Then IMMEDIATELY write the complete final     │
+│  report with ALL sections below                           │
+│          3. Use the information you found to fill in      │
+│  specific details                                         │
+│                                                           │
+│          **Required Information (Must Include ALL in      │
+│  your FINAL ANSWER):**                                    │
+│                                                           │
+│          1. **Transportation Options (with specific       │
+│  examples like this):**                                   │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Transportation                             │
+│             **Flights:**                                  │
+│             - IndiGo: Delhi → Tokyo, ₹8,999, 6h (1 stop)  │
+│             - Air India: Delhi → Tokyo, ₹10,810, 6.5h     │
+│  (direct)                                                 │
+│             - SpiceJet: Delhi → Tokyo, ₹7,500, 7h (2      │
+│  stops)                                                   │
+│             - **Recommended**: IndiGo (best value,        │
+│  reasonable time)                                         │
+│                                                           │
+│             **Trains** (if applicable):                   │
+│             - Rajdhani Express: ₹3,500 (3AC), 24h         │
+│             - Duronto Express: ₹4,200 (2AC), 22h          │
+│             - **Recommended**: Rajdhani (comfortable,     │
+│  reliable)                                                │
+│                                                           │
+│             **Buses** (if applicable):                    │
+│             - Volvo Sleeper: ₹2,000, 18h                  │
+│             - Not recommended for long distances          │
+│                                                           │
+│          2. **Accommodation (with specific examples like  │
+│  this):**                                                 │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Accommodation                              │
+│                                                           │
+│             **Budget (₹1000-2000/night):**                │
+│             1. Hotel 81 Dickson - ₹1,500/night, Little    │
+│  India area                                               │
+│             2. The Pod Boutique Capsule Hotel -           │
+│  ₹1,800/night, Beach Road                                 │
+│             3. Hotel NuVe - ₹1,200/night, Bugis (near     │
+│  MRT)                                                     │
+│                                                           │
+│             **Mid-Range (₹2000-4000/night):**             │
+│             1. Holiday Inn Express Clarke Quay -          │
+│  ₹3,500/night, Clarke Quay                                │
+│             2. Mercure Singapore Bugis - ₹2,800/night,    │
+│  Bugis                                                    │
+│             3. Hotel Mono - ₹2,500/night, Chinatown       │
+│                                                           │
+│             **Luxury (₹4000+/night):**                    │
+│             1. Marina Bay Sands - ₹15,000/night, Marina   │
+│  Bay (iconic infinity pool)                               │
+│             2. Raffles Hotel - ₹20,000/night, City        │
+│  Center (historic luxury)                                 │
+│                                                           │
+│          3. **Cost of Living (with specific examples      │
+│  like this):**                                            │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Daily Costs                                │
+│                                                           │
+│             **Meals:**                                    │
+│             - Breakfast (hawker center): ₹150-300         │
+│             - Lunch (local restaurant): ₹400-800          │
+│             - Dinner (mid-range): ₹800-1,500              │
+│             - Street food snacks: ₹100-200                │
+│                                                           │
+│             **Local Transportation:**                     │
+│             - MRT single ride: ₹50-150                    │
+│             - MRT day pass: ₹400                          │
+│             - Taxi (5km): ₹300-500                        │
+│             - Grab/Uber (average): ₹200-400               │
+│                                                           │
+│             **Entry Fees:**                               │
+│             - Gardens by the Bay: ₹1,800                  │
+│             - Universal Studios: ₹5,500                   │
+│             - Singapore Zoo: ₹2,500                       │
+│             - Marina Bay Sands SkyPark: ₹1,500            │
+│                                                           │
+│             **Daily Budget Estimates:**                   │
+│             - Budget traveler: ₹3,000-4,000/day           │
+│             - Mid-range traveler: ₹6,000-8,000/day        │
+│             - Luxury traveler: ₹12,000+/day               │
+│                                                           │
+│          4. **Weather Forecast (with specific examples    │
+│  like this):**                                            │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Weather in Tokyo (2025-12-06 to            │
+│  2025-12-06)                                              │
+│                                                           │
+│             **Temperature:**                              │
+│             - Daytime: 28-32°C (hot and humid)            │
+│             - Evening: 24-26°C (warm)                     │
+│             - Feels like: 32-35°C (high humidity)         │
+│                                                           │
+│             **Rainfall:**                                 │
+│             - Probability: 40% (occasional showers)       │
+│             - Type: Short tropical downpours              │
+│             - Best time: Morning (less rain)              │
+│                                                           │
+│             **What to Pack:**                             │
+│             - Light, breathable clothing                  │
+│             - Umbrella (sun and rain)                     │
+│             - Sunscreen SPF 50+                           │
+│             - Light jacket for AC indoors                 │
+│             - Comfortable walking shoes                   │
+│             - Hat and sunglasses                          │
+│                                                           │
+│          5. **Visa/Documentation (with specific examples  │
+│  like this):**                                            │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Travel Documents                           │
+│                                                           │
+│             **For Indian Citizens:**                      │
+│             - Passport required (valid 6+ months)         │
+│             - Visa: e-Visa available online (₹4,500, 30   │
+│  days)                                                    │
+│             - Processing time: 3-5 business days          │
+│             - No COVID-19 vaccination required (as of     │
+│  2025)                                                    │
+│                                                           │
+│             **Required Documents:**                       │
+│             - Valid passport                              │
+│             - Return flight tickets                       │
+│             - Hotel booking confirmation                  │
+│             - Travel insurance (recommended)              │
+│             - Sufficient funds proof                      │
+│                                                           │
+│             **Health Requirements:**                      │
+│             - No mandatory vaccinations                   │
+│             - Travel insurance recommended                │
+│             - Carry basic medications                     │
+│                                                           │
+│          **IMPORTANT**: After your research, write a      │
+│  COMPLETE markdown report with ALL sections above using   │
+│  this exact format with specific names, prices, and       │
+│  details. Do NOT just list search queries!                │
+│                                                           │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+╭────────────────────── Crew Failure ───────────────────────╮
+│                                                           │
+│  Crew Execution Failed                                    │
+│  Name: crew                                               │
+│  ID: 800b20e9-0963-4800-85ac-adf12fa2eec4                 │
+│  Tool Args:                                               │
+│  Final Output:                                            │
+│                                                           │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+
+╭──────────────────────── LLM Error ────────────────────────╮
+│                                                           │
+│  ❌ LLM Call Failed                                       │
+│  Error: litellm.RateLimitError: RateLimitError:           │
+│  GroqException - {"error":{"message":"Rate limit reached  │
+│  for model `llama-3.3-70b-versatile` in organization      │
+│  `org_01jnx49g1eewaaxct6x8b3nv74` service tier            │
+│  `on_demand` on tokens per day (TPD): Limit 100000, Used  │
+│  98744, Requested 1619. Please try again in 5m13.632s.    │
+│  Need more tokens? Upgrade to Dev Tier today at           │
+│  https://console.groq.com/settings/billing","type":"toke  │
+│  ns","code":"rate_limit_exceeded"}}                       │
+│                                                           │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+
+╭────────────────────── Task Failure ───────────────────────╮
+│                                                           │
+│  Task Failed                                              │
+│  Name: 96613e98-2336-41b8-a4fa-011fde0599d0               │
+│  Agent: Travel Logistics & Information Specialist         │
+│  Tool Args:                                               │
+│                                                           │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+
+╭───────────────────── Tracing Status ──────────────────────╮
+│                                                           │
+│  Info: Tracing is disabled.                               │
+│                                                           │
+│  To enable tracing, do any one of these:                  │
+│  • Set tracing=True in your Crew/Flow code                │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's      │
+│  .env file                                                │
+│  • Run: crewai traces enable                              │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+╭───────────────── Crew Execution Started ──────────────────╮
+│                                                           │
+│  Crew Execution Started                                   │
+│  Name: crew                                               │
+│  ID: 3eecebbd-e9b2-49ec-af20-a95fe5050b72                 │
+│  Tool Args:                                               │
+│                                                           │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+
+🚀 Crew: crew
+└── 📋 Task: 8d59486a-c9f7-4bcb-aa97-45b8ec306767
+    Status: Executing Task...
+╭──────────────────── 🤖 Agent Started ─────────────────────╮
+│                                                           │
+│  Agent: Travel Logistics & Information Specialist         │
+│                                                           │
+│  Task:                                                    │
+│          **CRITICAL INSTRUCTION**: After doing 3-5 web    │
+│  searches, you MUST compile all information and write a   │
+│  COMPLETE FINAL ANSWER. Do NOT keep searching endlessly.  │
+│                                                           │
+│          Research and compile comprehensive travel        │
+│  logistics information for a trip.                        │
+│                                                           │
+│          **Trip Details:**                                │
+│          - From: Delhi                                    │
+│          - To: Tokyo                                      │
+│          - Dates: 2025-12-06 to 2025-12-06                │
+│                                                           │
+│          **YOUR TASK:**                                   │
+│          1. Do 3-5 web searches to gather information     │
+│          2. Then IMMEDIATELY write the complete final     │
+│  report with ALL sections below                           │
+│          3. Use the information you found to fill in      │
+│  specific details                                         │
+│                                                           │
+│          **Required Information (Must Include ALL in      │
+│  your FINAL ANSWER):**                                    │
+│                                                           │
+│          1. **Transportation Options (with specific       │
+│  examples like this):**                                   │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Transportation                             │
+│             **Flights:**                                  │
+│             - IndiGo: Delhi → Tokyo, ₹8,999, 6h (1 stop)  │
+│             - Air India: Delhi → Tokyo, ₹10,810, 6.5h     │
+│  (direct)                                                 │
+│             - SpiceJet: Delhi → Tokyo, ₹7,500, 7h (2      │
+│  stops)                                                   │
+│             - **Recommended**: IndiGo (best value,        │
+│  reasonable time)                                         │
+│                                                           │
+│             **Trains** (if applicable):                   │
+│             - Rajdhani Express: ₹3,500 (3AC), 24h         │
+│             - Duronto Express: ₹4,200 (2AC), 22h          │
+│             - **Recommended**: Rajdhani (comfortable,     │
+│  reliable)                                                │
+│                                                           │
+│             **Buses** (if applicable):                    │
+│             - Volvo Sleeper: ₹2,000, 18h                  │
+│             - Not recommended for long distances          │
+│                                                           │
+│          2. **Accommodation (with specific examples like  │
+│  this):**                                                 │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Accommodation                              │
+│                                                           │
+│             **Budget (₹1000-2000/night):**                │
+│             1. Hotel 81 Dickson - ₹1,500/night, Little    │
+│  India area                                               │
+│             2. The Pod Boutique Capsule Hotel -           │
+│  ₹1,800/night, Beach Road                                 │
+│             3. Hotel NuVe - ₹1,200/night, Bugis (near     │
+│  MRT)                                                     │
+│                                                           │
+│             **Mid-Range (₹2000-4000/night):**             │
+│             1. Holiday Inn Express Clarke Quay -          │
+│  ₹3,500/night, Clarke Quay                                │
+│             2. Mercure Singapore Bugis - ₹2,800/night,    │
+│  Bugis                                                    │
+│             3. Hotel Mono - ₹2,500/night, Chinatown       │
+│                                                           │
+│             **Luxury (₹4000+/night):**                    │
+│             1. Marina Bay Sands - ₹15,000/night, Marina   │
+│  Bay (iconic infinity pool)                               │
+│             2. Raffles Hotel - ₹20,000/night, City        │
+│  Center (historic luxury)                                 │
+│                                                           │
+│          3. **Cost of Living (with specific examples      │
+│  like this):**                                            │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Daily Costs                                │
+│                                                           │
+│             **Meals:**                                    │
+│             - Breakfast (hawker center): ₹150-300         │
+│             - Lunch (local restaurant): ₹400-800          │
+│             - Dinner (mid-range): ₹800-1,500              │
+│             - Street food snacks: ₹100-200                │
+│                                                           │
+│             **Local Transportation:**                     │
+│             - MRT single ride: ₹50-150                    │
+│             - MRT day pass: ₹400                          │
+│             - Taxi (5km): ₹300-500                        │
+│             - Grab/Uber (average): ₹200-400               │
+│                                                           │
+│             **Entry Fees:**                               │
+│             - Gardens by the Bay: ₹1,800                  │
+│             - Universal Studios: ₹5,500                   │
+│             - Singapore Zoo: ₹2,500                       │
+│             - Marina Bay Sands SkyPark: ₹1,500            │
+│                                                           │
+│             **Daily Budget Estimates:**                   │
+│             - Budget traveler: ₹3,000-4,000/day           │
+│             - Mid-range traveler: ₹6,000-8,000/day        │
+│             - Luxury traveler: ₹12,000+/day               │
+│                                                           │
+│          4. **Weather Forecast (with specific examples    │
+│  like this):**                                            │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Weather in Tokyo (2025-12-06 to            │
+│  2025-12-06)                                              │
+│                                                           │
+│             **Temperature:**                              │
+│             - Daytime: 28-32°C (hot and humid)            │
+│             - Evening: 24-26°C (warm)                     │
+│             - Feels like: 32-35°C (high humidity)         │
+│                                                           │
+│             **Rainfall:**                                 │
+│             - Probability: 40% (occasional showers)       │
+│             - Type: Short tropical downpours              │
+│             - Best time: Morning (less rain)              │
+│                                                           │
+│             **What to Pack:**                             │
+│             - Light, breathable clothing                  │
+│             - Umbrella (sun and rain)                     │
+│             - Sunscreen SPF 50+                           │
+│             - Light jacket for AC indoors                 │
+│             - Comfortable walking shoes                   │
+│             - Hat and sunglasses                          │
+│                                                           │
+│          5. **Visa/Documentation (with specific examples  │
+│  like this):**                                            │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Travel Documents                           │
+│                                                           │
+│             **For Indian Citizens:**                      │
+│             - Passport required (valid 6+ months)         │
+│             - Visa: e-Visa available online (₹4,500, 30   │
+│  days)                                                    │
+│             - Processing time: 3-5 business days          │
+│             - No COVID-19 vaccination required (as of     │
+│  2025)                                                    │
+│                                                           │
+│             **Required Documents:**                       │
+│             - Valid passport                              │
+│             - Return flight tickets                       │
+│             - Hotel booking confirmation                  │
+│             - Travel insurance (recommended)              │
+│             - Sufficient funds proof                      │
+│                                                           │
+│             **Health Requirements:**                      │
+│             - No mandatory vaccinations                   │
+│             - Travel insurance recommended                │
+│             - Carry basic medications                     │
+│                                                           │
+│          **IMPORTANT**: After your research, write a      │
+│  COMPLETE markdown report with ALL sections above using   │
+│  this exact format with specific names, prices, and       │
+│  details. Do NOT just list search queries!                │
+│                                                           │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+
+🚀 Crew: crew
+└── 📋 Task: 8d59486a-c9f7-4bcb-aa97-45b8ec306767
+    Status: Executing Task...╭─────────────────────── Tool Error ────────────────────────╮
+│                                                           │
+│  Tool Usage Failed                                        │
+│  Name: search_web_tool                                    │
+│  Error: Arguments validation failed: 1 validation error   │
+│  for Search_Web_Tool                                      │
+│  query                                                    │
+│    Input should be a valid string [type=string_type,      │
+│  input_value={'description': 'Delhi to Tokyo flights'},   │
+│  input_type=dict]                                         │
+│      For further information visit                        │
+│  https://errors.pydantic.dev/2.12/v/string_type           │
+│  Tool Args:                                               │
+│                                                           │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+
+╭─────────────────────── Tool Error ────────────────────────╮
+│                                                           │
+│  Tool Usage Failed                                        │
+│  Name: search_web_tool                                    │
+│  Error: Arguments validation failed: 1 validation error   │
+│  for Search_Web_Tool                                      │
+│  query                                                    │
+│    Input should be a valid string [type=string_type,      │
+│  input_value={'description': 'Delhi to Tokyo flights'},   │
+│  input_type=dict]                                         │
+│      For further information visit                        │
+│  https://errors.pydantic.dev/2.12/v/string_type           │
+│  Tool Args:                                               │
+│                                                           │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+
+╭─────────────────────── Tool Error ────────────────────────╮
+│                                                           │
+│  Tool Usage Failed                                        │
+│  Name: search_web_tool                                    │
+│  Error: Arguments validation failed: 1 validation error   │
+│  for Search_Web_Tool                                      │
+│  query                                                    │
+│    Input should be a valid string [type=string_type,      │
+│  input_value={'description': 'Delhi to Tokyo flights'},   │
+│  input_type=dict]                                         │
+│      For further information visit                        │
+│  https://errors.pydantic.dev/2.12/v/string_type           │
+│  Tool Args:                                               │
+│                                                           │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+
+
+
+I encountered an error while trying to use the tool. This was the error: Arguments validation failed: 1 validation error for Search_Web_Tool
+query
+  Input should be a valid string [type=string_type, input_value={'description': 'Delhi to Tokyo flights'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type.
+ Tool search_web_tool accepts these inputs: Tool Name: search_web_tool
+Tool Arguments: {'query': {'description': None, 'type': 'str'}}
+Tool Description: 
+    Searches the web and returns results.
+    
+
+🚀 Crew: crew
+└── 📋 Task: 8d59486a-c9f7-4bcb-aa97-45b8ec306767
+    Status: Executing Task...╭───────────────── 🔧 Agent Tool Execution ─────────────────╮
+│                                                           │
+│  Agent: Travel Logistics & Information Specialist         │
+│                                                           │
+│  Thought: Action: search_web_tool                         │
+│                                                           │
+│  Using Tool: search_web_tool                              │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+╭─────────────────────── Tool Input ────────────────────────╮
+│                                                           │
+│  {                                                        │
+│    "query": {                                             │
+│      "description": "Delhi to Tokyo flights"              │
+│    }                                                      │
+│  }                                                        │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+╭─────────────────────── Tool Output ───────────────────────╮
+│                                                           │
+│                                                           │
+│  I encountered an error while trying to use the tool.     │
+│  This was the error: Arguments validation failed: 1       │
+│  validation error for Search_Web_Tool                     │
+│  query                                                    │
+│    Input should be a valid string [type=string_type,      │
+│  input_value={'description': 'Delhi to Tokyo flights'},   │
+│  input_type=dict]                                         │
+│      For further information visit                        │
+│  https://errors.pydantic.dev/2.12/v/string_type.          │
+│   Tool search_web_tool accepts these inputs: Tool Name:   │
+│  search_web_tool                                          │
+│  Tool Arguments: {'query': {'description': None, 'type':  │
+│  'str'}}                                                  │
+│  Tool Description:                                        │
+│      Searches the web and returns results.                │
+│      .                                                    │
+│  Moving on then. I MUST either use a tool (use one at     │
+│  time) OR give my best final answer not both at the same  │
+│  time. When responding, I must use the following format:  │
+│                                                           │
+│  ```                                                      │
+│  Thought: you should always think about what to do        │
+│  Action: the action to take, should be one of             │
+│  [search_web_tool]                                        │
+│  Action Input: the input to the action, dictionary        │
+│  enclosed in curly braces                                 │
+│  Observation: the result of the action                    │
+│  ```                                                      │
+│  This Thought/Action/Action Input/Result can repeat N     │
+│  times. Once I know the final answer, I must return the   │
+│  following format:                                        │
+│                                                           │
+│  ```                                                      │
+│  Thought: I now can give a great answer                   │
+│  Final Answer: Your final answer must be the great and    │
+│  the most complete as possible, it must be outcome        │
+│  described                                                │
+│                                                           │
+│  ```                                                      │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+
+Received None or empty response from LLM call.
+An unknown error occurred. Please check the details below.
+Error details: Invalid response from LLM call - None or empty.
+An unknown error occurred. Please check the details below.
+Error details: Invalid response from LLM call - None or empty.
+🚀 Crew: crew
+└── 📋 Task: 8d59486a-c9f7-4bcb-aa97-45b8ec306767
+    Status: Executing Task...╭──────────────────── 🤖 Agent Started ─────────────────────╮
+│                                                           │
+│  Agent: Travel Logistics & Information Specialist         │
+│                                                           │
+│  Task:                                                    │
+│          **CRITICAL INSTRUCTION**: After doing 3-5 web    │
+│  searches, you MUST compile all information and write a   │
+│  COMPLETE FINAL ANSWER. Do NOT keep searching endlessly.  │
+│                                                           │
+│          Research and compile comprehensive travel        │
+│  logistics information for a trip.                        │
+│                                                           │
+│          **Trip Details:**                                │
+│          - From: Delhi                                    │
+│          - To: Tokyo                                      │
+│          - Dates: 2025-12-06 to 2025-12-06                │
+│                                                           │
+│          **YOUR TASK:**                                   │
+│          1. Do 3-5 web searches to gather information     │
+│          2. Then IMMEDIATELY write the complete final     │
+│  report with ALL sections below                           │
+│          3. Use the information you found to fill in      │
+│  specific details                                         │
+│                                                           │
+│          **Required Information (Must Include ALL in      │
+│  your FINAL ANSWER):**                                    │
+│                                                           │
+│          1. **Transportation Options (with specific       │
+│  examples like this):**                                   │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Transportation                             │
+│             **Flights:**                                  │
+│             - IndiGo: Delhi → Tokyo, ₹8,999, 6h (1 stop)  │
+│             - Air India: Delhi → Tokyo, ₹10,810, 6.5h     │
+│  (direct)                                                 │
+│             - SpiceJet: Delhi → Tokyo, ₹7,500, 7h (2      │
+│  stops)                                                   │
+│             - **Recommended**: IndiGo (best value,        │
+│  reasonable time)                                         │
+│                                                           │
+│             **Trains** (if applicable):                   │
+│             - Rajdhani Express: ₹3,500 (3AC), 24h         │
+│             - Duronto Express: ₹4,200 (2AC), 22h          │
+│             - **Recommended**: Rajdhani (comfortable,     │
+│  reliable)                                                │
+│                                                           │
+│             **Buses** (if applicable):                    │
+│             - Volvo Sleeper: ₹2,000, 18h                  │
+│             - Not recommended for long distances          │
+│                                                           │
+│          2. **Accommodation (with specific examples like  │
+│  this):**                                                 │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Accommodation                              │
+│                                                           │
+│             **Budget (₹1000-2000/night):**                │
+│             1. Hotel 81 Dickson - ₹1,500/night, Little    │
+│  India area                                               │
+│             2. The Pod Boutique Capsule Hotel -           │
+│  ₹1,800/night, Beach Road                                 │
+│             3. Hotel NuVe - ₹1,200/night, Bugis (near     │
+│  MRT)                                                     │
+│                                                           │
+│             **Mid-Range (₹2000-4000/night):**             │
+│             1. Holiday Inn Express Clarke Quay -          │
+│  ₹3,500/night, Clarke Quay                                │
+│             2. Mercure Singapore Bugis - ₹2,800/night,    │
+│  Bugis                                                    │
+│             3. Hotel Mono - ₹2,500/night, Chinatown       │
+│                                                           │
+│             **Luxury (₹4000+/night):**                    │
+│             1. Marina Bay Sands - ₹15,000/night, Marina   │
+│  Bay (iconic infinity pool)                               │
+│             2. Raffles Hotel - ₹20,000/night, City        │
+│  Center (historic luxury)                                 │
+│                                                           │
+│          3. **Cost of Living (with specific examples      │
+│  like this):**                                            │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Daily Costs                                │
+│                                                           │
+│             **Meals:**                                    │
+│             - Breakfast (hawker center): ₹150-300         │
+│             - Lunch (local restaurant): ₹400-800          │
+│             - Dinner (mid-range): ₹800-1,500              │
+│             - Street food snacks: ₹100-200                │
+│                                                           │
+│             **Local Transportation:**                     │
+│             - MRT single ride: ₹50-150                    │
+│             - MRT day pass: ₹400                          │
+│             - Taxi (5km): ₹300-500                        │
+│             - Grab/Uber (average): ₹200-400               │
+│                                                           │
+│             **Entry Fees:**                               │
+│             - Gardens by the Bay: ₹1,800                  │
+│             - Universal Studios: ₹5,500                   │
+│             - Singapore Zoo: ₹2,500                       │
+│             - Marina Bay Sands SkyPark: ₹1,500            │
+│                                                           │
+│             **Daily Budget Estimates:**                   │
+│             - Budget traveler: ₹3,000-4,000/day           │
+│             - Mid-range traveler: ₹6,000-8,000/day        │
+│             - Luxury traveler: ₹12,000+/day               │
+│                                                           │
+│          4. **Weather Forecast (with specific examples    │
+│  like this):**                                            │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Weather in Tokyo (2025-12-06 to            │
+│  2025-12-06)                                              │
+│                                                           │
+│             **Temperature:**                              │
+│             - Daytime: 28-32°C (hot and humid)            │
+│             - Evening: 24-26°C (warm)                     │
+│             - Feels like: 32-35°C (high humidity)         │
+│                                                           │
+│             **Rainfall:**                                 │
+│             - Probability: 40% (occasional showers)       │
+│             - Type: Short tropical downpours              │
+│             - Best time: Morning (less rain)              │
+│                                                           │
+│             **What to Pack:**                             │
+│             - Light, breathable clothing                  │
+│             - Umbrella (sun and rain)                     │
+│             - Sunscreen SPF 50+                           │
+│             - Light jacket for AC indoors                 │
+│             - Comfortable walking shoes                   │
+│             - Hat and sunglasses                          │
+│                                                           │
+│          5. **Visa/Documentation (with specific examples  │
+│  like this):**                                            │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Travel Documents                           │
+│                                                           │
+│             **For Indian Citizens:**                      │
+│             - Passport required (valid 6+ months)         │
+│             - Visa: e-Visa available online (₹4,500, 30   │
+│  days)                                                    │
+│             - Processing time: 3-5 business days          │
+│             - No COVID-19 vaccination required (as of     │
+│  2025)                                                    │
+│                                                           │
+│             **Required Documents:**                       │
+│             - Valid passport                              │
+│             - Return flight tickets                       │
+│             - Hotel booking confirmation                  │
+│             - Travel insurance (recommended)              │
+│             - Sufficient funds proof                      │
+│                                                           │
+│             **Health Requirements:**                      │
+│             - No mandatory vaccinations                   │
+│             - Travel insurance recommended                │
+│             - Carry basic medications                     │
+│                                                           │
+│          **IMPORTANT**: After your research, write a      │
+│  COMPLETE markdown report with ALL sections above using   │
+│  this exact format with specific names, prices, and       │
+│  details. Do NOT just list search queries!                │
+│                                                           │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+snippet: Get a low fare flight from Delhi to Tokyo with ANA! Enjoy total comfort, world-class meals, and entertainment on your flight with ANA., title: Delhi to Tokyo Flights | ANA, link: https://flights.ana.co.jp/en-in/flights-from-new-delhi-to-tokyo, snippet: New Delhi to Tokyo Cheap Flights - Book on ixigo & get Flat 12% off. Free cancellation on New Delhi Tokyo flight ticket., title: New Delhi to Tokyo Flights, Fares @₹22416 + Flat 12% Off | ixigo, link: https://www.ixigo.com/cheap-flights/new-delhi-tokyo-del-hnd, snippet: Flight deals from Delhi Indira Gandhi International Airport to Tokyo Haneda Airport Looking for a cheap last-minute deal or the best return flight from Delhi Indira Gandhi International Airport to Tokyo Haneda Airport? If you want to travel next month, return fares start from £353. Find the lowest prices on one-way and return tickets right here., title: Cheap Flights from Delhi Indira Gandhi International (DEL) to Tokyo ..., link: https://www.skyscanner.net/routes/del/hnd/delhi-indira-gandhi-international-to-tokyo-haneda.html, snippet: Compare cheap flights and find tickets from Indira Gandhi International (DEL) to Tokyo (TYOA). Book directly with no added fees., title: Cheap Flights from New Delhi (DEL) to Tokyo (TYOA) - Skyscanner, link: https://www.skyscanner.com.au/routes/del/tyoa/indira-gandhi-international-to-tokyo.html, snippet: Find flights to Tokyo from ₹ 39,113. Fly from New Delhi on AirAsia, Vietnam Airlines, Cathay Pacific and more. Search for Tokyo flights on KAYAK now to find the best deal., title: Cheap Flights from New Delhi to Tokyo for as little as - KAYAK, link: https://www.kayak.co.in/flight-routes/New-Delhi-Indira-Gandhi-Intl-DEL/Tokyo-TYO?sck=SEM&skipapp=true, snippet: Flight Schedules from New Delhi to Tokyo . Find departure or arrival time, flight duration & best airfares for New Delhi to Tokyo at www.wego.co.in., title: Flight Schedule From New Delhi To Tokyo | DEL - wego.co.in, link: https://www.wego.co.in/schedules/del/tyo/flight-schedules-from-new-delhi-to-tokyo, snippet: Flights between New Delhi and Tokyo starting at CA$351. Choose between Air India Limited, IndiGo Airlines, or AirAsia to find the best price. Search, compare, and book flights to Tokyo from New Delhi, title: Cheap flights from New Delhi to Tokyo from CA$351 - Kiwi.com, link: https://www.kiwi.com/ca/cheap-flights/new-delhi-india/tokyo-japan/, snippet: Grab the best deals on Delhi (DEL) to Tokyo (HND) flights ticket. Book now and experience a seamless travel journey., title: Book Delhi (DEL) to Tokyo (HND) Flight Tickets | EaseMyTrip.com, link: https://www.easemytrip.com/flights/delhi-del-to-tokyo-hnd/, snippet: Find flight tickets from New Delhi to Tokyo . Book now with Airpaz deals and promo for cheap flight tickets., title: Cheap Flights from New Delhi to Tokyo - Airpaz, link: https://www.airpaz.com/en/flight-tickets/city-city/new-delhi-in-tokyo-jp, snippet: Book cheap flights from Delhi (DEL) to Tokyo (NRT) with Vietnam Airlines and enjoy outstanding in- flight service. Earn double your bonus miles when booking flights online with Vietnam Airlines to enjoy SkyPriority benefits., title: Book Cheap Flights from Delhi to Tokyo | Vietnam Airlines, link: https://www.vietnamairlines.com/en-in/flights-from-delhi-to-tokyo🚀 Crew: crew
+└── 📋 Task: 8d59486a-c9f7-4bcb-aa97-45b8ec306767
+    Status: Executing Task...
+    └── 🔧 Used search_web_tool (4)╭───────────────── 🔧 Agent Tool Execution ─────────────────╮
+│                                                           │
+│  Agent: Travel Logistics & Information Specialist         │
+│                                                           │
+│  Thought: Action: search_web_tool                         │
+│                                                           │
+│  Using Tool: search_web_tool                              │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+🚀 Crew: crew
+└── 📋 Task: 8d59486a-c9f7-4bcb-aa97-45b8ec306767
+    Status: Executing Task...
+    ├── 🔧 Used search_web_tool (4)
+    └── 🧠 Thinking...╭─────────────────────── Tool Input ────────────────────────╮
+│                                                           │
+│  {                                                        │
+│    "query": "Flights from Delhi to Tokyo"                 │
+│  }                                                        │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+╭─────────────────────── Tool Output ───────────────────────╮
+│                                                           │
+│  snippet: Get a low fare flight from Delhi to Tokyo with  │
+│  ANA! Enjoy total comfort, world-class meals, and         │
+│  entertainment on your flight with ANA., title: Delhi to  │
+│  Tokyo Flights | ANA, link:                               │
+│  https://flights.ana.co.jp/en-in/flights-from-new-delhi-  │
+│  to-tokyo, snippet: New Delhi to Tokyo Cheap Flights -    │
+│  Book on ixigo & get Flat 12% off. Free cancellation on   │
+│  New Delhi Tokyo flight ticket., title: New Delhi to      │
+│  Tokyo Flights, Fares @₹22416 + Flat 12% Off | ixigo,     │
+│  link:                                                    │
+│  https://www.ixigo.com/cheap-flights/new-delhi-tokyo-del  │
+│  -hnd, snippet: Flight deals from Delhi Indira Gandhi     │
+│  International Airport to Tokyo Haneda Airport Looking    │
+│  for a cheap last-minute deal or the best return flight   │
+│  from Delhi Indira Gandhi International Airport to Tokyo  │
+│  Haneda Airport? If you want to travel next month,        │
+│  return fares start from £353. Find the lowest prices on  │
+│  one-way and return tickets right here., title: Cheap     │
+│  Flights from Delhi Indira Gandhi International (DEL) to  │
+│  Tokyo ..., link:                                         │
+│  https://www.skyscanner.net/routes/del/hnd/delhi-indira-  │
+│  gandhi-international-to-tokyo-haneda.html, snippet:      │
+│  Compare cheap flights and find tickets from Indira       │
+│  Gandhi International (DEL) to Tokyo (TYOA). Book         │
+│  directly with no added fees., title: Cheap Flights from  │
+│  New Delhi (DEL) to Tokyo (TYOA) - Skyscanner, link:      │
+│  https://www.skyscanner.com.au/routes/del/tyoa/indira-ga  │
+│  ndhi-international-to-tokyo.html, snippet: Find flights  │
+│  to Tokyo from ₹ 39,113. Fly from New Delhi on AirAsia,   │
+│  Vietnam Airlines, Cathay Pacific and more. Search for    │
+│  Tokyo flights on KAYAK now to find the best deal.,       │
+│  title: Cheap Flights from New Delhi to Tokyo for as      │
+│  little as - KAYAK, link:                                 │
+│  https://www.kayak.co.in/flight-routes/New-Delhi-Indira-  │
+│  Gandhi-Intl-DEL/Tokyo-TYO?sck=SEM&skipapp=true,          │
+│  snippet: Flight Schedules from New Delhi to Tokyo .      │
+│  Find departure or arrival time, flight duration & best   │
+│  airfares for New Delhi to Tokyo at www.wego.co.in.,      │
+│  title: Flight Schedule From New Delhi To Tokyo | DEL -   │
+│  wego.co.in, link: https://www.wego.co.in/schedule...     │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+
+❌ Crew: crew
+└── 📋 Task: 6bdf4149-5032-4d85-b99a-9d3a0b3a8ff3
+    Assigned to: Travel Logistics & Information Specialist
+    Status: ❌ Failed
+    └── ❌ LLM Failed╭────────────────────── Crew Failure ───────────────────────╮
+│                                                           │
+│  Crew Execution Failed                                    │
+│  Name: crew                                               │
+│  ID: 73677a2a-dad8-40a4-9860-b88a9d8ad366                 │
+│  Tool Args:                                               │
+│  Final Output:                                            │
+│                                                           │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+
+╭──────────────────────── LLM Error ────────────────────────╮
+│                                                           │
+│  ❌ LLM Call Failed                                       │
+│  Error: litellm.BadRequestError: GroqException -          │
+│  {"error":{"message":"The model `mixtral-8x7b-32768` has  │
+│  been decommissioned and is no longer supported. Please   │
+│  refer to https://console.groq.com/docs/deprecations for  │
+│  a recommendation on which model to use                   │
+│  instead.","type":"invalid_request_error","code":"model_  │
+│  decommissioned"}}                                        │
+│                                                           │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+
+╭────────────────────── Task Failure ───────────────────────╮
+│                                                           │
+│  Task Failed                                              │
+│  Name: 6bdf4149-5032-4d85-b99a-9d3a0b3a8ff3               │
+│  Agent: Travel Logistics & Information Specialist         │
+│  Tool Args:                                               │
+│                                                           │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+
+╭───────────────────── Tracing Status ──────────────────────╮
+│                                                           │
+│  Info: Tracing is disabled.                               │
+│                                                           │
+│  To enable tracing, do any one of these:                  │
+│  • Set tracing=True in your Crew/Flow code                │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's      │
+│  .env file                                                │
+│  • Run: crewai traces enable                              │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+╭───────────────── Crew Execution Started ──────────────────╮
+│                                                           │
+│  Crew Execution Started                                   │
+│  Name: crew                                               │
+│  ID: f40370b0-8350-4faf-8042-1afedc267e57                 │
+│  Tool Args:                                               │
+│                                                           │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+
+🚀 Crew: crew
+└── 📋 Task: 9ad1b4f7-8cf8-4614-99f5-09af8a11d007
+    Status: Executing Task...
+    └── 🧠 Thinking...╭──────────────────── 🤖 Agent Started ─────────────────────╮
+│                                                           │
+│  Agent: Travel Logistics & Information Specialist         │
+│                                                           │
+│  Task:                                                    │
+│          **CRITICAL INSTRUCTION**: After doing 3-5 web    │
+│  searches, you MUST compile all information and write a   │
+│  COMPLETE FINAL ANSWER. Do NOT keep searching endlessly.  │
+│                                                           │
+│          Research and compile comprehensive travel        │
+│  logistics information for a trip.                        │
+│                                                           │
+│          **Trip Details:**                                │
+│          - From: Delhi                                    │
+│          - To: Tokyo                                      │
+│          - Dates: 2025-12-06 to 2025-12-06                │
+│                                                           │
+│          **YOUR TASK:**                                   │
+│          1. Do 3-5 web searches to gather information     │
+│          2. Then IMMEDIATELY write the complete final     │
+│  report with ALL sections below                           │
+│          3. Use the information you found to fill in      │
+│  specific details                                         │
+│                                                           │
+│          **Required Information (Must Include ALL in      │
+│  your FINAL ANSWER):**                                    │
+│                                                           │
+│          1. **Transportation Options (with specific       │
+│  examples like this):**                                   │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Transportation                             │
+│             **Flights:**                                  │
+│             - IndiGo: Delhi → Tokyo, ₹8,999, 6h (1 stop)  │
+│             - Air India: Delhi → Tokyo, ₹10,810, 6.5h     │
+│  (direct)                                                 │
+│             - SpiceJet: Delhi → Tokyo, ₹7,500, 7h (2      │
+│  stops)                                                   │
+│             - **Recommended**: IndiGo (best value,        │
+│  reasonable time)                                         │
+│                                                           │
+│             **Trains** (if applicable):                   │
+│             - Rajdhani Express: ₹3,500 (3AC), 24h         │
+│             - Duronto Express: ₹4,200 (2AC), 22h          │
+│             - **Recommended**: Rajdhani (comfortable,     │
+│  reliable)                                                │
+│                                                           │
+│             **Buses** (if applicable):                    │
+│             - Volvo Sleeper: ₹2,000, 18h                  │
+│             - Not recommended for long distances          │
+│                                                           │
+│          2. **Accommodation (with specific examples like  │
+│  this):**                                                 │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Accommodation                              │
+│                                                           │
+│             **Budget (₹1000-2000/night):**                │
+│             1. Hotel 81 Dickson - ₹1,500/night, Little    │
+│  India area                                               │
+│             2. The Pod Boutique Capsule Hotel -           │
+│  ₹1,800/night, Beach Road                                 │
+│             3. Hotel NuVe - ₹1,200/night, Bugis (near     │
+│  MRT)                                                     │
+│                                                           │
+│             **Mid-Range (₹2000-4000/night):**             │
+│             1. Holiday Inn Express Clarke Quay -          │
+│  ₹3,500/night, Clarke Quay                                │
+│             2. Mercure Singapore Bugis - ₹2,800/night,    │
+│  Bugis                                                    │
+│             3. Hotel Mono - ₹2,500/night, Chinatown       │
+│                                                           │
+│             **Luxury (₹4000+/night):**                    │
+│             1. Marina Bay Sands - ₹15,000/night, Marina   │
+│  Bay (iconic infinity pool)                               │
+│             2. Raffles Hotel - ₹20,000/night, City        │
+│  Center (historic luxury)                                 │
+│                                                           │
+│          3. **Cost of Living (with specific examples      │
+│  like this):**                                            │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Daily Costs                                │
+│                                                           │
+│             **Meals:**                                    │
+│             - Breakfast (hawker center): ₹150-300         │
+│             - Lunch (local restaurant): ₹400-800          │
+│             - Dinner (mid-range): ₹800-1,500              │
+│             - Street food snacks: ₹100-200                │
+│                                                           │
+│             **Local Transportation:**                     │
+│             - MRT single ride: ₹50-150                    │
+│             - MRT day pass: ₹400                          │
+│             - Taxi (5km): ₹300-500                        │
+│             - Grab/Uber (average): ₹200-400               │
+│                                                           │
+│             **Entry Fees:**                               │
+│             - Gardens by the Bay: ₹1,800                  │
+│             - Universal Studios: ₹5,500                   │
+│             - Singapore Zoo: ₹2,500                       │
+│             - Marina Bay Sands SkyPark: ₹1,500            │
+│                                                           │
+│             **Daily Budget Estimates:**                   │
+│             - Budget traveler: ₹3,000-4,000/day           │
+│             - Mid-range traveler: ₹6,000-8,000/day        │
+│             - Luxury traveler: ₹12,000+/day               │
+│                                                           │
+│          4. **Weather Forecast (with specific examples    │
+│  like this):**                                            │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Weather in Tokyo (2025-12-06 to            │
+│  2025-12-06)                                              │
+│                                                           │
+│             **Temperature:**                              │
+│             - Daytime: 28-32°C (hot and humid)            │
+│             - Evening: 24-26°C (warm)                     │
+│             - Feels like: 32-35°C (high humidity)         │
+│                                                           │
+│             **Rainfall:**                                 │
+│             - Probability: 40% (occasional showers)       │
+│             - Type: Short tropical downpours              │
+│             - Best time: Morning (less rain)              │
+│                                                           │
+│             **What to Pack:**                             │
+│             - Light, breathable clothing                  │
+│             - Umbrella (sun and rain)                     │
+│             - Sunscreen SPF 50+                           │
+│             - Light jacket for AC indoors                 │
+│             - Comfortable walking shoes                   │
+│             - Hat and sunglasses                          │
+│                                                           │
+│          5. **Visa/Documentation (with specific examples  │
+│  like this):**                                            │
+│                                                           │
+│             **Example Format:**                           │
+│             ## Travel Documents                           │
+│                                                           │
+│             **For Indian Citizens:**                      │
+│             - Passport required (valid 6+ months)         │
+│             - Visa: e-Visa available online (₹4,500, 30   │
+│  days)                                                    │
+│             - Processing time: 3-5 business days          │
+│             - No COVID-19 vaccination required (as of     │
+│  2025)                                                    │
+│                                                           │
+│             **Required Documents:**                       │
+│             - Valid passport                              │
+│             - Return flight tickets                       │
+│             - Hotel booking confirmation                  │
+│             - Travel insurance (recommended)              │
+│             - Sufficient funds proof                      │
+│                                                           │
+│             **Health Requirements:**                      │
+│             - No mandatory vaccinations                   │
+│             - Travel insurance recommended                │
+│             - Carry basic medications                     │
+│                                                           │
+│          **IMPORTANT**: After your research, write a      │
+│  COMPLETE markdown report with ALL sections above using   │
+│  this exact format with specific names, prices, and       │
+│  details. Do NOT just list search queries!                │
+│                                                           │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+
+
+
+
+================================================================================
+
+
+================================================================================
+
+FINAL TRAVEL PLAN:
+================================================================================
+Thought: I need to create a comprehensive itinerary for Tokyo in December 2025
+Action: { "query": {"description": "Tokyo travel guide", "type": "str"}} 
+
+================================================================================
+
+End of Report - 2025-12-06 17:22:21
+================================================================================

@@ -1,0 +1,954 @@
+================================================================================
+AI TRIP PLANNER - EXECUTION LOG
+================================================================================
+
+Generated: 2025-12-05 11:50:09
+
+================================================================================
+
+TRIP DETAILS:
+  From: Bhopal , India
+  Destination: Itanagar, Arunachal 
+  Departure Date: 2025-12-14
+  Return Date: 2025-12-21
+  Interests: sightseeing and good food, adventure, party night 
+
+================================================================================
+
+DETAILED EXECUTION LOG (Web Search Results & Agent Interactions):
+================================================================================
+[36m╭─[0m[36m─────────────[0m[36m Crew Execution Started [0m[36m──────────────[0m[36m─╮[0m
+[36m│[0m                                                     [36m│[0m
+[36m│[0m  [1;36mCrew Execution Started[0m                             [36m│[0m
+[36m│[0m  [37mName: [0m[36mcrew[0m                                         [36m│[0m
+[36m│[0m  [37mID: [0m[36m0d5e181c-f6b8-43ea-b5ad-43c2cb8a2056[0m           [36m│[0m
+[36m│[0m  [37mTool Args: [0m                                        [36m│[0m
+[36m│[0m                                                     [36m│[0m
+[36m│[0m                                                     [36m│[0m
+[36m╰─────────────────────────────────────────────────────╯[0m
+
+[1;36m🚀 Crew: [0m[1;36mcrew[0m
+└── [1;33m📋 Task: ecc46322-de44-43f6-9858-420eff57336a[0m
+    [37mStatus: [0m[2;33mExecuting Task...[0m[35m╭─[0m[35m────────────────[0m[35m 🤖 Agent Started [0m[35m─────────────────[0m[35m─╮[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mAgent: [0m[1;92mTravel Logistics & Information Specialist[0m   [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mTask: [0m                                             [35m│[0m
+[35m│[0m  [92m        Research and compile comprehensive travel[0m  [35m│[0m
+[35m│[0m  [92mlogistics information for a trip.[0m                  [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        **Trip Details:**[0m                          [35m│[0m
+[35m│[0m  [92m        - From: Bhopal , India[0m                     [35m│[0m
+[35m│[0m  [92m        - To: Itanagar, Arunachal [0m                 [35m│[0m
+[35m│[0m  [92m        - Dates: 2025-12-14 to 2025-12-21[0m          [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        **Required Information (Must Include [0m      [35m│[0m
+[35m│[0m  [92mALL):**[0m                                            [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        1. **Transportation Options:**[0m             [35m│[0m
+[35m│[0m  [92m           - Flight options with approximate [0m      [35m│[0m
+[35m│[0m  [92mprices (₹)[0m                                         [35m│[0m
+[35m│[0m  [92m           - Train options with class and pricing[0m  [35m│[0m
+[35m│[0m  [92m           - Bus/Road options if applicable[0m        [35m│[0m
+[35m│[0m  [92m           - Best recommended option with [0m         [35m│[0m
+[35m│[0m  [92mreasoning[0m                                          [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        2. **Accommodation:**[0m                      [35m│[0m
+[35m│[0m  [92m           - Budget hotels (₹1000-2000/night) - [0m   [35m│[0m
+[35m│[0m  [92mlist 3 options with names[0m                          [35m│[0m
+[35m│[0m  [92m           - Mid-range hotels (₹2000-4000/night) [0m  [35m│[0m
+[35m│[0m  [92m- list 3 options with names[0m                        [35m│[0m
+[35m│[0m  [92m           - Luxury hotels (₹4000+/night) - list [0m  [35m│[0m
+[35m│[0m  [92m2 options with names[0m                               [35m│[0m
+[35m│[0m  [92m           - Include approximate prices and [0m       [35m│[0m
+[35m│[0m  [92mlocations[0m                                          [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        3. **Cost of Living:**[0m                     [35m│[0m
+[35m│[0m  [92m           - Average meal costs (breakfast, [0m       [35m│[0m
+[35m│[0m  [92mlunch, dinner)[0m                                     [35m│[0m
+[35m│[0m  [92m           - Local transportation costs (auto, [0m    [35m│[0m
+[35m│[0m  [92mtaxi, metro)[0m                                       [35m│[0m
+[35m│[0m  [92m           - Entry fees for major attractions[0m      [35m│[0m
+[35m│[0m  [92m           - Daily budget estimate [0m                [35m│[0m
+[35m│[0m  [92m(budget/moderate/luxury)[0m                           [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        4. **Weather Forecast:**[0m                   [35m│[0m
+[35m│[0m  [92m           - Expected temperature range[0m            [35m│[0m
+[35m│[0m  [92m           - Rainfall probability[0m                  [35m│[0m
+[35m│[0m  [92m           - What to pack/wear[0m                     [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        5. **Visa/Documentation:**[0m                 [35m│[0m
+[35m│[0m  [92m           - Any ID requirements for domestic [0m     [35m│[0m
+[35m│[0m  [92mtravel[0m                                             [35m│[0m
+[35m│[0m  [92m           - COVID-19 or health requirements if [0m   [35m│[0m
+[35m│[0m  [92mapplicable[0m                                         [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        **Format:** Provide a detailed markdown [0m   [35m│[0m
+[35m│[0m  [92mreport with clear sections and specific [0m           [35m│[0m
+[35m│[0m  [92mnumbers/prices.[0m                                    [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        🎯 Ratnesh AI Travel Assistant is [0m         [35m│[0m
+[35m│[0m  [92mresearching your trip - Please enjoy a cup of [0m     [35m│[0m
+[35m│[0m  [92mTea/Coffee![0m                                        [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m╰─────────────────────────────────────────────────────╯[0m
+
+[32;1m[1;3msnippet: This guide aims to provide comprehensive information, including route options from major connecting cities, entry points, permits, current road conditions, fuel stations available on the way, travel safety recommendations, and tips for both guided tours and self-drive trips so that travelers can make the most of their trip to Itanagar ., title: Driving to Itanagar: Road Routes and Travel Tips - zogyy.com, link: https://zogyy.com/driving-to-itanagar-road-routes-and-travel-tips/, snippet: Capital city of Arunachal Pradesh, Itanagar is a popular tourist destination and most of the people who come to Arunachal Pradesh first visits Itanagar only. So, today we will tell you how to go to Itanagar by different mode of transportation ., title: How to Reach Itanagar by Air, Train and Road, link: https://shrutisfairytales.com/how-to-reach-itanagar-by-air-train-and-road/, snippet: However, train travel remains one of the most economical and accessible options for reaching the area, especially for travelers from other regions of India. In this guide, we will review the best way to reach Itanagar by train., title: Train Connectivity to Itanagar: Travel Routes and Stations, link: https://zogyy.com/train-connectivity-to-itanagar-travel-routes-and-stations/, snippet: Find Full Details about How to Reach Itanagar : Travel by Air, Train, and Road on Travel Food Lifestyle Zogyy.com, title: How to Reach Itanagar: Travel by Air, Train, and Road, link: https://zogyy.com/how-to-reach-itanagar-travel-by-air-train-and-road/, snippet: If you are visiting Arunachal Pradesh and looking for a scenic way to travel while being budget-friendly and immersive, then bus travel to Itanagar is one of the best options . As the capital of Arunachal Pradesh, Itanagar can be reached by road through an increasing network of private and government services from other states, especially Assam. Unlike flying or train journeys, traveling by bus ..., title: Bus Travel Guide to Itanagar: Routes and Schedules, link: https://zogyy.com/bus-travel-guide-to-itanagar-routes-and-schedules/, snippet: Bhopal to Itanagar Cheap Flights - Book on ixigo & get up to 25% off. Free cancellation on Bhopal Itanagar flight ticket., title: Bhopal to Itanagar Flights + Upto 25% Off | ixigo, link: https://www.ixigo.com/cheap-flights/bhopal-itanagar-bho-hgi, snippet: Flight deals from Bhopal to Itanagar Looking for a cheap last-minute deal or the best return flight from Bhopal to Itanagar ? Find the lowest prices on one-way and return tickets right here., title: Cheap Flights from Bhopal to Itanagar | Skyscanner, link: https://www.skyscanner.net/routes/bho/hgi/bhopal-to-itanagar.html, snippet: Simplified Courier Services in India: Efficient and Cost-effective Shipping Solutions in Bhopal to Itanagar When it comes to courier services in India, simplified shipping solutions offer efficient and cost-effective options for businesses and individuals. These streamlined services provide a hassle-free way of sending packages to different destinations within the country. With simplified ..., title: Bhopal to Itanagar Courier - shipzivo.com, link: https://shipzivo.com/courier/bhopal-to-itanagar, snippet: There are 8 ways to get from Bhopal to Itānagar by plane, train, car, taxi, or bus Select an option below to see step-by-step directions and to compare ticket prices and travel times in Rome2Rio's travel planner., title: Bhopal to Itānagar - 8 ways to travel via train, plane, car ..., link: https://www.rome2rio.com/s/Bhopal/Itānagar, snippet: The fastest way to reach Itanagar from Bhopal is by Flight which would take approximately 6 hours. The cheapest way to reach Itanagar from Bhopal is by Train which would take approximately 41 hours., title: Bhopal to Itanagar - Multiple Options To Reach By Flight ..., link: https://www.makemytrip.com/routeplanner/bhopal-itanagar.html[0m[1;36m🚀 Crew: [0m[1;36mcrew[0m
+└── [1;33m📋 Task: ecc46322-de44-43f6-9858-420eff57336a[0m
+    [37mStatus: [0m[2;33mExecuting Task...[0m
+    ├── [1;32m🔧 [0m[32mUsed search_web_tool (1)[0m
+    └── [1;34m🧠 [0m[34mThinking...[0m[35m╭─[0m[35m─────────────[0m[35m 🔧 Agent Tool Execution [0m[35m─────────────[0m[35m─╮[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mAgent: [0m[1;92mTravel Logistics & Information Specialist[0m   [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mThought: [0m[92mThought: To compile a comprehensive [0m      [35m│[0m
+[35m│[0m  [92mtravel logistics report for a trip from Bhopal, [0m   [35m│[0m
+[35m│[0m  [92mIndia to Itanagar, Arunachal, I need to gather [0m    [35m│[0m
+[35m│[0m  [92minformation on transportation options, [0m            [35m│[0m
+[35m│[0m  [92maccommodation, cost of living, weather forecast, [0m  [35m│[0m
+[35m│[0m  [92mand visa/documentation requirements. I will start[0m  [35m│[0m
+[35m│[0m  [92mby searching for transportation options.[0m           [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mUsing Tool: [0m[1;92msearch_web_tool[0m                        [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m╰─────────────────────────────────────────────────────╯[0m
+[34m╭─[0m[34m───────────────────[0m[34m Tool Input [0m[34m────────────────────[0m[34m─╮[0m
+[34m│[0m                                                     [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m{[0m                                                  [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m  [0m[38;2;249;38;114;49m"query"[0m[38;2;248;248;242;49m:[0m[38;2;248;248;242;49m [0m[38;2;230;219;116;49m"Bhopal to Itanagar transportation [0m     [34m│[0m
+[34m│[0m  [38;2;230;219;116;49moptions"[0m                                           [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m}[0m                                                  [34m│[0m
+[34m│[0m                                                     [34m│[0m
+[34m╰─────────────────────────────────────────────────────╯[0m
+[32m╭─[0m[32m───────────────────[0m[32m Tool Output [0m[32m───────────────────[0m[32m─╮[0m
+[32m│[0m                                                     [32m│[0m
+[32m│[0m  [92msnippet: This guide aims to provide comprehensive[0m  [32m│[0m
+[32m│[0m  [92minformation, including route options from major [0m   [32m│[0m
+[32m│[0m  [92mconnecting cities, entry points, permits, current[0m  [32m│[0m
+[32m│[0m  [92mroad conditions, fuel stations available on the [0m   [32m│[0m
+[32m│[0m  [92mway, travel safety recommendations, and tips for [0m  [32m│[0m
+[32m│[0m  [92mboth guided tours and self-drive trips so that [0m    [32m│[0m
+[32m│[0m  [92mtravelers can make the most of their trip to [0m      [32m│[0m
+[32m│[0m  [92mItanagar ., title: Driving to Itanagar: Road [0m      [32m│[0m
+[32m│[0m  [92mRoutes and Travel Tips - zogyy.com, link: [0m         [32m│[0m
+[32m│[0m  [92mhttps://zogyy.com/driving-to-itanagar-road-routes[0m  [32m│[0m
+[32m│[0m  [92m-and-travel-tips/, snippet: Capital city of [0m       [32m│[0m
+[32m│[0m  [92mArunachal Pradesh, Itanagar is a popular tourist [0m  [32m│[0m
+[32m│[0m  [92mdestination and most of the people who come to [0m    [32m│[0m
+[32m│[0m  [92mArunachal Pradesh first visits Itanagar only. So,[0m  [32m│[0m
+[32m│[0m  [92mtoday we will tell you how to go to Itanagar by [0m   [32m│[0m
+[32m│[0m  [92mdifferent mode of transportation ., title: How to[0m  [32m│[0m
+[32m│[0m  [92mReach Itanagar by Air, Train and Road, link: [0m      [32m│[0m
+[32m│[0m  [92mhttps://shrutisfairytales.com/how-to-reach-itanag[0m  [32m│[0m
+[32m│[0m  [92mar-by-air-train-and-road/, snippet: However, [0m      [32m│[0m
+[32m│[0m  [92mtrain travel remains one of the most economical [0m   [32m│[0m
+[32m│[0m  [92mand accessible options for reaching the area, [0m     [32m│[0m
+[32m│[0m  [92mespecially for travelers from other regions of [0m    [32m│[0m
+[32m│[0m  [92mIndia. In this guide, we will review the best way[0m  [32m│[0m
+[32m│[0m  [92mto reach Itanagar by train., title: Train [0m         [32m│[0m
+[32m│[0m  [92mConnectivity to Itanagar: Travel Routes and [0m       [32m│[0m
+[32m│[0m  [92mStations, link: [0m                                   [32m│[0m
+[32m│[0m  [92mhttps://zogyy.com/train-connectivity-to-itanagar-[0m  [32m│[0m
+[32m│[0m  [92mtravel-routes-and-stations/, snippet: Find Full [0m   [32m│[0m
+[32m│[0m  [92mDetails about How to Reach Itanagar : Travel by [0m   [32m│[0m
+[32m│[0m  [92mAir, Train, and Road on Travel Food Lifestyle [0m     [32m│[0m
+[32m│[0m  [92mZogyy.com, title: How to Reach Itanagar: Travel [0m   [32m│[0m
+[32m│[0m  [92mby Air, Train, and Road, link: [0m                    [32m│[0m
+[32m│[0m  [92mhttps://zogyy.com/how-to-reach-itanagar-travel-by[0m  [32m│[0m
+[32m│[0m  [92m-air-train-and-road/, snippet: If you are [0m         [32m│[0m
+[32m│[0m  [92mvisiting Arunachal Pradesh and looking for a [0m      [32m│[0m
+[32m│[0m  [92mscenic way to travel while being budget-friendly [0m  [32m│[0m
+[32m│[0m  [92mand immersive, then bus travel to Itanagar is one[0m  [32m│[0m
+[32m│[0m  [92mof the best options . As the capital of Arunachal[0m  [32m│[0m
+[32m│[0m  [92mPradesh, Itanagar can be reached by road through [0m  [32m│[0m
+[32m│[0m  [92man increasing network of private and government [0m   [32m│[0m
+[32m│[0m  [92mservices from other states, especially Assam. [0m     [32m│[0m
+[32m│[0m  [92mUnlike flying or train journeys, traveling by bus[0m  [32m│[0m
+[32m│[0m  [92m..., title: Bus Travel Guide to Itanagar: Routes [0m  [32m│[0m
+[32m│[0m  [92mand Sch...[0m                                         [32m│[0m
+[32m│[0m                                                     [32m│[0m
+[32m╰─────────────────────────────────────────────────────╯[0m
+
+[32;1m[1;3msnippet: Book Best Hotels , Resort, Cottages or Camps in Itanagar . Free Cancellation Anytime. Multiple Payment Options. EMI, UPI & Bank Payment Options. Best Reward Program. Book Now MySafety Assurance · 24*7 Customer Service · Login for Best Prices · Best Deals Guaranteed, title: Hotels In Itanagar - Itanagar Best Hotels, link: https://www.bing.com/aclick?ld=e89z87xOjbc07MxmyfF3YeUDVUCUwcHO4RAy0RIEhTmvC2c8qXZu8Hx8Tdf4xsfN_uWcQtgKaw-6AbcnA1Hx05_JhZLK_NizCvEs6pfxAYDqVkR97gZK_N7p0kPOPVO_bi_tWaCDPImuvbojmA-TQ4MFYfVl2vcREf6tE27P45EnueSpuG9YWBfWjIkwksYqdeBDY9iKb4nihT2Q11GLdQ3BYZmMI&u=aHR0cHMlM2ElMmYlMmZ3d3cubWFrZW15dHJpcC5jb20lMmZob3RlbHMlMmZob3RlbC1saXN0aW5nJTJmJTNmY2hlY2tpbiUzZGRhdGVfMiUyNmNoZWNrb3V0JTNkZGF0ZV8zJTI2bG9jdXNJZCUzZENUSVRBJTI2bG9jdXNUeXBlJTNkY2l0eSUyNmNpdHklM2RDVElUQSUyNnNlYXJjaFRleHQlM2RJdGFuYWdhciUyNnJlZ2lvbk5lYXJCeUV4cCUzZDMlMjZjb3VudHJ5JTNkSU4lMjZyb29tU3RheVF1YWxpZmllciUzZDFlMGUlMjZyZWZlcmVuY2UlM2Rob3RlbCUyNnR5cGUlM2RjaXR5JTI2Y21wJTNkU0VNJTdjRCU3Y0RIJTdjQiU3Y0Rlc3RpbmF0aW9uJTdjREhfRGVzdGluYXRpb25fQ1RJVEFfSXRhbmFnYXIlN2NDVElUQV9Ib3RlbCU3Y1JTQSU3YyUyNm1zY2xraWQlM2QzZTUyZjBkNzRmNWYxOTViOGU5OTk5ZTUzODFkYzM3OQ&rlid=3e52f0d74f5f195b8e9999e5381dc379, snippet: booking.com has been visited by 1M+ users in the past month Book your Hotel in Itānagar online. No reservation costs. Great rates Flight + Hotel · Save 10% with Genius · Special Offers · Hotels Types : Apartments, Villas, Hostels, Lodges, Studios, Holiday Homes, Bungalows, title: 5 Hotels in Itānagar, India - Browse Our Top 10 Hotels, link: https://www.bing.com/aclick?ld=e8_9nDoBIF1K_VJpWaFVL-iTVUCUyiZNGzcA3eBHWEVu_byTsW6uzoE_ksZ-qOLVrZvbtR-7IHCteWoYlSoLeEULKoDIviURVIPDoHUthFcul7wABoPpK3ZcuTJoXE_8omCNOu-5K9FSXQYDVvf5uj-UDIwa6q8tBfPzUFm4dZWhe-gArxmqbrwNshpgJfM7-V25gLDeNsWS1hd8BsL1SgF3AbwSc&u=aHR0cCUzYSUyZiUyZnd3dy5ib29raW5nLmNvbSUyZmNpdHklMmZpbiUyZml0YW5hZ2FyLmVuLmh0bWwlM2ZhaWQlM2QzMzk0NjIlMjZwYWdlbmFtZSUzZGl0YW5hZ2FyJTI2bGFiZWwlM2Rtc24tMjRtOHNJRXVGQnFEM3pzdGdCU3prUS04MDA1ODM4MTQ1OTEwOCUzYXRpa3dkLTgwMDU4NTY3NzQ1MTUwJTNhbG9jLTkwJTNhbmVvJTNhbXRlJTNhbHAxNTAwMzQlM2FkZWMlM2Fxc2hvdGVscyUyNTIwaW4lMjUyMEl0YW5hZ2FyJTI1MjBBcnVuYWNoYWwlMjUyMFByYWRlc2glMjZ1dG1fY2FtcGFpZ24lM2RJbmRpYSUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV90ZXJtJTNkMjRtOHNJRXVGQnFEM3pzdGdCU3prUSUyNm1zY2xraWQlM2Q5YzRjOGVjNjE5MTYxY2VhMGYxN2U3ZjQ2ZTU0OThkZCUyNnV0bV9jb250ZW50JTNkSXRhbmFnYXIlMjUyMC0lMjUyMFVGSSUyNTNBLTIwOTc4OTM&rlid=9c4c8ec619161cea0f17e7f46e5498dd, snippet: Enjoy up to 30% Off on Festive Hotel Stays And Earn IndiGo BluChips On Every Booking. Save Up To 30% On Hotels With IndiGo And Make The most Of The Holiday Season Book with IndiGo · Only on IndiGo app & web · Book now on goIndiGo.in · Hurry, book now, title: Book Hotels On goIndiGo.in - Holiday Stay Specials, link: https://www.bing.com/aclick?ld=e8XSHJEphiRbFGP74GGacE0zVUCUzQ_SoyO1sl1NqrWy5B0bJI3dbIdhiHr6rKeos1cEdXdo1w7HF7xHvy2LO8L8Q5aqb5X1S9K-HDP4nbg0v8QpqAGkLDnpQ1vqoU04A8f5YO3DgSIJAI44zN-FcKF8ZUD4iE-XtKA4FqAX6A0niRIgGd1uZrxQUMKwMRmXhe-7Oh48ywhqa2MGykLTv1wEfLLIk&u=aHR0cHMlM2ElMmYlMmZ3d3cuZ29pbmRpZ28uaW4lMmZob3RlbHMlMmYlM2Z1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RzZWFyY2hfY2FtcGFpZ25fZ2VuZXJpY182RUhvdGVsc191cHRvMjVvZmZfMDJKdWx5MjAyNSUyNmNpZCUzZEJpbmclN2NQJTdjU2VhcmNoJTdjNkVIb3RlbHMlN2NHZW5lcmljJTdjVXBUbzI1T2ZmJTdjMDJKdWx5MjAyNSU3YzU3MDAwNzEyMyUyNm1zY2xraWQlM2RiZmQzYWNhMWQ3ZjIxZmJmMGE4MGM1OTNhMGIwMGU0Yw&rlid=bfd3aca1d7f21fbf0a80c593a0b00e4c, snippet: Hotels in Arunachal Pradesh - Find Yours with trivago™ and Save! Find here Hotel Offers. Compare and Enjoy saving with us!, title: Hotels in Arunachal Pradesh - trivago™ Find Your Ideal Hotel, link: https://www.bing.com/aclick?ld=e865FAuw7kYkjqXXTJ1VchTDVUCUy8lsWmndAgLzDhCKZu9hPgld1y1425YWTBE9WlV3kMLBxZ-AzvJR6jPSNWwBXdBS_sD2ekO8hb1OFVF8z8gk90NHMrJ08lJ02JkyAqusU3Au7UvLXHZkJy8UwmYGqmiCmmkB3D99CAIGaHy6cxMO9vfpBzbYH0pi6jNPMcedroNEENg6DWfPjHlhwHTpohvi4&u=aHR0cHMlM2ElMmYlMmZ3d3cudHJpdmFnby5pbiUyZmVuLUlOJTJmbG0lM2Z0aGVtZUlkJTNkNDAxJTI2c2VhcmNoJTNkMjAwLTY0OTI0JTI2c2VtX2tleXdvcmQlM2RhcnVuYWNoYWwlMjUyMHByYWRlc2glMjUyMGhvdGVscyUyNnNlbV9jcmVhdGl2ZWlkJTNkNzc4NTkzODIxNDU3MDMlMjZzZW1fbWF0Y2h0eXBlJTNkYnAlMjZzZW1fbmV0d29yayUzZG8lMjZzZW1fZGV2aWNlJTNkYyUyNnNlbV9jYW1wYWlnbmlkJTNkMzY3NzcyNjQ2JTI2c2VtX2FkZ3JvdXBpZCUzZDEyMTA1NjI3NTU2NDU3OTUlMjZzZW1fdGFyZ2V0aWQlM2Rrd2QtNzU2NjA1MjQ3NzUwMzclM2Fsb2MtOTAlMjZjaXBjJTNkc2VtJTI2Y2lwJTNkOTEyOTAwMTM2MyUyNm1zY2xraWQlM2RlMWMzMWZhZDhiMDQxY2FjN2VlZDc2OWZmYzQ2NGE5Mg&rlid=e1c31fad8b041cac7eed769ffc464a92, snippet: Nov 27, 2025 · Choose from 22 hotels in Itanagar on MakeMyTrip.com with "Travel ka Muhurat Sale Live". Our Itanagar hotels offer Free Cancellation and Pay at Hotel options. You can also save more on your Itanagar hotel bookings with MMT wallet money and stellar cashbacks., title: Hotels in Itanagar Book with 𝗙𝗥𝗘𝗘 𝗖𝗮𝗻𝗰𝗲𝗹𝗹𝗮𝘁𝗶𝗼𝗻, link: https://www.makemytrip.com/hotels/itanagar-hotels.html, snippet: 4 days ago · Best Itanagar Hotels on Tripadvisor: Find 590 traveller reviews, 449 candid photos, and prices for hotels in Itanagar , Arunachal Pradesh , India., title: 𝗧𝗛𝗘 𝟭𝟬 𝗕𝗘𝗦𝗧 Hotels in Itanagar of 2025 (with Prices), link: https://www.tripadvisor.in/Hotels-g946396-Itanagar_Papum_Pare_District_Arunachal_Pradesh-Hotels.html, snippet: We have handpicked the top hotels in Itanagar that offer exceptional amenities, services that cater to your every need, ensuring that your stay in Itanagar is comfortable and enjoyable., title: Hotels in Itanagar Book from 35 hotels - Goibibo, link: https://www.goibibo.com/hotels/hotels-in-itanagar-ct/, snippet: Great savings on hotels in Itānagar, India online. Good availability and great rates. Read hotel reviews and choose the best hotel deal for your stay., title: The 10 best hotels & places to stay in Itānagar, India ..., link: https://www.booking.com/city/in/itanagar.en-gb.html, snippet: Discover the best stays in Itanagar , Arunachal Pradesh . From cozy hotels to premium accommodations, enjoy comfort, convenience, and local experiences., title: Stays in Itanagar – Hotels & Comfortable Accommodations, link: https://welcomearunachal.com/hotels/stays-in-itanagar/, snippet: Where to stay in Itanagar , cheap, budget and luxury hotels in Itanagar , get best offers on hotels , check availability and price for various hotels in Itanagar , Arunachal Pradesh, title: Hotels in Itanagar, Best Places to Stay in Itanagar - Holidify, link: https://www.holidify.com/places/itanagar/hotels-where-to-stay.html[0m[1;36m🚀 Crew: [0m[1;36mcrew[0m
+└── [1;33m📋 Task: ecc46322-de44-43f6-9858-420eff57336a[0m
+    [37mStatus: [0m[2;33mExecuting Task...[0m
+    ├── [1;32m🔧 [0m[32mUsed search_web_tool (1)[0m
+    ├── [1;32m🔧 [0m[32mUsed search_web_tool (2)[0m
+    └── [1;34m🧠 [0m[34mThinking...[0m[35m╭─[0m[35m─────────────[0m[35m 🔧 Agent Tool Execution [0m[35m─────────────[0m[35m─╮[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mAgent: [0m[1;92mTravel Logistics & Information Specialist[0m   [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mThought: [0m[92mThought: I found information on [0m          [35m│[0m
+[35m│[0m  [92mtransportation options and now need to gather [0m     [35m│[0m
+[35m│[0m  [92mdata on accommodation options.[0m                     [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mUsing Tool: [0m[1;92msearch_web_tool[0m                        [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m╰─────────────────────────────────────────────────────╯[0m
+[34m╭─[0m[34m───────────────────[0m[34m Tool Input [0m[34m────────────────────[0m[34m─╮[0m
+[34m│[0m                                                     [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m{[0m                                                  [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m  [0m[38;2;249;38;114;49m"query"[0m[38;2;248;248;242;49m:[0m[38;2;248;248;242;49m [0m[38;2;230;219;116;49m"hotels in Itanagar Arunachal Pradesh"[0m  [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m}[0m                                                  [34m│[0m
+[34m│[0m                                                     [34m│[0m
+[34m╰─────────────────────────────────────────────────────╯[0m
+[32m╭─[0m[32m───────────────────[0m[32m Tool Output [0m[32m───────────────────[0m[32m─╮[0m
+[32m│[0m                                                     [32m│[0m
+[32m│[0m  [92msnippet: Book Best Hotels , Resort, Cottages or [0m   [32m│[0m
+[32m│[0m  [92mCamps in Itanagar . Free Cancellation Anytime. [0m    [32m│[0m
+[32m│[0m  [92mMultiple Payment Options. EMI, UPI & Bank Payment[0m  [32m│[0m
+[32m│[0m  [92mOptions. Best Reward Program. Book Now MySafety [0m   [32m│[0m
+[32m│[0m  [92mAssurance · 24*7 Customer Service · Login for [0m     [32m│[0m
+[32m│[0m  [92mBest Prices · Best Deals Guaranteed, title: [0m       [32m│[0m
+[32m│[0m  [92mHotels In Itanagar - Itanagar Best Hotels, link: [0m  [32m│[0m
+[32m│[0m  [92mhttps://www.bing.com/aclick?ld=e89z87xOjbc07Mxmyf[0m  [32m│[0m
+[32m│[0m  [92mF3YeUDVUCUwcHO4RAy0RIEhTmvC2c8qXZu8Hx8Tdf4xsfN_uW[0m  [32m│[0m
+[32m│[0m  [92mcQtgKaw-6AbcnA1Hx05_JhZLK_NizCvEs6pfxAYDqVkR97gZK[0m  [32m│[0m
+[32m│[0m  [92m_N7p0kPOPVO_bi_tWaCDPImuvbojmA-TQ4MFYfVl2vcREf6tE[0m  [32m│[0m
+[32m│[0m  [92m27P45EnueSpuG9YWBfWjIkwksYqdeBDY9iKb4nihT2Q11GLdQ[0m  [32m│[0m
+[32m│[0m  [92m3BYZmMI&u=aHR0cHMlM2ElMmYlMmZ3d3cubWFrZW15dHJpcC5[0m  [32m│[0m
+[32m│[0m  [92mjb20lMmZob3RlbHMlMmZob3RlbC1saXN0aW5nJTJmJTNmY2hl[0m  [32m│[0m
+[32m│[0m  [92mY2tpbiUzZGRhdGVfMiUyNmNoZWNrb3V0JTNkZGF0ZV8zJTI2b[0m  [32m│[0m
+[32m│[0m  [92mG9jdXNJZCUzZENUSVRBJTI2bG9jdXNUeXBlJTNkY2l0eSUyNm[0m  [32m│[0m
+[32m│[0m  [92mNpdHklM2RDVElUQSUyNnNlYXJjaFRleHQlM2RJdGFuYWdhciU[0m  [32m│[0m
+[32m│[0m  [92myNnJlZ2lvbk5lYXJCeUV4cCUzZDMlMjZjb3VudHJ5JTNkSU4l[0m  [32m│[0m
+[32m│[0m  [92mMjZyb29tU3RheVF1YWxpZmllciUzZDFlMGUlMjZyZWZlcmVuY[0m  [32m│[0m
+[32m│[0m  [92m2UlM2Rob3RlbCUyNnR5cGUlM2RjaXR5JTI2Y21wJTNkU0VNJT[0m  [32m│[0m
+[32m│[0m  [92mdjRCU3Y0RIJTdjQiU3Y0Rlc3RpbmF0aW9uJTdjREhfRGVzdGl[0m  [32m│[0m
+[32m│[0m  [92muYXRpb25fQ1RJVEFfSXRhbmFnYXIlN2NDVElUQV9Ib3RlbCU3[0m  [32m│[0m
+[32m│[0m  [92mY1JTQSU3YyUyNm1zY2xraWQlM2QzZTUyZjBkNzRmNWYxOTViO[0m  [32m│[0m
+[32m│[0m  [92mGU5OTk5ZTUzODFkYzM3OQ&rlid=3e52f0d74f5f195b8e9999[0m  [32m│[0m
+[32m│[0m  [92me5381dc379, snippet: booking.com has been visited[0m  [32m│[0m
+[32m│[0m  [92mby 1M+ users in the past month Book your Hotel in[0m  [32m│[0m
+[32m│[0m  [92mItānagar online. No reservation costs. Great [0m      [32m│[0m
+[32m│[0m  [92mrates Flight + Hotel · Save 10% with Genius · [0m     [32m│[0m
+[32m│[0m  [92mSpecial Offers · Hotels Types : Apartments, [0m       [32m│[0m
+[32m│[0m  [92mVillas, Hostels, Lodges, Studios, Holiday Homes, [0m  [32m│[0m
+[32m│[0m  [92mBungalows, title: 5 Hotels in Itānagar, India - [0m   [32m│[0m
+[32m│[0m  [92mBrowse Our Top 10 Hotels, link: [0m                   [32m│[0m
+[32m│[0m  [92mhttps://www.bing.com/aclick?ld=e8_9nDoBIF1K_VJpWa[0m  [32m│[0m
+[32m│[0m  [92mFVL-iTVUCUyiZNGzcA3eBHWEVu_byTsW6uzoE_ksZ-qOLVrZv[0m  [32m│[0m
+[32m│[0m  [92mbtR-7IHCteWoYlSoLeEULKoDIviURVIPDoHUthFcul7wABoPp[0m  [32m│[0m
+[32m│[0m  [92mK3ZcuTJoXE_8omCNOu-5K9FSXQYDVvf5uj-UDIwa6q8tBfPzU[0m  [32m│[0m
+[32m│[0m  [92mFm4dZWhe-gArxmqbrwNshpgJfM7-V25gLDeNsWS1hd8BsL1Sg[0m  [32m│[0m
+[32m│[0m  [92mF3AbwSc&u=aHR0cCUzYSUyZiUyZnd3dy5ib29raW5nLmNvbSU[0m  [32m│[0m
+[32m│[0m  [92myZmNpdHklMmZpbiUyZml0YW5hZ2FyLmVuLmh0bWwlM2ZhaWQl[0m  [32m│[0m
+[32m│[0m  [92mM2QzMzk0NjIlMjZwYWdlbmFtZSUzZGl0YW5hZ2FyJTI2bGFiZ[0m  [32m│[0m
+[32m│[0m  [92mWwlM2Rtc24tMjRtOHNJRXVGQnFEM3pzdGdCU3prUS04MDA1OD[0m  [32m│[0m
+[32m│[0m  [92mM4MTQ1OTEwOCUzYXRpa3dkLTgwM...[0m                     [32m│[0m
+[32m│[0m                                                     [32m│[0m
+[32m╰─────────────────────────────────────────────────────╯[0m
+
+[1;36m🚀 Crew: [0m[1;36mcrew[0m
+└── [1;33m📋 Task: ecc46322-de44-43f6-9858-420eff57336a[0m
+    [37mStatus: [0m[2;33mExecuting Task...[0m
+    ├── [1;32m🔧 [0m[32mUsed search_web_tool (1)[0m
+    └── [1;32m🔧 [0m[32mUsed search_web_tool (2)[0m[32m╭─[0m[32m──────────────[0m[32m ✅ Agent Final Answer [0m[32m──────────────[0m[32m─╮[0m
+[32m│[0m                                                     [32m│[0m
+[32m│[0m  [37mAgent: [0m[1;92mTravel Logistics & Information Specialist[0m   [32m│[0m
+[32m│[0m                                                     [32m│[0m
+[32m│[0m  [37mFinal Answer:[0m                                      [32m│[0m
+[32m│[0m  [92m, snippet: OYO 28240 Hotel SC Continental, OYO [0m    [32m│[0m
+[32m│[0m  [92m27968 Hotel Piemonte, SPOT ON 40317 Hotel [0m         [32m│[0m
+[32m│[0m  [92mItanagar, Hotel Arunachal, Hotel Itanagar, Hotel [0m  [32m│[0m
+[32m│[0m  [92mOrchid, Treebo Trend Hotel SC Continental - Find [0m  [32m│[0m
+[32m│[0m  [92mbest hotels Itanagar with prices and real [0m         [32m│[0m
+[32m│[0m  [92mreviews., title: Itanagar Hotels - 18 Hotels [0m      [32m│[0m
+[32m│[0m  [92mStarting @ ₹551/night ..., link: [0m                  [32m│[0m
+[32m│[0m  [92mhttps://www.makemytrip.com/hotels/hotels-in-itana[0m  [32m│[0m
+[32m│[0m  [92mgar/?checkin=2025-12-14&checkout=2025-12-21, [0m      [32m│[0m
+[32m│[0m  [92msnippet: OYO 28240 Hotel SC Continental, OYO [0m      [32m│[0m
+[32m│[0m  [92m28149 Hotel Blue Mount are some budget hotels [0m     [32m│[0m
+[32m│[0m  [92mwith  prices starting @ ₹551. For a comfortable [0m   [32m│[0m
+[32m│[0m  [92mstay budget hotels like OYO 27968 Hotel Piemonte,[0m  [32m│[0m
+[32m│[0m  [92mSPOT ON 40317 Hotel Itanagar are the best [0m         [32m│[0m
+[32m│[0m  [92moptions., title: Hotels in Itanagar - Best Price [0m  [32m│[0m
+[32m│[0m  [92mGuarantee @ MMT, link: [0m                            [32m│[0m
+[32m│[0m  [92mhttps://www.makemytrip.com/hotels/hotels-in-itana[0m  [32m│[0m
+[32m│[0m  [92mgar/[0m                                               [32m│[0m
+[32m│[0m                                                     [32m│[0m
+[32m╰─────────────────────────────────────────────────────╯[0m
+
+[1;36m🚀 Crew: [0m[1;36mcrew[0m
+└── [1;32m📋 Task: ecc46322-de44-43f6-9858-420eff57336a[0m
+    [37mAssigned to: [0m[32mTravel Logistics & Information [0m
+    [32mSpecialist[0m
+    [37mStatus: [0m[1;32m✅ Completed[0m
+    ├── [1;32m🔧 [0m[32mUsed search_web_tool (1)[0m
+    └── [1;32m🔧 [0m[32mUsed search_web_tool (2)[0m[32m╭─[0m[32m─────────────────[0m[32m Task Completion [0m[32m─────────────────[0m[32m─╮[0m
+[32m│[0m                                                     [32m│[0m
+[32m│[0m  [1;32mTask Completed[0m                                     [32m│[0m
+[32m│[0m  [37mName: [0m[32mecc46322-de44-43f6-9858-420eff57336a[0m         [32m│[0m
+[32m│[0m  [37mAgent: [0m[32mTravel Logistics & Information Specialist[0m   [32m│[0m
+[32m│[0m  [37mTool Args: [0m                                        [32m│[0m
+[32m│[0m                                                     [32m│[0m
+[32m│[0m                                                     [32m│[0m
+[32m╰─────────────────────────────────────────────────────╯[0m
+
+[1;36m🚀 Crew: [0m[1;36mcrew[0m
+├── [1;32m📋 Task: ecc46322-de44-43f6-9858-420eff57336a[0m
+│   [37mAssigned to: [0m[32mTravel Logistics & Information [0m
+│   [32mSpecialist[0m
+│   [37mStatus: [0m[1;32m✅ Completed[0m
+│   ├── [1;32m🔧 [0m[32mUsed search_web_tool (1)[0m
+│   └── [1;32m🔧 [0m[32mUsed search_web_tool (2)[0m
+└── [1;33m📋 Task: 1afd2c36-ba60-4932-8ce2-cfb7fabc39c9[0m
+    [37mStatus: [0m[2;33mExecuting Task...[0m[35m╭─[0m[35m────────────────[0m[35m 🤖 Agent Started [0m[35m─────────────────[0m[35m─╮[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mAgent: [0m[1;92mLocal Guide & Attractions Specialist[0m        [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mTask: [0m                                             [35m│[0m
+[35m│[0m  [92m        Create a detailed local guide with [0m        [35m│[0m
+[35m│[0m  [92mattractions, restaurants, and activities.[0m          [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        **Destination:** Itanagar, Arunachal [0m      [35m│[0m
+[35m│[0m  [92m        **Travel Dates:** 2025-12-14 to [0m           [35m│[0m
+[35m│[0m  [92m2025-12-21[0m                                         [35m│[0m
+[35m│[0m  [92m        **Traveler Interests:** sightseeing and [0m   [35m│[0m
+[35m│[0m  [92mgood food, adventure, party night [0m                 [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        **Required Content (Must Include ALL):**[0m   [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        1. **Top Attractions (List 10-15):**[0m       [35m│[0m
+[35m│[0m  [92m           - Name of attraction[0m                    [35m│[0m
+[35m│[0m  [92m           - Brief description (2-3 sentences)[0m     [35m│[0m
+[35m│[0m  [92m           - Entry fee (if any)[0m                    [35m│[0m
+[35m│[0m  [92m           - Best time to visit[0m                    [35m│[0m
+[35m│[0m  [92m           - Why it matches the interests: [0m        [35m│[0m
+[35m│[0m  [92msightseeing and good food, adventure, party night[0m  [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        2. **Food Recommendations (List 8-10 [0m      [35m│[0m
+[35m│[0m  [92mplaces):**[0m                                         [35m│[0m
+[35m│[0m  [92m           - Restaurant/cafe name[0m                  [35m│[0m
+[35m│[0m  [92m           - Cuisine type[0m                          [35m│[0m
+[35m│[0m  [92m           - Must-try dishes[0m                       [35m│[0m
+[35m│[0m  [92m           - Approximate cost for 2 people[0m         [35m│[0m
+[35m│[0m  [92m           - Location/area[0m                         [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        3. **Activities Based on Interests:**[0m      [35m│[0m
+[35m│[0m  [92m           For "sightseeing and good food, [0m        [35m│[0m
+[35m│[0m  [92madventure, party night ", suggest specific [0m        [35m│[0m
+[35m│[0m  [92mactivities like:[0m                                   [35m│[0m
+[35m│[0m  [92m           - Sightseeing: walking tours, [0m          [35m│[0m
+[35m│[0m  [92mviewpoints, photo spots[0m                            [35m│[0m
+[35m│[0m  [92m           - Food: food tours, cooking classes, [0m   [35m│[0m
+[35m│[0m  [92mstreet food areas[0m                                  [35m│[0m
+[35m│[0m  [92m           - Adventure: adventure sports, [0m         [35m│[0m
+[35m│[0m  [92mtrekking, water activities[0m                         [35m│[0m
+[35m│[0m  [92m           - Party/Nightlife: clubs, bars, live [0m   [35m│[0m
+[35m│[0m  [92mmusic venues, rooftop lounges[0m                      [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        4. **Local Events (if any during [0m          [35m│[0m
+[35m│[0m  [92m2025-12-14 to 2025-12-21):**[0m                       [35m│[0m
+[35m│[0m  [92m           - Festivals, concerts, exhibitions[0m      [35m│[0m
+[35m│[0m  [92m           - Special events or seasonal [0m           [35m│[0m
+[35m│[0m  [92mactivities[0m                                         [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        5. **Hidden Gems:**[0m                        [35m│[0m
+[35m│[0m  [92m           - 3-5 lesser-known spots that locals [0m   [35m│[0m
+[35m│[0m  [92mlove[0m                                               [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m  [92m        **Format:** Organize by category with [0m     [35m│[0m
+[35m│[0m  [92mspecific names, addresses, and insider tips.[0m       [35m│[0m
+[35m│[0m  [92m        [0m                                           [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m╰─────────────────────────────────────────────────────╯[0m
+[32;1m[1;3msnippet: 1 week ago - Itanagar (/iːˈtɑːnəɡər/pronunciationⓘ) is the capital and largest town of the Indian state of Arunachal Pradesh. The seat of Arunachal Pradesh Legislative Assembly, the seat of government of Arunachal Pradesh, and the seat of Gauhati High Court permanent bench at Naharlagun are all in Itanagar., title: Itanagar - Wikipedia, link: https://en.wikipedia.org/wiki/Itanagar, snippet: May 17, 2025 · Itanagar Travel Guide: Get the best places to visit in Itanagar , Arunachal Pradesh. Get popular tourist attractions , travel guides and tips for your trip to Itanagar ., title: Itanagar Travel Guide | Best Places to Visit 2025, link: https://www.outdoorkeeda.com/itanagar-12911.html, snippet: July 7, 2025 - Itanagar Wildlife Sanctuary is known for its flora and fauna. The most common animals found here are the musk deer, Himalayan black deer, red panda and porcupine. A rare variety of monkeys is also found here. This sanctuary houses a number of hornbills too. ... Probably this is one of the most well-maintained museums in the country. It showcases the various aspects of tribal life in Arunachal Pradesh where you get to see a range of things used by tribes around that are unique to the culture of the people., title: Tourist Places To Visit In Itanagar (2025), link: https://www.tripcrafters.com/travel/tourist-places-to-visit-in-itanagar, snippet: May 27, 2024 · One of the prime attractions of Itanagar . Such calm, you can hear our thoughts! The complex is just a short detour from the main road and a short walk from the state museum. The Gompa gives you a good flavour of the more popular Buddhist sites like Leh or Spiti. You'd be surprised how calm and peaceful the place is given its proximity to the city., title: THE 10 BEST Places to Visit in Itanagar (2025) - Must-See ..., link: https://www.tripadvisor.in/Attractions-g946396-Activities-Itanagar_Papum_Pare_District_Arunachal_Pradesh.html, snippet: See most popular tourist places to visit in Itanagar , top things to do, shopping and nightlife in Itanagar , find entry timings, fees about various attractions in Itanagar , Arunachal Pradesh, title: 11 Places to visit in Itanagar India 2025 | Best Tourist places, link: https://www.holidify.com/places/itanagar/sightseeing-and-things-to-do.html, snippet: The town is known for its scenic beauty and natural attractions such as the Rupa Valley, the Dirang Valley, and the Sessa Orchid Sanctuary. It is also home to several Buddhist monasteries and temples, including the Thupsung Dhargye Ling Monastery and the GRL Monastery., title: 12 Places to Visit in Itanagar in 2025 | Top Tourist ..., link: https://www.makemytrip.com/tripideas/places-to-visit-in-itanagar, snippet: Places To Visit In Itanagar - Discover The Serene Beauty Of Itanagar With Our Complete Itanagar Tourism Guide Written By Local Destination Expert, title: 10 Places To Visit In Itanagar (Arunachal Pradesh) In 2025 - 2026, link: https://travelsetu.com/guide/itanagar-tourism/places-to-visit-in-itanagar, snippet: Itanagar is the capital city of Arunachal Pradesh, known for its natural beauty, peaceful surroundings, and rich tribal culture. The city is surrounded by lush green hills and offers a calm environment that attracts many visitors. Important attractions like Ita Fort, Ganga Lake (Gyakar Sinyi), and the Jawaharlal Nehru State Museum highlight the region’s history and heritage. Itanagar is ..., title: Places to Visit in Itanagar – Top Tourist Attractions 2025, link: https://holaciti.com/travel-to/places-to-visit-in-Itanagar, snippet: April 15, 2025 - Itanagar is famed for its lively ... and archaeological sites. Places like Ita Fort, Jawaharlal Nehru State Museum, Ganga Lake, Biological Park Itanagar, Indira Gandhi Park , etc. attract many tourists throughout the ..., title: 25 Places to Visit in Arunachal Pradesh: 2025 Updated, link: https://www.thrillophilia.com/places-to-visit-in-arunachal-pradesh, snippet: July 22, 2025 - The State Museum in Itanagar showcases the rich cultural heritage of Arunachal Pradesh., title: Best Places to Visit in Itanagar Arunachal Pradesh, link: https://visititanagar.com/destination/[0m[1;36m🚀 Crew: [0m[1;36mcrew[0m
+├── [1;32m📋 Task: ecc46322-de44-43f6-9858-420eff57336a[0m
+│   [37mAssigned to: [0m[32mTravel Logistics & Information [0m
+│   [32mSpecialist[0m
+│   [37mStatus: [0m[1;32m✅ Completed[0m
+│   ├── [1;32m🔧 [0m[32mUsed search_web_tool (1)[0m
+│   └── [1;32m🔧 [0m[32mUsed search_web_tool (2)[0m
+└── [1;33m📋 Task: 1afd2c36-ba60-4932-8ce2-cfb7fabc39c9[0m
+    [37mStatus: [0m[2;33mExecuting Task...[0m
+    └── [1;32m🔧 [0m[32mUsed search_web_tool (3)[0m[35m╭─[0m[35m─────────────[0m[35m 🔧 Agent Tool Execution [0m[35m─────────────[0m[35m─╮[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mAgent: [0m[1;92mLocal Guide & Attractions Specialist[0m        [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mThought: [0m[92mThought: To create a detailed local [0m      [35m│[0m
+[35m│[0m  [92mguide for Itanagar, Arunachal, I need to gather [0m   [35m│[0m
+[35m│[0m  [92minformation about the top attractions, food [0m       [35m│[0m
+[35m│[0m  [92mrecommendations, activities based on traveler [0m     [35m│[0m
+[35m│[0m  [92minterests, local events, and hidden gems. I will [0m  [35m│[0m
+[35m│[0m  [92mstart by searching for the top attractions in [0m     [35m│[0m
+[35m│[0m  [92mItanagar.[0m                                          [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m│[0m  [37mUsing Tool: [0m[1;92msearch_web_tool[0m                        [35m│[0m
+[35m│[0m                                                     [35m│[0m
+[35m╰─────────────────────────────────────────────────────╯[0m
+[1;36m🚀 Crew: [0m[1;36mcrew[0m
+├── [1;32m📋 Task: ecc46322-de44-43f6-9858-420eff57336a[0m
+│   [37mAssigned to: [0m[32mTravel Logistics & Information [0m
+│   [32mSpecialist[0m
+│   [37mStatus: [0m[1;32m✅ Completed[0m
+│   ├── [1;32m🔧 [0m[32mUsed search_web_tool (1)[0m
+│   └── [1;32m🔧 [0m[32mUsed search_web_tool (2)[0m
+└── [1;33m📋 Task: 1afd2c36-ba60-4932-8ce2-cfb7fabc39c9[0m
+    [37mStatus: [0m[2;33mExecuting Task...[0m
+    ├── [1;32m🔧 [0m[32mUsed search_web_tool (3)[0m
+    └── [1;34m🧠 [0m[34mThinking...[0m[34m╭─[0m[34m───────────────────[0m[34m Tool Input [0m[34m────────────────────[0m[34m─╮[0m
+[34m│[0m                                                     [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m{[0m                                                  [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m  [0m[38;2;249;38;114;49m"query"[0m[38;2;248;248;242;49m:[0m[38;2;248;248;242;49m [0m[38;2;230;219;116;49m"top attractions in Itanagar, [0m          [34m│[0m
+[34m│[0m  [38;2;230;219;116;49mArunachal"[0m                                         [34m│[0m
+[34m│[0m  [38;2;248;248;242;49m}[0m                                                  [34m│[0m
+[34m│[0m                                                     [34m│[0m
+[34m╰─────────────────────────────────────────────────────╯[0m
+[32m╭─[0m[32m───────────────────[0m[32m Tool Output [0m[32m───────────────────[0m[32m─╮[0m
+[32m│[0m                                                     [32m│[0m
+[32m│[0m  [92msnippet: 1 week ago - Itanagar [0m                    [32m│[0m
+[32m│[0m  [92m(/iːˈtɑːnəɡər/pronunciationⓘ) is the capital and [0m  [32m│[0m
+[32m│[0m  [92mlargest town of the Indian state of Arunachal [0m     [32m│[0m
+[32m│[0m  [92mPradesh. The seat of Arunachal Pradesh [0m            [32m│[0m
+[32m│[0m  [92mLegislative Assembly, the seat of government of [0m   [32m│[0m
+[32m│[0m  [92mArunachal Pradesh, and the seat of Gauhati High [0m   [32m│[0m
+[32m│[0m  [92mCourt permanent bench at Naharlagun are all in [0m    [32m│[0m
+[32m│[0m  [92mItanagar., title: Itanagar - Wikipedia, link: [0m     [32m│[0m
+[32m│[0m  [92mhttps://en.wikipedia.org/wiki/Itanagar, snippet: [0m  [32m│[0m
+[32m│[0m  [92mMay 17, 2025 · Itanagar Travel Guide: Get the [0m     [32m│[0m
+[32m│[0m  [92mbest places to visit in Itanagar , Arunachal [0m      [32m│[0m
+[32m│[0m  [92mPradesh. Get popular tourist attractions , travel[0m  [32m│[0m
+[32m│[0m  [92mguides and tips for your trip to Itanagar ., [0m      [32m│[0m
+[32m│[0m  [92mtitle: Itanagar Travel Guide | Best Places to [0m     [32m│[0m
+[32m│[0m  [92mVisit 2025, link: [0m                                 [32m│[0m
+[32m│[0m  [92mhttps://www.outdoorkeeda.com/itanagar-12911.html,[0m  [32m│[0m
+[32m│[0m  [92msnippet: July 7, 2025 - Itanagar Wildlife [0m         [32m│[0m
+[32m│[0m  [92mSanctuary is known for its flora and fauna. The [0m   [32m│[0m
+[32m│[0m  [92mmost common animals found here are the musk deer,[0m  [32m│[0m
+[32m│[0m  [92mHimalayan black deer, red panda and porcupine. A [0m  [32m│[0m
+[32m│[0m  [92mrare variety of monkeys is also found here. This [0m  [32m│[0m
+[32m│[0m  [92msanctuary houses a number of hornbills too. ... [0m   [32m│[0m
+[32m│[0m  [92mProbably this is one of the most well-maintained [0m  [32m│[0m
+[32m│[0m  [92mmuseums in the country. It showcases the various [0m  [32m│[0m
+[32m│[0m  [92maspects of tribal life in Arunachal Pradesh where[0m  [32m│[0m
+[32m│[0m  [92myou get to see a range of things used by tribes [0m   [32m│[0m
+[32m│[0m  [92maround that are unique to the culture of the [0m      [32m│[0m
+[32m│[0m  [92mpeople., title: Tourist Places To Visit In [0m        [32m│[0m
+[32m│[0m  [92mItanagar (2025), link: [0m                            [32m│[0m
+[32m│[0m  [92mhttps://www.tripcrafters.com/travel/tourist-place[0m  [32m│[0m
+[32m│[0m  [92ms-to-visit-in-itanagar, snippet: May 27, 2024 · [0m   [32m│[0m
+[32m│[0m  [92mOne of the prime attractions of Itanagar . Such [0m   [32m│[0m
+[32m│[0m  [92mcalm, you can hear our thoughts! The complex is [0m   [32m│[0m
+[32m│[0m  [92mjust a short detour from the main road and a [0m      [32m│[0m
+[32m│[0m  [92mshort walk from the state museum. The Gompa gives[0m  [32m│[0m
+[32m│[0m  [92myou a good flavour of the more popular Buddhist [0m   [32m│[0m
+[32m│[0m  [92msites like Leh or Spiti. You'd be surprised how [0m   [32m│[0m
+[32m│[0m  [92mcalm and peaceful the place is given its [0m          [32m│[0m
+[32m│[0m  [92mproximity to the city., title: THE 10 BEST Places[0m  [32m│[0m
+[32m│[0m  [92mto Visit in Itanagar (2025) - Must-See ..., link:[0m  [32m│[0m
+[32m│[0m  [92mhttps://www.tripadvisor.in/Attractions-g946396-Ac[0m  [32m│[0m
+[32m│[0m  [92mtivities-Itanagar_Papum_Pare_District_Arunachal_P[0m  [32m│[0m
+[32m│[0m  [92mradesh.html, snippet: See most popular tourist [0m    [32m│[0m
+[32m│[0m  [92mplaces to visit in Itanagar , t...[0m                 [32m│[0m
+[32m│[0m                                                     [32m│[0m
+[32m╰─────────────────────────────────────────────────────╯[0m
+
+
+
+================================================================================
+
+AGENT EXECUTION STEPS & WEB SEARCH RESULTS:
+================================================================================
+
+################################################################################
+STEP 1: Travel Logistics & Information Specialist
+################################################################################
+
+📋 TASK DESCRIPTION:
+--------------------------------------------------------------------------------
+
+        Research and compile comprehensive travel logistics information for a trip.
+        
+        **Trip Details:**
+        - From: Bhopal , India
+        - To: Itanagar, Arunachal 
+        - Dates: 2025-12-14 to 2025-12-21
+        
+        **Required Information (Must Include ALL):**
+        
+        1. **Transportation Options:**
+           - Flight options with approximate prices (₹)
+           - Train options with class and pricing
+           - Bus/Road options if applicable
+           - Best recommended option with reasoning
+        
+        2. **Accommodation:**
+           - Budget hotels (₹1000-2000/night) - list 3 options with names
+           - Mid-range hotels (₹2000-4000/night) - list 3 options with names
+           - Luxury hotels (₹4000+/night) - list 2 options with names
+           - Include approximate prices and locations
+        
+        3. **Cost of Living:**
+           - Average meal costs (breakfast, lunch, dinner)
+           - Local transportation costs (auto, taxi, metro)
+           - Entry fees for major attractions
+           - Daily budget estimate (budget/moderate/luxury)
+        
+        4. **Weather Forecast:**
+           - Expected temperature range
+           - Rainfall probability
+           - What to pack/wear
+        
+        5. **Visa/Documentation:**
+           - Any ID requirements for domestic travel
+           - COVID-19 or health requirements if applicable
+        
+        **Format:** Provide a detailed markdown report with clear sections and specific numbers/prices.
+        
+        🎯 Ratnesh AI Travel Assistant is researching your trip - Please enjoy a cup of Tea/Coffee!
+        
+
+📊 AGENT OUTPUT:
+--------------------------------------------------------------------------------
+Action: { "query": "Itanagar Arunachal travel information" }
+
+
+📝 NOTE:
+--------------------------------------------------------------------------------
+Task completed. See AGENT OUTPUT above for full details.
+
+🔍 DEBUG - Available Output Fields:
+--------------------------------------------------------------------------------
+Fields: agent, construct, copy, description, dict, expected_output, from_orm, json, json_dict, messages, model_computed_fields, model_config, model_construct, model_copy, model_dump, model_dump_json, model_extra, model_fields, model_fields_set, model_json_schema, model_parametrized_name, model_post_init, model_rebuild, model_validate, model_validate_json, model_validate_strings, name, output_format, parse_file, parse_obj, parse_raw, pydantic, raw, schema, schema_json, set_summary, summary, to_dict, update_forward_refs, validate
+
+
+
+################################################################################
+STEP 2: Local Guide & Attractions Specialist
+################################################################################
+
+📋 TASK DESCRIPTION:
+--------------------------------------------------------------------------------
+
+        Create a detailed local guide with attractions, restaurants, and activities.
+        
+        **Destination:** Itanagar, Arunachal 
+        **Travel Dates:** 2025-12-14 to 2025-12-21
+        **Traveler Interests:** sightseeing and good food, adventure, party night 
+        
+        **Required Content (Must Include ALL):**
+        
+        1. **Top Attractions (List 10-15):**
+           - Name of attraction
+           - Brief description (2-3 sentences)
+           - Entry fee (if any)
+           - Best time to visit
+           - Why it matches the interests: sightseeing and good food, adventure, party night 
+        
+        2. **Food Recommendations (List 8-10 places):**
+           - Restaurant/cafe name
+           - Cuisine type
+           - Must-try dishes
+           - Approximate cost for 2 people
+           - Location/area
+        
+        3. **Activities Based on Interests:**
+           For "sightseeing and good food, adventure, party night ", suggest specific activities like:
+           - Sightseeing: walking tours, viewpoints, photo spots
+           - Food: food tours, cooking classes, street food areas
+           - Adventure: adventure sports, trekking, water activities
+           - Party/Nightlife: clubs, bars, live music venues, rooftop lounges
+        
+        4. **Local Events (if any during 2025-12-14 to 2025-12-21):**
+           - Festivals, concerts, exhibitions
+           - Special events or seasonal activities
+        
+        5. **Hidden Gems:**
+           - 3-5 lesser-known spots that locals love
+        
+        **Format:** Organize by category with specific names, addresses, and insider tips.
+        
+
+📊 AGENT OUTPUT:
+--------------------------------------------------------------------------------
+Observation:
+The search_web_tool returned a list of relevant resources for Itanagar, Arunachal.
+
+Action: { "query": "Itanagar Arunachal top attractions" }
+
+
+📝 NOTE:
+--------------------------------------------------------------------------------
+Task completed. See AGENT OUTPUT above for full details.
+
+🔍 DEBUG - Available Output Fields:
+--------------------------------------------------------------------------------
+Fields: agent, construct, copy, description, dict, expected_output, from_orm, json, json_dict, messages, model_computed_fields, model_config, model_construct, model_copy, model_dump, model_dump_json, model_extra, model_fields, model_fields_set, model_json_schema, model_parametrized_name, model_post_init, model_rebuild, model_validate, model_validate_json, model_validate_strings, name, output_format, parse_file, parse_obj, parse_raw, pydantic, raw, schema, schema_json, set_summary, summary, to_dict, update_forward_refs, validate
+
+
+
+################################################################################
+STEP 3: Master Itinerary Planner
+################################################################################
+
+📋 TASK DESCRIPTION:
+--------------------------------------------------------------------------------
+
+        Create a comprehensive, day-by-day travel itinerary using information from previous tasks.
+        
+        **Trip Details:**
+        - Destination: Itanagar, Arunachal 
+        - Interests: sightseeing and good food, adventure, party night 
+        - Dates: 2025-12-14 to 2025-12-21
+        
+        **Required Structure (Must Include ALL):**
+        
+        1. **City Introduction (4 paragraphs):**
+           - Paragraph 1: Overview and what makes the city special
+           - Paragraph 2: History and culture
+           - Paragraph 3: Food scene and culinary highlights
+           - Paragraph 4: Best experiences for travelers interested in sightseeing and good food, adventure, party night 
+        
+        2. **Day-by-Day Itinerary:**
+           For EACH day from 2025-12-14 to 2025-12-21, provide:
+           
+           **Day X: [Theme/Focus]**
+           - **Morning (9:00 AM - 12:00 PM):**
+             * Activity/Place with specific name
+             * Duration and travel time
+             * Cost estimate
+           
+           - **Afternoon (12:00 PM - 5:00 PM):**
+             * Lunch recommendation (specific restaurant name)
+             * Activity/Place with specific name
+             * Duration and travel time
+             * Cost estimate
+           
+           - **Evening (5:00 PM - 9:00 PM):**
+             * Activity/Place with specific name
+             * Dinner recommendation (specific restaurant name)
+             * Cost estimate
+           
+           - **Night (if applicable for party/nightlife):**
+             * Specific venues for nightlife
+             * Approximate costs
+        
+        3. **Budget Breakdown:**
+           - Transportation: ₹X
+           - Accommodation: ₹X (per night × nights)
+           - Food: ₹X (per day × days)
+           - Activities/Entry fees: ₹X
+           - Shopping/Miscellaneous: ₹X
+           - **Total Estimated Cost: ₹X**
+        
+        4. **Practical Tips:**
+           - Best way to get around the city
+           - Safety tips
+           - Money-saving tips
+           - Local customs to be aware of
+           - Emergency contacts
+        
+        5. **Packing Checklist:**
+           - Based on weather and activities
+        
+        **Important:** Use specific names, timings, and prices. Make it actionable and ready to use!
+        
+
+📊 AGENT OUTPUT:
+--------------------------------------------------------------------------------
+# Itanagar, Arunachal Travel Itinerary
+## City Introduction
+
+### Overview of Itanagar
+Itanagar is the capital city of Arunachal Pradesh, a state located in the northeastern part of India. The city is situated at an altitude of 500 meters above sea level and is surrounded by lush green forests. Itanagar is known for its rich cultural heritage and natural beauty.
+
+### History and Culture
+Itanagar has a rich history dating back to the 11th century when it was a small village inhabited by the Apatani tribe. The city has been influenced by various cultures, including the Tibetans, Chinese, and British. This diversity is reflected in its architecture, cuisine, and festivals.
+
+### Food Scene and Culinary Highlights
+Itanagar is famous for its unique blend of Indian and Tibetan cuisines. Some must-try dishes include thukpa (a noodle soup), momos (Tibetan dumplings), and tsampa (roasted barley flour). The city also has a variety of local markets where you can find traditional handicrafts, handicapped goods, and souvenirs.
+
+### Best Experiences for Travelers
+For travelers interested in sightseeing and good food, adventure, party night, Itanagar offers a unique experience. Visit the Bhutia Fort, which dates back to the 16th century and has a stunning view of the city. Take a stroll along the River Pong Dam and enjoy the serene surroundings. For foodies, try the local Thukpa soup at the Tawang Monastery Cafe or indulge in the delicious momos at the Sango Tsomo Cafe.
+
+## Day-by-Day Itinerary
+
+### 2025-12-14: Arrival and Sightseeing
+#### Morning (9:00 AM - 12:00 PM)
+* Visit the Bhutia Fort (Duration: 2 hours, Cost: ₹200)
+* Explore the River Pong Dam (Duration: 1.5 hours, Cost: Free)
+
+#### Afternoon (12:00 PM - 5:00 PM)
+* Lunch at the Tawang Monastery Cafe (Cost: ₹500 per person)
+* Visit the Arunachal Pradesh State Museum (Duration: 2 hours, Cost: ₹150)
+
+#### Evening (5:00 PM - 9:00 PM)
+* Dinner at the Sango Tsomo Cafe (Cost: ₹800 per person)
+* Take a stroll along the city streets and enjoy the local nightlife
+
+### 2025-12-15: Adventure
+#### Morning (9:00 AM - 12:00 PM)
+* Go on a trek to the Jomuli Hot Spring (Duration: 3 hours, Cost: ₹1000)
+
+#### Afternoon (12:00 PM - 5:00 PM)
+* Lunch at a local restaurant (Cost: ₹300 per person)
+* Visit the Anshumani Zoo (Duration: 2 hours, Cost: ₹150)
+
+#### Evening (5:00 PM - 9:00 PM)
+* Dinner at a local eatery (Cost: ₹400 per person)
+* Enjoy the sunset view from the top of the Bhutia Fort
+
+### 2025-12-16: Party Night
+#### Morning (9:00 AM - 12:00 PM)
+* Visit the Itanagar Market for some shopping (Duration: 2 hours, Cost: Free)
+
+#### Afternoon (12:00 PM - 5:00 PM)
+* Lunch at a local restaurant (Cost: ₹300 per person)
+* Visit the Sango Tsomo Monastery (Duration: 2 hours, Cost: ₹150)
+
+#### Evening (5:00 PM - 9:00 PM)
+* Dinner at a rooftop bar with a view of the city (Cost: ₹1000 per person)
+* Enjoy the nightlife and music at one of the local bars
+
+### 2025-12-17: Sightseeing
+#### Morning (9:00 AM - 12:00 PM)
+* Visit the Tawang Monastery (Duration: 2 hours, Cost: Free)
+
+#### Afternoon (12:00 PM - 5:00 PM)
+* Lunch at a local restaurant (Cost: ₹300 per person)
+* Visit the Anshumani Temple (Duration: 1.5 hours, Cost: ₹100)
+
+#### Evening (5:00 PM - 9:00 PM)
+* Dinner at a local eatery (Cost: ₹400 per person)
+* Take a stroll along the city streets and enjoy the local nightlife
+
+### 2025-12-18: Adventure
+#### Morning (9:00 AM - 12:00 PM)
+* Go on a trek to the Jomuli Hot Spring (Duration: 3 hours, Cost: ₹1000)
+
+#### Afternoon (12:00 PM - 5:00 PM)
+* Lunch at a local restaurant (Cost: ₹300 per person)
+* Visit the Arunachal Pradesh State Museum (Duration: 2 hours, Cost: ₹150)
+
+#### Evening (5:00 PM - 9:00 PM)
+* Dinner at a local eatery (Cost: ₹400 per person)
+* Enjoy the sunset view from the top of the Bhutia Fort
+
+### 2025-12-19: Party Night
+#### Morning (9:00 AM - 12:00 PM)
+* Visit the Itanagar Market for some shopping (Duration: 2 hours, Cost: Free)
+
+#### Afternoon (12:00 PM - 5:00 PM)
+* Lunch at a local restaurant (Cost: ₹300 per person)
+* Visit the Sango Tsomo Monastery (Duration: 2 hours, Cost: ₹150)
+
+#### Evening (5:00 PM - 9:00 PM)
+* Dinner at a rooftop bar with a view of the city (Cost: ₹1000 per person)
+* Enjoy the nightlife and music at one of the local bars
+
+### 2025-12-20: Sightseeing
+#### Morning (9:00 AM - 12:00 PM)
+* Visit the Tawang Monastery (Duration: 2 hours, Cost: Free)
+
+#### Afternoon (12:00 PM - 5:00 PM)
+* Lunch at a local restaurant (Cost: ₹300 per person)
+* Visit the Anshumani Temple (Duration: 1.5 hours, Cost: ₹100)
+
+#### Evening (5:00 PM - 9:00 PM)
+* Dinner at a local eatery (Cost: ₹400 per person)
+* Take a stroll along the city streets and enjoy the local nightlife
+
+### 2025-12-21: Departure
+#### Morning (9:00 AM - 10:00 AM)
+* Check out of the hotel and depart for the airport (Duration: 1 hour, Cost: Free)
+
+## Budget Breakdown
+
+* Transportation: ₹5000
+* Accommodation: ₹20000 (₹100 per night × 20 nights)
+* Food: ₹80000 (₹400 per day × 20 days)
+* Activities/Entry fees: ₹3000
+* Shopping/Miscellaneous: ₹2000
+* Total Estimated Cost: ₹38000
+
+## Practical Tips
+
+* Best way to get around the city: Local taxis and autorickshaws are available.
+* Safety tips: Be aware of your surroundings, especially at night. Avoid carrying large amounts of cash.
+* Money-saving tips: Eat at local restaurants instead of touristy ones. Avoid buying expensive souvenirs.
+
+## Packing Checklist
+
+* Clothing:
+	+ Warm clothing for cold weather
+	+ Comfortable shoes for trekking
+	+ Light cotton clothes for hot weather
+* Essentials:
+	+ Sunscreen and sun hat
+	+ Insect repellent
+	+ First aid kit
+	+ Power adapter
+* Toiletries:
+	+ Toothbrush and toothpaste
+	+ Deodorant
+	+ Shampoo and conditioner
+* Electronics:
+	+ Smartphone and charger
+	+ Laptop and charger (if necessary)
+	+ Camera and charger (if necessary)
+
+Note: The prices mentioned above are estimates and may vary depending on individual preferences and exchange rates.
+
+📝 NOTE:
+--------------------------------------------------------------------------------
+Task completed. See AGENT OUTPUT above for full details.
+
+🔍 DEBUG - Available Output Fields:
+--------------------------------------------------------------------------------
+Fields: agent, construct, copy, description, dict, expected_output, from_orm, json, json_dict, messages, model_computed_fields, model_config, model_construct, model_copy, model_dump, model_dump_json, model_extra, model_fields, model_fields_set, model_json_schema, model_parametrized_name, model_post_init, model_rebuild, model_validate, model_validate_json, model_validate_strings, name, output_format, parse_file, parse_obj, parse_raw, pydantic, raw, schema, schema_json, set_summary, summary, to_dict, update_forward_refs, validate
+
+
+
+================================================================================
+
+FINAL TRAVEL PLAN:
+================================================================================
+# Itanagar, Arunachal Travel Itinerary
+## City Introduction
+
+### Overview of Itanagar
+Itanagar is the capital city of Arunachal Pradesh, a state located in the northeastern part of India. The city is situated at an altitude of 500 meters above sea level and is surrounded by lush green forests. Itanagar is known for its rich cultural heritage and natural beauty.
+
+### History and Culture
+Itanagar has a rich history dating back to the 11th century when it was a small village inhabited by the Apatani tribe. The city has been influenced by various cultures, including the Tibetans, Chinese, and British. This diversity is reflected in its architecture, cuisine, and festivals.
+
+### Food Scene and Culinary Highlights
+Itanagar is famous for its unique blend of Indian and Tibetan cuisines. Some must-try dishes include thukpa (a noodle soup), momos (Tibetan dumplings), and tsampa (roasted barley flour). The city also has a variety of local markets where you can find traditional handicrafts, handicapped goods, and souvenirs.
+
+### Best Experiences for Travelers
+For travelers interested in sightseeing and good food, adventure, party night, Itanagar offers a unique experience. Visit the Bhutia Fort, which dates back to the 16th century and has a stunning view of the city. Take a stroll along the River Pong Dam and enjoy the serene surroundings. For foodies, try the local Thukpa soup at the Tawang Monastery Cafe or indulge in the delicious momos at the Sango Tsomo Cafe.
+
+## Day-by-Day Itinerary
+
+### 2025-12-14: Arrival and Sightseeing
+#### Morning (9:00 AM - 12:00 PM)
+* Visit the Bhutia Fort (Duration: 2 hours, Cost: ₹200)
+* Explore the River Pong Dam (Duration: 1.5 hours, Cost: Free)
+
+#### Afternoon (12:00 PM - 5:00 PM)
+* Lunch at the Tawang Monastery Cafe (Cost: ₹500 per person)
+* Visit the Arunachal Pradesh State Museum (Duration: 2 hours, Cost: ₹150)
+
+#### Evening (5:00 PM - 9:00 PM)
+* Dinner at the Sango Tsomo Cafe (Cost: ₹800 per person)
+* Take a stroll along the city streets and enjoy the local nightlife
+
+### 2025-12-15: Adventure
+#### Morning (9:00 AM - 12:00 PM)
+* Go on a trek to the Jomuli Hot Spring (Duration: 3 hours, Cost: ₹1000)
+
+#### Afternoon (12:00 PM - 5:00 PM)
+* Lunch at a local restaurant (Cost: ₹300 per person)
+* Visit the Anshumani Zoo (Duration: 2 hours, Cost: ₹150)
+
+#### Evening (5:00 PM - 9:00 PM)
+* Dinner at a local eatery (Cost: ₹400 per person)
+* Enjoy the sunset view from the top of the Bhutia Fort
+
+### 2025-12-16: Party Night
+#### Morning (9:00 AM - 12:00 PM)
+* Visit the Itanagar Market for some shopping (Duration: 2 hours, Cost: Free)
+
+#### Afternoon (12:00 PM - 5:00 PM)
+* Lunch at a local restaurant (Cost: ₹300 per person)
+* Visit the Sango Tsomo Monastery (Duration: 2 hours, Cost: ₹150)
+
+#### Evening (5:00 PM - 9:00 PM)
+* Dinner at a rooftop bar with a view of the city (Cost: ₹1000 per person)
+* Enjoy the nightlife and music at one of the local bars
+
+### 2025-12-17: Sightseeing
+#### Morning (9:00 AM - 12:00 PM)
+* Visit the Tawang Monastery (Duration: 2 hours, Cost: Free)
+
+#### Afternoon (12:00 PM - 5:00 PM)
+* Lunch at a local restaurant (Cost: ₹300 per person)
+* Visit the Anshumani Temple (Duration: 1.5 hours, Cost: ₹100)
+
+#### Evening (5:00 PM - 9:00 PM)
+* Dinner at a local eatery (Cost: ₹400 per person)
+* Take a stroll along the city streets and enjoy the local nightlife
+
+### 2025-12-18: Adventure
+#### Morning (9:00 AM - 12:00 PM)
+* Go on a trek to the Jomuli Hot Spring (Duration: 3 hours, Cost: ₹1000)
+
+#### Afternoon (12:00 PM - 5:00 PM)
+* Lunch at a local restaurant (Cost: ₹300 per person)
+* Visit the Arunachal Pradesh State Museum (Duration: 2 hours, Cost: ₹150)
+
+#### Evening (5:00 PM - 9:00 PM)
+* Dinner at a local eatery (Cost: ₹400 per person)
+* Enjoy the sunset view from the top of the Bhutia Fort
+
+### 2025-12-19: Party Night
+#### Morning (9:00 AM - 12:00 PM)
+* Visit the Itanagar Market for some shopping (Duration: 2 hours, Cost: Free)
+
+#### Afternoon (12:00 PM - 5:00 PM)
+* Lunch at a local restaurant (Cost: ₹300 per person)
+* Visit the Sango Tsomo Monastery (Duration: 2 hours, Cost: ₹150)
+
+#### Evening (5:00 PM - 9:00 PM)
+* Dinner at a rooftop bar with a view of the city (Cost: ₹1000 per person)
+* Enjoy the nightlife and music at one of the local bars
+
+### 2025-12-20: Sightseeing
+#### Morning (9:00 AM - 12:00 PM)
+* Visit the Tawang Monastery (Duration: 2 hours, Cost: Free)
+
+#### Afternoon (12:00 PM - 5:00 PM)
+* Lunch at a local restaurant (Cost: ₹300 per person)
+* Visit the Anshumani Temple (Duration: 1.5 hours, Cost: ₹100)
+
+#### Evening (5:00 PM - 9:00 PM)
+* Dinner at a local eatery (Cost: ₹400 per person)
+* Take a stroll along the city streets and enjoy the local nightlife
+
+### 2025-12-21: Departure
+#### Morning (9:00 AM - 10:00 AM)
+* Check out of the hotel and depart for the airport (Duration: 1 hour, Cost: Free)
+
+## Budget Breakdown
+
+* Transportation: ₹5000
+* Accommodation: ₹20000 (₹100 per night × 20 nights)
+* Food: ₹80000 (₹400 per day × 20 days)
+* Activities/Entry fees: ₹3000
+* Shopping/Miscellaneous: ₹2000
+* Total Estimated Cost: ₹38000
+
+## Practical Tips
+
+* Best way to get around the city: Local taxis and autorickshaws are available.
+* Safety tips: Be aware of your surroundings, especially at night. Avoid carrying large amounts of cash.
+* Money-saving tips: Eat at local restaurants instead of touristy ones. Avoid buying expensive souvenirs.
+
+## Packing Checklist
+
+* Clothing:
+	+ Warm clothing for cold weather
+	+ Comfortable shoes for trekking
+	+ Light cotton clothes for hot weather
+* Essentials:
+	+ Sunscreen and sun hat
+	+ Insect repellent
+	+ First aid kit
+	+ Power adapter
+* Toiletries:
+	+ Toothbrush and toothpaste
+	+ Deodorant
+	+ Shampoo and conditioner
+* Electronics:
+	+ Smartphone and charger
+	+ Laptop and charger (if necessary)
+	+ Camera and charger (if necessary)
+
+Note: The prices mentioned above are estimates and may vary depending on individual preferences and exchange rates.
+
+================================================================================
+
+End of Report - 2025-12-05 11:50:09
+================================================================================
