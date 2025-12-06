@@ -818,19 +818,19 @@ with tab1:
                     "time": "1-2 minutes"
                 },
                 {
-                    "name": "Groq mixtral-8x7b",
+                    "name": "Google Gemini 1.5 Pro",
                     "tier": 3,
-                    "model": "groq/mixtral-8x7b-32768",
-                    "api_key_env": "GROQ_API_KEY",
-                    "emoji": "⚡⚡",
+                    "model": "gemini/gemini-1.5-pro",
+                    "api_key_env": "GOOGLE_API_KEY",
+                    "emoji": "🧠",
                     "time": "1-3 minutes"
                 },
                 {
-                    "name": "Groq gemma2-9b",
+                    "name": "Google Gemini 1.5 Flash",
                     "tier": 4,
-                    "model": "groq/gemma2-9b-it",
-                    "api_key_env": "GROQ_API_KEY",
-                    "emoji": "⚡⚡",
+                    "model": "gemini/gemini-1.5-flash",
+                    "api_key_env": "GOOGLE_API_KEY",
+                    "emoji": "⚡",
                     "time": "1-2 minutes"
                 },
                 {
@@ -845,19 +845,31 @@ with tab1:
                 }
             ]
             
+            # Check for Cloud Environment
+            is_cloud_env = os.getenv("STREAMLIT_RUNTIME_ENV") == "cloud" or (hasattr(st, "secrets") and "GROQ_API_KEY" in st.secrets)
+
             # Try each tier sequentially
             for tier_config in tiers:
                 tier_num = tier_config["tier"]
                 tier_name = tier_config["name"]
                 
-                # SKIP Tier 5 (Ollama) if not allowed by user
-                if tier_num == 5 and not allow_ollama:
-                     continue
+                # SKIP Tier 5 (Ollama) if running on Cloud
+                if tier_num == 5:
+                    if is_cloud_env:
+                         st.warning("⚠️ **[TIER 5]** Ollama (Local) is disabled on Streamlit Cloud.")
+                         continue
+                    if not allow_ollama:
+                         continue
 
                 # Skip if API key is required but not available
                 if tier_config["api_key_env"]:
+                    # Try env var
                     api_key = os.getenv(tier_config["api_key_env"])
-                    if not api_key or api_key == "your-groq-api-key-here" or api_key == "your-google-api-key-here":
+                    # Try st.secrets if env var missing
+                    if not api_key and hasattr(st, "secrets") and tier_config["api_key_env"] in st.secrets:
+                        api_key = st.secrets[tier_config["api_key_env"]]
+                        
+                    if not api_key or "your-" in str(api_key):
                          # st.warning(f"⚠️ **[TIER {tier_num}]** Skipping {tier_name} - No API key found")
                         continue
                 
