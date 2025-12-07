@@ -346,6 +346,8 @@ Railway options for intercity and international travel.
 ### 9. 📜 **Train History**
 Historical train search records.
 <img width="940" height="502" alt="image" src="https://github.com/user-attachments/assets/b312585f-b055-450f-9d7d-6b03966b375e" />
+<img width="940" height="485" alt="image" src="https://github.com/user-attachments/assets/bfbca850-0541-4aba-9586-1ea7b7393577" />
+<img width="940" height="485" alt="image" src="https://github.com/user-attachments/assets/2a740163-82c8-4830-898c-4428fa1b4576" />
 
 ### 10. 🚌 **Buses Search**
 Budget-friendly bus travel options.
@@ -355,9 +357,15 @@ Budget-friendly bus travel options.
 - **Operator Comparison**: Multiple bus companies
 - **Amenity Filters**: AC, WiFi, Sleeper, etc.
 - **AI Recommendations**: Best operators, timing, pricing
+<img width="940" height="503" alt="image" src="https://github.com/user-attachments/assets/278b7d9c-8d5e-4333-b017-391dcfc12a65" />
+<img width="940" height="455" alt="image" src="https://github.com/user-attachments/assets/f4632b7c-c1f3-437f-bb31-b2f247fab0b9" />
+<img width="940" height="510" alt="image" src="https://github.com/user-attachments/assets/287fbbf4-eacf-4d3f-a9eb-102128275932" />
 
 ### 11. 📜 **Bus History**
 Archive of bus search results.
+<img width="940" height="520" alt="image" src="https://github.com/user-attachments/assets/57a333fa-eb2c-4036-8343-9609296c4509" />
+<img width="940" height="507" alt="image" src="https://github.com/user-attachments/assets/12ca1162-0914-4e20-aeed-878a476d0dbe" />
+<img width="940" height="491" alt="image" src="https://github.com/user-attachments/assets/73d12dce-7ec9-472c-92d3-d466a6086873" />
 
 ### 12. 🌟 **Destinations**
 Curated list of popular destinations worldwide.
