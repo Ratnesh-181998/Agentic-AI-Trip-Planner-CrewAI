@@ -708,7 +708,7 @@ This project uses the following open-source libraries:
 
 ### Project Links
 
-- 🌐 **Live Demo**: [Streamlit App](https://agentic-ai-trip-planner-crewai.streamlit.app/)
+- 🌐 **Live Demo**: [Streamlit App](https://agentic-ai-trip-planner-crewai-ykagvec2ng6raotrdaw6sp.streamlit.app/)
 - 📖 **Documentation**: [GitHub Wiki](https://github.com/Ratnesh-181998/Agentic-AI-Trip-Planner-CrewAI/wiki)
 - 🐛 **Issue Tracker**: [GitHub Issues](https://github.com/Ratnesh-181998/Agentic-AI-Trip-Planner-CrewAI/issues)
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/Ratnesh-181998/Agentic-AI-Trip-Planner-CrewAI/discussions)
