@@ -252,22 +252,35 @@ Discover destinations based on specific travel interests.
 
 **17 Interest Categories:**
 1. 🏖️ Beach Destinations
+  <img width="2601" height="1504" alt="Screenshot 2025-12-06 190421" src="https://github.com/user-attachments/assets/ba838453-433e-4fd1-aa6c-4bbf83a79712" />
+  <img width="2505" height="1331" alt="Screenshot 2025-12-06 190446" src="https://github.com/user-attachments/assets/2eb86529-5ac7-4690-adbb-9b0bc8fd7484" />
+
 2. ⛰️ Mountain & Adventure
+   <img width="2614" height="1478" alt="Screenshot 2025-12-06 190522" src="https://github.com/user-attachments/assets/f63f1f56-bf84-4018-9640-ed7a7efc7580" />
+   <img width="2587" height="1421" alt="Screenshot 2025-12-06 190557" src="https://github.com/user-attachments/assets/080df0fb-4940-49dd-a1ab-73ce3d6de685" />
+
 3. 🏛️ Historical Sites
+   <img width="2571" height="1504" alt="Screenshot 2025-12-06 190706" src="https://github.com/user-attachments/assets/63f34999-d615-4e85-af15-c327de85b05d" />
+
 4. 🍕 Food & Culinary Tours
+   <img width="2537" height="1480" alt="Screenshot 2025-12-06 190821" src="https://github.com/user-attachments/assets/20be8c88-9d26-44a5-931b-5de1364381c5" />
+
 5. 🎨 Art & Culture
-6. 🏙️ Urban Exploration
-7. 🌳 Nature & Wildlife
-8. 🏰 Castles & Palaces
-9. 🎭 Festivals & Events
-10. 🛍️ Shopping Havens
-11. 🎉 Nightlife Hotspots
-12. 📸 Photography Spots
-13. 🧘 Wellness & Spa
-14. 🏃 Sports & Fitness
-15. 👨‍👩‍👧 Family-Friendly
-16. 💑 Romantic Getaways
-17. 🎓 Educational Tours
+   <img width="2590" height="1483" alt="Screenshot 2025-12-06 190929" src="https://github.com/user-attachments/assets/d2405d83-8c20-4520-8fb9-7d42f28db9ba" />
+   <img width="2541" height="1441" alt="Screenshot 2025-12-06 190951" src="https://github.com/user-attachments/assets/72023461-a429-4e0c-a234-cd382b2074d3" />
+
+8. 🏙️ Urban Exploration
+9. 🌳 Nature & Wildlife
+10. 🏰 Castles & Palaces
+11. 🎭 Festivals & Events
+12. 🛍️ Shopping Havens
+13. 🎉 Nightlife Hotspots
+14. 📸 Photography Spots
+15. 🧘 Wellness & Spa
+16. 🏃 Sports & Fitness
+17. 👨‍👩‍👧 Family-Friendly
+18. 💑 Romantic Getaways
+19. 🎓 Educational Tours
 
 **Each Category Shows:**
 - Curated destination cards with images
