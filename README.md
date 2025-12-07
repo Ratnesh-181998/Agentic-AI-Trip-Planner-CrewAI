@@ -39,6 +39,7 @@
 ## 🎯 Overview
 
 **Agentic AI Trip Planner** is a cutting-edge travel planning application that leverages the power of **multi-agent AI systems** to create comprehensive, personalized travel itineraries. Built with **CrewAI**, it employs specialized AI agents that collaborate to research destinations, find the best deals, and craft detailed day-by-day travel plans.
+<img width="1249" height="871" alt="Screenshot 2025-12-03 164138" src="https://github.com/user-attachments/assets/e42f9229-c21c-46e7-bcb9-efb8aea2855f" />
 
 ### 🌟 What Makes It Special?
 
@@ -64,6 +65,7 @@
   - **Location Expert**: Researches transportation, accommodation, costs, weather, and visa requirements
   - **Guide Expert**: Discovers attractions, restaurants, activities, and local events
   - **Planner Expert**: Creates detailed day-by-day itineraries with timings and budget breakdowns
+<img width="1936" height="1351" alt="Screenshot 2025-12-03 230304" src="https://github.com/user-attachments/assets/f33d508d-79f4-4b2d-9a0e-762e310263c5" />
 
 ### 🔍 Comprehensive Search Capabilities
 - **✈️ Flight Search**: Real-time flight options with pricing and schedules
@@ -217,6 +219,19 @@ The core feature where users input their travel details and receive AI-generated
 - Budget breakdown (flights, hotels, food, activities)
 - Visa requirements and travel tips
 - Weather forecast and packing suggestions
+<img width="940" height="510" alt="image" src="https://github.com/user-attachments/assets/481abb62-1191-43c2-8742-67ceea9dbcca" />
+<img width="940" height="504" alt="image" src="https://github.com/user-attachments/assets/cba55e88-e3f0-41d6-80f5-86b4fcca1fd3" />
+<img width="940" height="504" alt="image" src="https://github.com/user-attachments/assets/b065db55-f1d0-4f87-997a-a7889b42ffa2" />
+<img width="940" height="519" alt="image" src="https://github.com/user-attachments/assets/fc76bc13-3bee-4c21-acbe-dfe0b017591c" />
+<img width="940" height="500" alt="image" src="https://github.com/user-attachments/assets/687b3758-13f3-45fb-9444-bbccc83f6b9e" />
+<img width="940" height="501" alt="image" src="https://github.com/user-attachments/assets/fa819cff-5e76-40ce-9251-ed3cda9cd967" />
+<img width="940" height="892" alt="image" src="https://github.com/user-attachments/assets/836e84eb-37fc-4522-82f3-dc2f0351550d" />
+<img width="940" height="793" alt="image" src="https://github.com/user-attachments/assets/327645ab-5f68-4de0-bc99-cfa596191225" />
+<img width="940" height="874" alt="image" src="https://github.com/user-attachments/assets/fabf64ca-03bc-4062-a7a4-cd100243bffe" />
+<img width="940" height="874" alt="image" src="https://github.com/user-attachments/assets/046ef288-e347-4e1c-9f39-51d043d6e93a" />
+<img width="940" height="497" alt="image" src="https://github.com/user-attachments/assets/03003716-091c-4f57-8bf1-8bf6d7e3f1b1" />
+<img width="940" height="486" alt="image" src="https://github.com/user-attachments/assets/0bb33bb8-af8f-464d-9299-be1dd7e76c0c" />
+<img width="940" height="493" alt="image" src="https://github.com/user-attachments/assets/d23e9bf0-7141-494e-ba09-d394cf4e15c0" />
 
 ### 2. 📜 **AI Trip Planner History**
 View and manage all previously generated trip plans.
@@ -228,6 +243,7 @@ View and manage all previously generated trip plans.
 - **Download Options**: Export any plan as TXT file
 - **Smart Sorting**: Newest plans first
 - **Search Filters**: (Coming soon)
+<img width="940" height="508" alt="image" src="https://github.com/user-attachments/assets/bf583f98-a122-4c4d-a7f7-7c71be57b63a" />
 
 ### 3. 🎯 **Explore by Interest**
 Discover destinations based on specific travel interests.
