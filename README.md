@@ -247,6 +247,8 @@ View and manage all previously generated trip plans.
 
 ### 3. 🎯 **Explore by Interest**
 Discover destinations based on specific travel interests.
+<img width="2872" height="1467" alt="Screenshot 2025-12-06 190252" src="https://github.com/user-attachments/assets/5ea6b6bb-e355-45c4-b64f-b8e534f00ed1" />
+<img width="2867" height="1532" alt="Screenshot 2025-12-06 190340" src="https://github.com/user-attachments/assets/847d0020-4807-4193-a088-163f3c1d92ad" />
 
 **17 Interest Categories:**
 1. 🏖️ Beach Destinations
